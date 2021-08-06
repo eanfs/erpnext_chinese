@@ -2,7 +2,7 @@
 
 ERPNext中文汉化，简化，优化
 
-本项目解决标准控件翻译问题参考学习了破匣求禅/EBCLocal，源项目地址 https://gitee.com/petel_zhang/EBCLocal，在此特别感谢
+本项目解决标准控件翻译问题参考学习了破匣求禅/erpnext_chinese，源项目地址 https://gitee.com/petel_zhang/erpnext_chinese，在此特别感谢
 
 主要功能（本项目主要针对13版，理论上也适用于低版本)
 
@@ -77,27 +77,27 @@ ERPNext中文汉化，简化，优化
 1.新安装
 1.1、获取对应版本APP
 
-bench get-app --branch v13 https://gitee.com/yuzelin/ebclocal.git
+bench get-app --branch v13 https://gitee.com/yuzelin/erpnext_chinese.git
 
 1.2、安装APP(有多个站点且未设默认站点的请加--site参数）
 
-bench install-app ebclocal
+bench install-app erpnext_chinese
 
 升级
 2.1、bench update 命令
 
-bench update --apps ebclocal
+bench update --apps erpnext_chinese
 
 2.2、git 命令,这种方法更快，只处理这一个自定义APP
 
-cd ./apps/ebclocal
+cd ./apps/erpnext_chinese
 sudo git pull
 cd ../..
-bench build --app ebclocal
+bench build --app erpnext_chinese
 Image description
 
 卸载
-3.1 bench uninstall-app ebclocal
+3.1 bench uninstall-app erpnext_chinese
 
 欢迎提交问题和反馈建议。
 
