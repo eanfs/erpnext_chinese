@@ -14,14 +14,11 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_chinese/css/erpnext_chinese.css"
-# app_include_js = "/assets/erpnext_chinese/js/erpnext_chinese.js"
+app_include_js = "/assets/js/erpnext_chinese.min.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_chinese/css/erpnext_chinese.css"
 # web_include_js = "/assets/erpnext_chinese/js/erpnext_chinese.js"
-
-# include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "erpnext_chinese/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -29,9 +26,15 @@ app_license = "MIT"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
-
+page_js = {
+	"permission-manager": "public/js/hooks/page/permission_manager.js"
+}
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+	"User" : "public/js/hooks/doctype/user.js"
+}
+
+setup_wizard_requires = "assets/erpnext_chinese/js/setup_wizard.js"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -47,26 +50,20 @@ app_license = "MIT"
 #	"Role": "home_page"
 # }
 
+# Website user home page (by function)
+# get_website_user_home_page = "erpnext_chinese.utils.get_home_page"
+
 # Generators
 # ----------
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 
-# Jinja
-# ----------
-
-# add methods and filters to jinja environment
-# jinja = {
-# 	"methods": "erpnext_chinese.utils.jinja_methods",
-# 	"filters": "erpnext_chinese.utils.jinja_filters"
-# }
-
 # Installation
 # ------------
 
 # before_install = "erpnext_chinese.install.before_install"
-# after_install = "erpnext_chinese.install.after_install"
+#after_install = "erpnext_chinese.install.after_install"
 
 # Desk Notifications
 # ------------------
@@ -85,26 +82,24 @@ app_license = "MIT"
 # has_permission = {
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
-
-# DocType Class
-# ---------------
-# Override standard doctype classes
-
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+standard_queries = {
+	"DocType": "erpnext_chinese.localize.queries.doctype_role_report_query",
+	"Role": "erpnext_chinese.localize.queries.doctype_role_report_query",
+	"Report": "erpnext_chinese.localize.queries.doctype_role_report_query"
+}
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"*": {
+        "before_validate": "erpnext_chinese.utils.data.money_in_words_zh_hooks"
+#       "on_update": "method",
+#       "on_cancel": "method",
+#       "on_trash": "method"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
@@ -121,10 +116,10 @@ app_license = "MIT"
 # 	],
 # 	"weekly": [
 # 		"erpnext_chinese.tasks.weekly"
-# 	],
+# 	]
 # 	"monthly": [
 # 		"erpnext_chinese.tasks.monthly"
-# 	],
+# 	]
 # }
 
 # Testing
@@ -135,50 +130,6 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erpnext_chinese.event.get_events"
-# }
-#
-# each overriding function accepts a `data` argument;
-# generated from the base implementation of the doctype dashboard,
-# along with any modifications made in other Frappe apps
-# override_doctype_dashboards = {
-# 	"Task": "erpnext_chinese.task.get_dashboard_data"
-# }
-
-# exempt linked doctypes from being automatically cancelled
-#
-# auto_cancel_exempted_doctypes = ["Auto Repeat"]
-
-
-# User Data Protection
-# --------------------
-
-# user_data_fields = [
-# 	{
-# 		"doctype": "{doctype_1}",
-# 		"filter_by": "{filter_by}",
-# 		"redact_fields": ["{field_1}", "{field_2}"],
-# 		"partial": 1,
-# 	},
-# 	{
-# 		"doctype": "{doctype_2}",
-# 		"filter_by": "{filter_by}",
-# 		"partial": 1,
-# 	},
-# 	{
-# 		"doctype": "{doctype_3}",
-# 		"strict": False,
-# 	},
-# 	{
-# 		"doctype": "{doctype_4}"
-# 	}
-# ]
-
-# Authentication and authorization
-# --------------------------------
-
-# auth_hooks = [
-# 	"erpnext_chinese.auth.validate"
-# ]
-
+override_whitelisted_methods = {
+ 	"erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts.get_charts_for_country": "erpnext_chinese.localize.localize.get_charts_for_country"
+}

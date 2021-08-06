@@ -1,0 +1,82 @@
+{
+    "tax_categories": [
+        "外销",
+        "内销",
+        "小微/个体户",
+        "一般纳税人",
+        "无税"
+    ],
+    "chart_of_accounts": {
+        "*": {
+            "sales_tax_templates": [
+                {
+                    "title": "0%销项税",
+                    "tax_category": "外销",
+                    "is_default": 0,
+                    "taxes": [
+                        {
+                            "account_head": {
+                                "account_name":"22210102 - 销项税额",
+                                "tax_rate": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "13%销项税",
+                    "tax_category": "内销",
+                    "is_default": 1,
+                    "taxes": [
+                        {
+                            "account_head": {
+                                "account_name":"22210102 - 销项税额",
+                                "tax_rate": 13.00
+                            }
+                        }
+                    ]
+                }
+            ],
+            "purchase_tax_templates": [
+                {
+                    "title": "0%进项税",
+                    "tax_category": "无税",
+                    "is_default": 0,
+                    "taxes": [
+                        {
+                            "account_head": {
+                                "account_name":"22210101 - 进项税额",
+                                "tax_rate": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "1%进项税",
+                    "tax_category": "小微/个体户",
+                    "is_default": 0,
+                    "taxes": [
+                        {
+                            "account_head": {
+                                "account_name":"22210101 - 进项税额",
+                                "tax_rate": 1.00
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "13%进项税",
+                    "tax_category": "一般纳税人",
+                    "is_default": 0,
+                    "taxes": [
+                        {
+                            "account_head": {
+                                "account_name":"22210101 - 进项税额",
+                                "tax_rate": 13.00
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
