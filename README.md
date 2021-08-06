@@ -77,7 +77,7 @@ ERPNext中文汉化，简化，优化
 1.新安装
 1.1、获取对应版本APP
 
-bench get-app --branch v13 https://gitee.com/yuzelin/erpnext_chinese.git
+bench get-app https://gitee.com/yuzelin/erpnext_chinese.git
 
 1.2、安装APP(有多个站点且未设默认站点的请加--site参数）
 
@@ -91,10 +91,13 @@ bench update --apps erpnext_chinese
 2.2、git 命令,这种方法更快，只处理这一个自定义APP
 
 cd ./apps/erpnext_chinese
+
 sudo git pull
+
 cd ../..
+
 bench build --app erpnext_chinese
-Image description
+
 
 卸载
 3.1 bench uninstall-app erpnext_chinese
