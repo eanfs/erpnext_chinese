@@ -2,7 +2,8 @@
 
 ERPNext中文汉化，简化，优化
 
-本项目解决标准控件翻译问题参考学习了破匣求禅/erpnext_chinese，源项目地址 https://gitee.com/petel_zhang/erpnext_chinese，在此特别感谢
+本项目解决标准控件翻译问题参考学习了破匣求禅/EBCLocal，源项目地址 https://gitee.com/petel_zhang/EBCLocal，
+在此特别感谢
 
 主要功能（本项目主要针对13版，理论上也适用于低版本)
 
