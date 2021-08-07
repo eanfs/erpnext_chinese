@@ -4177,8 +4177,8 @@ Fill Screen,填充屏幕
 Fill the form and save it,填写表格并保存
 Rows Added in Exploded Items,增加的下层物料行
 Rows Added in Items,增加的物料行
-Taxes and Charges Added,增加的税费
-Taxes and Charges Added (Company Currency),增加的税费（本币）
+Taxes and Charges Added,税费
+Taxes and Charges Added (Company Currency),税费（本币）
 Add Contact,增加联系人
 Rules for adding shipping costs.,增加运输成本的规则。
 Increment,增量
@@ -4808,7 +4808,7 @@ Start Time can't be greater than or equal to End Time \					for {0}.,对于{0}�
 {0} is required for 'Balance Sheet' account {1}.,对于“资产负债表”类科目{0}{1}必填。
 "For Course based Student Group, the Course will be validated for every Student from the enrolled Courses in Program Enrollment.",对于基于课程的班级，课程将从入学课程中的每个学生确认。
 "In the case of multi-tier program, Customers will be auto assigned to the concerned tier as per their spent",对于多等级积分方案，系统会根据客户消费金额自动匹配相应积分等级
-"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于工票{0}，您只能选择“工单调拨”类型物料移动
+"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于工票{0}，您只能选择“生产调拨”类型物料移动
 For Quantity must be less than quantity {0},对于数量必须小于数量{0}
 Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' for fiscal year {4},对于财年{4}，{1}&#39;{2}&#39;和科目“{3}”已存在另一个预算记录“{0}”
 "For currency {0}, the minimum transaction amount should be {1}",对于货币{0}，最小交易金额应为{1}
@@ -6212,8 +6212,8 @@ Deductions,扣除列表
 Total Deduction,扣除总额
 Deductions or Loss,扣除或损失
 Tax Amount After Discount Amount (Company Currency),折后税额（本币）
-Taxes and Charges Deducted,扣除的税费
-Taxes and Charges Deducted (Company Currency),扣除的税费（本币）
+Taxes and Charges Deducted,抵扣税费
+Taxes and Charges Deducted (Company Currency),抵扣税费（本币）
 License,执照
 Execution,执行
 Execute Python Code,执行python代码
@@ -14537,3 +14537,4 @@ Serial No and Batch for Finished Good,成品序列号与批号
 Corrective Operation Cost,返工费用
 From Corrective Job Card,取自返工工票
 Corrective Job Card,返工工票
+ERPNext Chinese,ERPNext本地化

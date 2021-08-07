@@ -189,7 +189,7 @@ Stop Timer,停止计时
 Resume Timer,恢复计时
 New Department,新建 部门
 Is Active,激活
-Set Filters for {0},为 {0} 设置筛选条件
+Set Filters for {0},为 {0} 设置过滤条件
 0-30 Days,0-30天,
 30-60 Days,30-60天,
 60-90 Days,60-90天,
@@ -228,7 +228,7 @@ Group By Type,分组统计类型
 Aggregate Function Based On,统计字段
 Group By Based On,分组字段
 Number of Groups,分组数量
-Add Filters,添加筛选条件
+Add Filters,添加过滤条件
 Function Based On,函数基于
 Stock Summary,库存汇总
 Group by Voucher (Consolidated),按凭证(已合并)分组
@@ -304,7 +304,6 @@ Location-wise Asset Value,资产价值位置分布
 Incoming Bills (Purchase Invoice),采购账单
 Outgoing Bills (Sales Invoice),销售账单
 Lost,未成交
-Material Transfer for Manufacture,工单发料
 Asset Value,资产价值
 Budget Variance,预算差异
 Accounts Receivable Ageing,应收账龄
@@ -323,7 +322,7 @@ Profit and Loss,损益表
 Sales Order,销售订单
 Sales Orders,销售订单
 Employee,员工
-Transfer Material to Supplier,外包发料
+Transfer Material to Supplier,委外调拨
 Your Shortcuts,快速访问
 Reports & Masters,报表与主数据
 Home,主页
@@ -332,18 +331,18 @@ Loading...,载入中...
 Last Modified On,上次修改
 List View,列表视图
 Gannt View,甘特图视图
-Filter By,筛选条件
-Save Filter,保存筛选条件
-Save filters,保存筛选条件
+Filter By,过滤条件
+Save Filter,保存过滤条件
+Save filters,保存过滤条件
 Show Tags,显示标签
-Edit Filters,编辑筛选条件
+Edit Filters,编辑过滤条件
 Assigned To,分派给
 Created By,创建人
 Most Used,最常用
 Created On,创建时间
 Name,名称/编号
-Filter Name,筛选名
-Filter,筛选
+Filter Name,过滤名
+Filter,过滤
 Toggle Sidebar,切换边栏
 Customize,定制
 Reset Customizations,重置定制
@@ -353,13 +352,13 @@ Customizations Discarded,定制已放弃
 Discard,放弃
 Tags,标签
 Search,搜索
-Show Saved,显示已保存筛选
+Show Saved,显示已保存过滤
 Report,报表
 Kanban,看板
 Image,图片
-{} filter,{} 筛选条件
-{0} filter,{0}个筛选条件
-{0} filters,{0}个筛选条件
+{} filter,{} 过滤条件
+{0} filter,{0}个过滤条件
+{0} filters,{0}个过滤条件
 Equals,等于
 Not Equals,不等于
 Like,包含
@@ -369,9 +368,9 @@ in,不包括
 Not In,不包括,
 not in,不包括,
 Is,是
-Add a Filter,添加筛选条件
-Clear Filters,清除筛选条件
-Apply Filters,启用筛选条件
+Add a Filter,添加过滤条件
+Clear Filters,清除过滤条件
+Apply Filters,启用过滤条件
 Import,导入
 User Permissions,用户权限
 Edit DocType,修改单据类型
@@ -409,7 +408,7 @@ DocType View,单据类型视图
 Report Builder,报表生成器
 Which view of the associated DocType should this shortcut take you to?,此快捷方式跳转至单据类型的哪个视图
 For Example: {} Open,例如： {} 进行中
-No filters selected,未选择筛选条件
+No filters selected,未选择过滤条件
 Edit Shortcut,编辑快捷方式
 Add Chart,添加图表
 No filters found,无数据
@@ -434,7 +433,7 @@ Connections,关联
 Overview,概览
 Login to ERPNext,登录
 Don't have an account?,没有账号?
-Set Filters for {},为{}设置筛选条件
+Set Filters for {},为{}设置过滤条件
 Attach File,上传文件
 Attach,上传
 FOLLOW,关注
@@ -469,7 +468,7 @@ Refreshing,正在刷新
 values separated by commas,用逗号分隔的值
 use % as wildcard,使用％作为通配符
 Dashboard,仪表板
-Subcontracting,外包
+Subcontracting,委外
 You do not have enough review points,没有足够的评审点数
 Reviews,评审
 Send SMS,发短信
@@ -536,7 +535,7 @@ Report View,报表视图
 Select {0},选择{0}
 New Kanban Board,新建看板
 Choose Kanban Board,选择看板
-"For comparison, use >5, <10 or =324. For ranges, use 5:10 (for values between 5 & 10).","筛选条件可以用>,<,= 比较符，两个值之间用：表示范围， 如>5, <10, =20, 5:10"
+"For comparison, use >5, <10 or =324. For ranges, use 5:10 (for values between 5 & 10).","过滤条件可以用>,<,= 比较符，两个值之间用：表示范围， 如>5, <10, =20, 5:10"
 {0} of {1}, {0} / {1}
 Recents,最近
 Searching,搜索中
@@ -638,7 +637,7 @@ Last Updated On,最后更新日期
 Comments,评论
 Liked By,谁喜欢
 Delete,删除
-Please set filters,请设置筛选条件
+Please set filters,请设置过滤条件
 Add Column,添加列
 Function,函数
 Total,总计
@@ -678,14 +677,14 @@ Low,低
 Medium,中
 High,高
 Create a new {0},新建{0}
-Filters applied for {0},筛选条件：{0}
+Filters applied for {0},过滤条件：{0}
 Permanently Submit {0}?,正式提交{0}?
-This is a background report. Please set the appropriate filters and then generate a new one.,这是一个需后台运算获取数据的报表，请设置恰当的筛选条件并据此生成新报表
+This is a background report. Please set the appropriate filters and then generate a new one.,这是一个需后台运算获取数据的报表，请设置恰当的过滤条件并据此生成新报表
 Add Group,添加分组
 Select Group By...,选择分组字段
-Advanced Search,高级筛选
+Advanced Search,高级过滤
 Confirm,确认
-Hide Saved,隐藏已保存筛选
+Hide Saved,隐藏已保存过滤
 First,首页
 Last,尾页
 To,收件人
@@ -742,7 +741,7 @@ X axis,X 轴
 Y Field,Y轴字段
 X Field,X轴字段
 No Data...,无数据...
-Filters saved,筛选已保存
+Filters saved,过滤已保存
 Shortcuts,快捷方式
 Image View,图片视图
 Create your first {0},新建 {0}
