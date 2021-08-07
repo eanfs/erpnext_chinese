@@ -55,6 +55,7 @@ erpnext_chinese/public/js/hooks/doctype/user.js
 erpnext_chinese/public/js/hooks/page/permission_manager.js
 erpnext_chinese/public/js/hooks/page/print_format_builder.js
 erpnext_chinese/public/js/lib/charts/charts.js
+erpnext_chinese/public/js/lib/datatable/datatable.js
 erpnext_chinese/public/js/lib/datatable/dom.js
 erpnext_chinese/public/js/lib/gantt/frappe-gantt.css
 erpnext_chinese/public/js/lib/gantt/frappe-gantt.min.js

@@ -8,9 +8,9 @@ const HEATMAP_GUTTER_SIZE = 2;
 const COL_WIDTH = HEATMAP_SQUARE_SIZE + HEATMAP_GUTTER_SIZE;
 const ROW_HEIGHT = COL_WIDTH;
 
-const MONTH_NAMES = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
+const MONTH_NAMES = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 
-const DAY_NAMES_SHORT = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+const DAY_NAMES_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 function createSVG(tag, o) {
 	var element = document.createElementNS("http://www.w3.org/2000/svg", tag);
@@ -113,7 +113,7 @@ Heatmap.prototype.setupComponents = function() {
 	let y_0 = 0;
 	DAY_NAMES_SHORT.forEach((dayName, i) => {
 		if([1, 3, 5].includes(i)) {
-			let dayText = makeText('subdomain-name', -COL_WIDTH/2, y_0, dayName,
+			let dayText = makeText('subdomain-name', -COL_WIDTH/2, y_0, __(dayName),
 				{
 					fontSize: HEATMAP_SQUARE_SIZE,
 					dy: 8,
@@ -133,7 +133,7 @@ Heatmap.prototype.setupComponents = function() {
 			data.cols.map((week, weekNo) => {
 				if(weekNo === 1) {
 					this.labels.push(
-						makeText('domain-name', x, monthNameHeight, MONTH_NAMES[index],
+						makeText('domain-name', x, monthNameHeight, __(MONTH_NAMES[index]),
 							{
 								fontSize: 9
 							}

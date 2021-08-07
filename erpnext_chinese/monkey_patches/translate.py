@@ -10,7 +10,7 @@ def get_user_translations(lang):
     out = frappe.cache().hget('lang_user_translations', lang)
     if out is None:
         user_translation = old_get_user_translations(lang)
-        if lang == 'zh':
+        if lang == 'zh' and frappe.translate.get_user_lang() == "zh":
             app = 'erpnext_chinese'
             path =frappe.get_app_path(app, "translations","zh_global.csv")
             out = get_translation_dict_from_file(path, lang, app)

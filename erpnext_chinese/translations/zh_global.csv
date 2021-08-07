@@ -58,18 +58,18 @@ Sep,9月
 Oct,10月
 Nov,11月
 Dec,12月
-JAN,1月
-FEB,2月
-MAR,3月
-APR,4月
-MAY,5月
-JUN,6月
-JUL,7月
-AUG,8月
-SEP,9月
-OCT,10月
-NOV,11月
-DEC,12月
+JAN,一月
+FEB,二月
+MAR,三月
+APR,四月
+MAY,五月
+JUN,六月
+JUL,七月
+AUG,八月
+SEP,九月
+OCT,十月
+NOV,十一月
+DEC,十二月
 Sort Ascending,升序
 Sort Descending,倒序
 Reset sorting,重置排序
@@ -992,3 +992,10 @@ Your Organization,组织机构
 Healthcare (beta),医疗保健（测试版）
 What does it do?,公司主营业务(显示在网站首页的大标题)
 "e.g. ""Build tools for builders""",例如“建筑工人的建筑工具！”
+Mon,周一
+Wed,周三
+Tue,周二
+Fri,周五
+Sat,周六
+Thu,周四
+Sun,周日
