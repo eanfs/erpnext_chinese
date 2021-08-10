@@ -178,8 +178,5 @@ def cncurrency(value, capital=True, prefix=False, classical=None):
     so.reverse()
     return ''.join(so)
 
-# 现在是放在 doc_events *  before_validate中的，因为不确定哪些doctype会用到这个转金额，
-# 最好是有启动的钩子
-def money_in_words_zh_hooks(*args, **kwargs):
-    frappe.utils.data.money_in_words = money_in_words_zh
-    frappe.utils.money_in_words = money_in_words_zh
+frappe.utils.data.money_in_words = money_in_words_zh
+frappe.utils.money_in_words = money_in_words_zh

@@ -17,6 +17,7 @@ def import_coa(company):
 	set_global_defaults()
 	change_field_property()
 	setup_tax_template(company)
+	setup_tax_rule(company)
 	set_item_group_account(company)
 	set_warehouse_account(company)
 
@@ -75,6 +76,25 @@ def setup_tax_template(company_name):
 	with open(file_path, 'r') as json_file:
 		tax_data = json.load(json_file)
 	from_detailed_data(company_name, tax_data)
+
+def setup_tax_rule(company_name):
+	try:
+		abbr = frappe.db.get_value('Company', company_name, 'abbr')
+		file_path = os.path.join(os.path.dirname(__file__), 'tax_rule.csv')
+		with open(file_path, 'r') as in_file:
+			data = list(csv.reader(in_file))
+		if data: data = data[1:]
+		for (tax_category, tax_type,tax_template) in data:
+			template_field_name = 'purchase_tax_template' if tax_type =='Purchase' else 'sales_tax_template'
+			tax_rule = frappe.get_doc({
+					'doctype':'Tax Rule',
+					'tax_category': tax_category,
+					'tax_type': tax_type,
+					template_field_name: f'{tax_template} - {abbr}',
+					'company': company_name})
+			tax_rule.insert(ignore_permissions = 1)
+	except:
+		pass
 
 @frappe.whitelist()
 def get_charts_for_country(country, with_standard=False):

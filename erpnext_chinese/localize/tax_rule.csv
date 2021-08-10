@@ -1,0 +1,6 @@
+tax_category,tax_type,tax_template
+外销,Sales,0%销项税
+内销,Sales,13%销项税
+小微/个体户,Purchase,1%进项税
+一般纳税人,Purchase,13%进项税
+无税,Purchase,0%进项税

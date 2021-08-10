@@ -1,7 +1,7 @@
 const MyControlTable = frappe.ui.form.ControlTable.extend({
 	make: function() {
 		this._super();
-
+		this.$wrapper.off('paste', ':text');
 		this.$wrapper.on('paste', ':text', e => {
 			const table_field = this.df.fieldname;
 			const grid = this.grid;
@@ -10,6 +10,7 @@ const MyControlTable = frappe.ui.form.ControlTable.extend({
 			const doctype = grid.doctype;
 			const row_docname = $(e.target).closest('.grid-row').data('name');
 			const in_grid_form = $(e.target).closest('.form-in-grid').length;
+			console.log('erpnext chinese grid copy')
 
 			let pasted_data = frappe.utils.get_clipboard_data(e);
 

@@ -9,6 +9,68 @@ app_color = "blue"
 app_email = "yuxinyong@163.com"
 app_license = "MIT"
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                (
+                    "Item-min_pack_qty",
+                ),
+            ]
+        ],
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                (
+                    'Stock Reconciliation-naming_series-options',
+                    'Material Request-naming_series-options',
+                    'Production Plan-naming_series-options',
+                    'Quality Inspection-naming_series-options',
+                    'Pick List-naming_series-options',
+                    'Work Order-naming_series-options',
+                    'Journal Entry-naming_series-options',
+                    'Stock Entry-naming_series-options',
+                    'Purchase Receipt-naming_series-options',
+                    'Delivery Note-naming_series-options',
+                    'Purchase Invoice-naming_series-options',
+                    'Sales Invoice-naming_series-options',
+                    'Purchase Order-naming_series-options',
+                    'Sales Order-naming_series-options',
+                    'Contact-last_name-hidden',
+                    'User-full_name-hidden',
+                    'User-last_name-hidden',
+                    'User-middle_name-hidden',
+                    'Contact-middle_name-hidden',
+                    'Purchase Order-subscription_section-hidden',
+                    'Customer-pan-hidden',
+                    'Supplier-pan-hidden',
+                    'Sales Order-set_warehouse-label',
+                    'DocPerm-select-label',
+                    'Bank Account-account_subtype-label',
+                    'Bank Account-account_type-label',
+                    'Bank Account-account_name-label',
+                    'Purchase Receipt Item-manufacture_details-label',
+                    'Material Request Item-manufacture_details-label',
+                    'Supplier Quotation Item-manufacture_details-label',
+                    'Purchase Order Item-manufacture_details-label',
+                    'Purchase Invoice Item-manufacture_details-label',
+                    'Task-weight-label',
+                    'Advance Taxes and Charges-rate-label',
+                    'Purchase Taxes and Charges-rate-label',
+                    'Sales Taxes and Charges-rate-label'
+                ),
+            ]
+        ],
+    }
+]
+
 # Includes in <head>
 # ------------------
 
@@ -93,12 +155,9 @@ standard_queries = {
 # Hook on document methods and events
 
 doc_events = {
-	"*": {
-        "before_validate": "erpnext_chinese.utils.data.money_in_words_zh_hooks"
-#       "on_update": "method",
-#       "on_cancel": "method",
-#       "on_trash": "method"
-	}
+	#"Purchase Order":{
+	#	"before_validate": "erpnext_chinese.api.doc_event.po_validate"
+	#}
 }
 
 # Scheduled Tasks

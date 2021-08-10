@@ -2018,7 +2018,7 @@ Supplier Items,供应商物料
 Item Code for Suppliers,供应商物料编号
 Statutory info and other general information about your Supplier,供应商的注册信息和其他一般信息
 Rate at which supplier's currency is converted to company's base currency,供应商的货币转换为公司的本币后的单价
-Supplier-Wise Sales Analytics,供应商直出客户销售分析
+Supplier-Wise Sales Analytics,供应商直运销售分析
 Supplier delivers to Customer,供应商直接出货给客户
 Supplier Type,供应商类型
 Supplier Group,供应商组
@@ -2368,7 +2368,7 @@ Company Address Name,公司地址名称
 Company field is required,公司字段是必填项
 Company is manadatory for company account,公司是公司账户的管理者
 Company Logo,公司标志
-Company registration numbers for your reference. Tax numbers etc.,公司注册号码，供大家参考。税务号码等
+Company registration numbers for your reference. Tax numbers etc.,公司注册号码，供大家参考。税号等
 Company Info,公司简介
 Company Introduction,公司简介
 Company Abbreviation,公司简称
@@ -8232,7 +8232,7 @@ No {0} mail,没有{0}邮件
 No permission for {doctype},没有{doctype}的权限
 Not a zip file,没有一个zip文件
 No further records,没有下一个记录了
-Tax Account not specified for Shopify Tax {0},没有为Shopify Tax {0}指定税务帐户
+Tax Account not specified for Shopify Tax {0},没有为Shopify Tax {0}指定税科目
 Did not find {0} for {0} ({1}),没有为{0} 找到{0}( {1} )
 No correct answer is set for {0},没有为{0}设置正确答案
 Optional Holiday List not set for leave period {0},没有为休假期间{0}设置选休假假期表
@@ -9427,7 +9427,7 @@ Taxes and Charges,税/费
 Tariff Number,税则号
 Tax Type,税别
 Tax Category,税别
-Tax Template is mandatory.,税务模板字段必填。
+Tax Template is mandatory.,税费模板字段必填。
 Tax Account,税收科目
 Tax Rule Conflicts with {0},税收规则与{0}冲突
 Tax Rule for transactions.,税收规则进行的交易。
@@ -9439,7 +9439,7 @@ Taxes and Charges on Income Tax,税费
 Tax Breakup,税费明细
 Item Tax Template,税费模板
 Tax/Exp Rate,税费率
-Tax Rule,税费规则
+Tax Rule,税费模板分派规则
 Taxes and Charges Calculation,税费计算
 Tax,税项
 "Tax Category has been changed to ""Total"" because all the Items are non-stock items",税项类别已更改为“合计”，因为所有物料均为非库存物料
@@ -10895,7 +10895,7 @@ Requesting Site,仓库
 Request Timed Out,请求超时
 Please add a rating,请添加评分
 Please clear the Payment Schedule Table,请清空付款计划字段(子表)
-Please Enable Server Scripts,请激活服务器脚本功能
+Please Enable Server Scripts,请让管理员使用bench命令bench set-config server_script_enabled 1 激活服务器脚本功能
 Please share your feedback to the training by clicking on 'Training Feedback' and then 'New',请点击“培训反馈”，再点击“新建”来分享你的培训反馈
 Please click on 'Generate Schedule',请点击“生成表”
 Please click on 'Generate Schedule' to fetch Serial No added for Item {0},请点击“生成表”来获取序列号增加了对项目{0}
@@ -12232,7 +12232,7 @@ Sell,销售
 Selling,销售
 "SALES,PURCHASE,ACCOUNTING DEFAULTS",销售、采购、会计默认值
 "Sales,Purchase,Accounting Defaults",销售、采购、会计默认值
-Tax template for selling transactions.,销售业务的税务模板。
+Tax template for selling transactions.,销售业务的税费模板。
 Default settings for selling transactions.,销售业务的默认设置。
 Sales Master Manager,销售主数据管理员
 Sales Payment Summary,销售收款汇总
@@ -14538,3 +14538,7 @@ Corrective Operation Cost,返工费用
 From Corrective Job Card,取自返工工票
 Corrective Job Card,返工工票
 ERPNext Chinese,ERPNext本地化
+Min Pack Qty,最小包装量
+Item {0} Qty {1} changed to {2} due to min pack qty {3},基于物料{0}最小包装量{3}定义，系统自动将数量由{1}变更为{2}
+HH:mm,时:分
+HH:mm:ss,时:分:秒
