@@ -20,7 +20,7 @@
 基金,短期投资,110103,1101,,,Asset
 应收票据,资产,1121,1000,,Receivable,Asset
 应收账款,资产,1122,1000,,Receivable,Asset
-预付账款,资产,1123,1000,,Receivable,Asset
+预付账款,资产,1123,1000,,Payable,Asset
 应收股利,资产,1131,1000,,Receivable,Asset
 应收利息,资产,1132,1000,,Receivable,Asset
 其他应收款,资产,1221,1000,,Receivable,Asset
@@ -64,7 +64,7 @@
 短期借款,负债,2001,2000,,,Liability
 应付票据,负债,2201,2000,,Payable,Liability
 应付账款,负债,2202,2000,,Payable,Liability
-预收账款,负债,2203,2000,,Payable,Liability
+预收账款,负债,2203,2000,,Receivable,Liability
 应付职工薪酬,负债,2211,2000,1,Payable,Liability
 职工工资,应付职工薪酬,221101,2211,,Payable,Liability
 奖金、津贴和补贴,应付职工薪酬,221102,2211,,Payable,Liability

@@ -944,8 +944,8 @@ The 'From Package No.' field must neither be empty nor it's value less than 1.,�
 Default for 'Check' type of field must be either '0' or '1',“勾选”字段类型的默认值必须是'0'或'1'
 """Team Members"" or ""Management""",“团队成员”或“管理”
 'Actual Start Date' can not be greater than 'Actual End Date',“实际开始日期”不能大于“实际结束日期'
-"""Customer Provided Item"" cannot be Purchase Item also",“客供物料”也不能允许采购
-"""Customer Provided Item"" cannot have Valuation Rate",“客供物料”无需成本价
+"""Customer Provided Item"" cannot be Purchase Item also",“受托加工材料”也不能设置为允许采购
+"""Customer Provided Item"" cannot have Valuation Rate",“受托加工材料”不允许有成本价
 'From Date' must be after 'To Date',“开始日期”必须早于'终止日期'
 'From Date' is required,“开始日期”是必需的
 'Opening',“打开”
@@ -1495,7 +1495,7 @@ Events in Today's Calendar,今日历中的活动
 Upcoming Events for Today,今日活动
 Introduction,介绍
 From,从
-Received From,从......收到
+Received From,来自
 Get customers from,选客户
 Get items from,选物料
 Import Data from CSV / Excel files.,从CSV / Excel文件导入数据。
@@ -1549,7 +1549,7 @@ Warehouse,仓库
 Warehouses,仓库
 Warehouse {0} does not exist,仓库{0}不存在
 Warehouse {0} does not belong to company {1},仓库{0}不属于公司{1}
-Warehouse {0} can not be deleted as quantity exists for Item {1},仓库{0}无法删除，因为产品{1}有库存量
+Warehouse {0} can not be deleted as quantity exists for Item {1},仓库{0}无法删除，因为产品{1}还有库存
 "Warehouse {0} is not linked to any account, please mention the account in  the warehouse record or set default inventory account in company {1}.",仓库{0}未与任何科目关联，请在仓库或公司{1}主数据中设置默认库存科目。
 Stock balance in Batch {0} will become negative {1} for Item {2} at Warehouse {3},仓库{3}中物料{2}的批号{0}库存余额将变为负数{1}
 Warehouse cannot be changed for Serial No.,仓库不能为序列号变更
@@ -1636,7 +1636,7 @@ Payment Order Status,付款订单状态
 Payment Order Type,付款订单类型
 Payment Description,付款说明
 An error occured during the payment process. Please contact us.,付款过程中发生错误。请联系我们。
-Paid Amount,已付金额
+Paid Amount,付款金额
 Payment Amount,付款金额
 Paid amount + Write Off Amount can not be greater than Grand Total,付款金额+销帐金额不能大于总金额
 Paid Amount cannot be greater than total negative outstanding amount {0},付款金额不能大于总未付金额{0}
@@ -4722,7 +4722,7 @@ Customer or Item,客户或物料
 Customer Mobile No,客户手机号
 Customerwise Discount,客户折扣
 Classification of Customers by region,客户按区域分类
-Customer Provided,客户提供
+Customer Provided,受托加工材料
 Customer Database.,客户数据库。
 Customer database.,客户数据库。
 Customer is required,客户是必须项
@@ -5610,7 +5610,7 @@ Open To Do,待办事项
 Pending Activities,待办事项
 To Do,待办事项
 ToDo,待办事项
-Subcontracted Raw Materials To Be Transferred,待发料委外原材料
+Subcontracted Raw Materials To Be Transferred,待调拨委外原材料
 Pending,待处理
 Pending,待处理
 Open,待处理
@@ -5754,7 +5754,7 @@ Total Actual,总实际
 Total Working Hours,总工时
 Total working hours should not be greater than max working hours {0},总工时不应超过每天最大工时{0}
 Total Variance,总差异
-Total Paid Amt,总已付金额
+Total Paid Amt,总付款金额
 Total Leaves Allocated,总已分配休假
 Total Allocated Leaves,总已分配休假天数
 Total allocated leaves are more than days in the period,总已分配休假天数大于此期间天数
@@ -6999,9 +6999,9 @@ Cannot remove ID field,无法删除ID字段
 Cannot delete {0},无法删除{0}
 Cannot delete {0} as it has child nodes,无法删除{0} ，因为它有子节点
 Cannot delete Home and Attachments folders,无法删除主文件和附件文件夹
-Cannot delete file as it belongs to {0} {1} for which you do not have permissions,无法删除属于您没有权限的{0} {1}的文件
-"Cannot delete Serial No {0}, as it is used in stock transactions",无法删除序列号{0}，因为它采用的是现货交易
-Cannot delete standard field. You can hide it if you want,无法删除标准字段。你可以将其隐藏，如果你想
+Cannot delete file as it belongs to {0} {1} for which you do not have permissions,无法删除您没有权限的{0} {1}的文件
+"Cannot delete Serial No {0}, as it is used in stock transactions",无法删除已在库存业务单据中使用过的序列号{0}
+Cannot delete standard field. You can hide it if you want,标准字段只能隐藏，不能删除
 Unable to load camera.,无法加载相机。
 Unable to load: {0},无法加载： {0}
 Cannot send this email. You have crossed the sending limit of {0} emails for this day.,无法发送此电子邮件。您已经超过了{0}个电子邮件的发送限制。
@@ -7197,8 +7197,7 @@ Is Subcontracted,委外
 Is Subcontract Item,是委外物料
 Is Child Table,是子表
 Is Table,是子表
-Is Customer Provided Item,是客供物料
-Is Customer Provided Item,是客供物料
+Is Customer Provided Item,是受托加工材料
 Is Container,是容器
 Is Earned Leave,是年假？有薪假
 Maintain Stock,允许库存
@@ -7652,7 +7651,7 @@ Not Billed,未开票
 Reason for losing,未成交原因
 Not Found,未找到
 Not found,未找到
-No outstanding invoices found for the {0} <b>{1}</b>.,未找到{0} <b>{1}的</b>未结发票。
+No outstanding invoices found for the {0} <b>{1}</b>.,未找到{0} <b>{1}的</b>未关闭订单或发票。
 Salary Structure not found for employee {0} and date {1},未找到{1}日有效的员工{0}薪资结构
 No employee found,未找到任何员工
 No items found.,未找到任何项目。
@@ -8979,7 +8978,7 @@ Viewed By,查看人
 Python Code Called By JS,由Javascript调用的Python代码
 Sub-domain provided by erpnext.com,由erpnext.com提供的子域名
 gained by {0} via automatic rule {1},由{0}通过自动规则{1}获得
-Cannot delete or cancel because {0} {1} is linked with {2} {3} {4},由于{0} {1}与{2} {3} {4}链接，无法删除或取消
+Cannot delete or cancel because {0} {1} is linked with {2} {3} {4},由于{0} {1}与{2} {3} {4}关联，无法删除或取消
 RFQs are not allowed for {0} due to a scorecard standing of {1},由于记分卡的当前评级为{1}，使用向{0}询价
 Purchase Orders are not allowed for {0} due to a scorecard standing of {1}.,由于记分卡当前评级为{1}，不允许下采购订单给{0}。
 "As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料预计数量超过所需数量，因此无需创建物料申请。如果您想要生成物料申请，请启用<b>忽略现有预计数量</b>复选框
@@ -8990,7 +8989,7 @@ Delivered By Supplier,由供应商交货
 Delivered by Supplier (Drop Ship),由供应商交货（直运）
 Drop Ship,由供应商交货（直运）
 To be delivered to customer,由供应商直接出货给客户（直接发运）
-Customer Provided,客供
+Customer Provided,受托加工材料
 Assigned By Me,由我指定
 Read by Recipient,由收件人阅读
 Read by Recipient On,由收件人阅读
@@ -9192,7 +9191,7 @@ Same Item,相同物料
 Same item has been entered multiple times. {0},相同的物料已被多次输入。 {0}
 Item Variant {0} already exists with same attributes,相同规格/属性的多规格物料{0}已存在
 camera,相机
-State,省
+State,状态
 State,状态,Workflow Document State
 State,状态,Workflow Transition
 Dispatch State,省(配送）
@@ -10139,7 +10138,7 @@ Fetch exploded BOM (including sub-assemblies),选物料清单底层物料（括�
 Get Advances Paid,选已付预付款
 Get Advances Received,选已收预付款
 Get Current Stock,选当前库存
-Get Outstanding Invoice,选未关闭发票
+Get Outstanding Invoice,选未关闭订单或发票
 Fetch Data,获取数据
 Get Updates,获取更新
 Get Latest Query,获取最新查询
@@ -14542,3 +14541,5 @@ Min Pack Qty,最小包装量
 Item {0} Qty {1} changed to {2} due to min pack qty {3},基于物料{0}最小包装量{3}定义，系统自动将数量由{1}变更为{2}
 HH:mm,时:分
 HH:mm:ss,时:分:秒
+Reference Exchange Rate,参考汇率
+Taxes and Charges Template,税/费模板
