@@ -67,6 +67,9 @@ ERPNext中文汉化，简化，优化
  3.2.2 全局智能搜索框支持按中、英文检索单据类型、报表、模块等界面对象
 
  3.2.3 单据类型、用户角色、报表下拉框支持按中、英文关键字检索
+
+ 3.2.4 单据打印时显示制单人与审批人姓名， 在打印格式自定义html字段中 使用 {{ doc.get_owner_username() }} 和 {{ doc.get_submit_username() }}
+ 
 本人在discuss.erpnext.com及github.com官网帐号是szufisher
 
 使用方法

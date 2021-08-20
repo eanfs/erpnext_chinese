@@ -13,6 +13,7 @@ erpnext_chinese.egg-info/SOURCES.txt
 erpnext_chinese.egg-info/dependency_links.txt
 erpnext_chinese.egg-info/not-zip-safe
 erpnext_chinese.egg-info/top_level.txt
+erpnext_chinese/api/doc_event.py
 erpnext_chinese/config/__init__.py
 erpnext_chinese/config/desktop.py
 erpnext_chinese/config/docs.py
@@ -23,15 +24,21 @@ erpnext_chinese/erpnext_chinese/doctype/user_default/test_user_default.py
 erpnext_chinese/erpnext_chinese/doctype/user_default/user_default.js
 erpnext_chinese/erpnext_chinese/doctype/user_default/user_default.json
 erpnext_chinese/erpnext_chinese/doctype/user_default/user_default.py
+erpnext_chinese/fixtures/custom_field.json
+erpnext_chinese/fixtures/property_setter.json
 erpnext_chinese/localize/__init__.py
 erpnext_chinese/localize/coa_cn.csv
 erpnext_chinese/localize/default_accounts.csv
 erpnext_chinese/localize/field_property.csv
 erpnext_chinese/localize/localize.py
 erpnext_chinese/localize/queries.py
+erpnext_chinese/localize/tax_rule.csv
 erpnext_chinese/localize/tax_template.json
 erpnext_chinese/monkey_patches/__init__.py
+erpnext_chinese/monkey_patches/accounts_controller.py
+erpnext_chinese/monkey_patches/base_document.py
 erpnext_chinese/monkey_patches/company.py
+erpnext_chinese/monkey_patches/data.py
 erpnext_chinese/monkey_patches/db_transaction_writes.py
 erpnext_chinese/monkey_patches/file.py
 erpnext_chinese/monkey_patches/global_search.py
@@ -73,5 +80,3 @@ erpnext_chinese/templates/pages/__pycache__/__init__.py
 erpnext_chinese/translations/zh.csv
 erpnext_chinese/translations/zh_global.csv
 erpnext_chinese/translations/zh_global_bak.csv
-erpnext_chinese/utils/__init__.py
-erpnext_chinese/utils/data.py
