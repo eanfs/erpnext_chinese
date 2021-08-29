@@ -231,7 +231,7 @@ EDU-FEE-.YYYY.-,EDU-收费.YYYY.-
 EMI,EMI
 ERPNext Settings,ERPNext全局设置
 ERPNext Company,ERPNext公司
-ERPNext could not find any matching payment entry,ERPNext未找到任何匹配的付款凭证
+ERPNext could not find any matching payment entry,ERPNext未找到任何匹配的收付款凭证
 ERPNext Demo,ERPNext演示
 ERPNext User,ERPNext用户
 ERPNext User ID,ERPNext用户ID
@@ -762,7 +762,7 @@ Field type cannot be changed for {0},{0}不能更改字段类型
 {0} cannot be set for Single types,{0}不能设置为单例类型
 {0} months ago,{0}个月前
 No records present in {0},{0}中没有记录
-{0} payment entries can not be filtered by {1},{0}付款凭证不能由{1}过滤
+{0} payment entries can not be filtered by {1},{0}收付款凭证不能由{1}过滤
 {0} criticized your work on {1} with {2} points,{0}以{2}分批评你在{1}上的工作
 {0} criticized your work on {1} with {2} point,{0}以{2}点批评了您在{1}上的工作
 {0} Dashboard,{0}仪表板
@@ -1302,7 +1302,7 @@ Sets 'For Warehouse' in each row of the Items table.,为物料明细行设置默
 Reserved for Production,生产预留数量
 Reserved for POS Transactions,POS机预留数量
 Enabled email inbox for user {users},为用户启用电子邮件收件箱{}用户
-Create Separate Payment Entry Against Benefit Claim,为福利申请创建单独付款凭证
+Create Separate Payment Entry Against Benefit Claim,为福利申请创建单独收付款凭证
 Options must be a valid DocType for field {0} in row {1},为第{1}行的字段{0}设置的选项值必须是有效的单据类型
 Tasks have been created for managing the {0} disease (on row {1}),为管理{0}病虫害创建了任务（在第{1}行）
 Add fields to forms.,为表单添加字段。
@@ -1385,8 +1385,8 @@ Transaction Log Report,事务日志报表
 II,二
 February,02
 FEB,02
-Send to Warehouse,二步转仓-发出(在途)
-Receive at Warehouse,二步转仓-收料(在途)
+Send to Warehouse,二步调拨-发出(在途)
+Receive at Warehouse,二步调拨-收料(在途)
 QR Code,二维码
 qrcode,二维码
 On,于
@@ -1509,14 +1509,14 @@ No template found at path: {0},从{0}路径中找不到模板
 Payment of {0} from {1} to {2},从{1}到{2}的{0}付款
 Practitioner Schedules,从业者时间表
 Practitioner Service Unit Schedule,从业者服务单位时间表
-Get Items from Product Bundle,从套件获取物料
+Get Items from Product Bundle,从套件选物料
 Quotations received from Suppliers.,从供应商收到的报价。
 Drag elements from the sidebar to add. Drag them back to trash.,从侧边栏拖动元素添加，将元素拖回可以删除。
 Get Items from Healthcare Services,从医疗保健服务获取项目
 Fetch attached images from document,从单据中获取添加的图像
 Set Banner from Image,从图像设置横幅
 From Place,从地方
-Get Items from Prescriptions,从处方获取物料
+Get Items from Prescriptions,从处方选物料
 Repay from Salary,从工资偿还
 Distance from left edge,从左侧边缘的距离
 Starting location from left edge,从左边起始位置
@@ -1525,11 +1525,11 @@ Get from Patient Encounter,从患者看诊中获取
 Check this to pull emails from your mailbox,从您的邮箱收取邮件
 From Date must be before To Date,从日期必须在到目前为止
 renamed from {0} to {1},从更名{0}到{1}
-Get Items from Open Material Requests,从未完成物料申请获取物料
+Get Items from Open Material Requests,从未完成物料申请选物料
 Select at least one value from each of the attributes.,从每个属性中至少选择一个值。
 No replies from,从没有回复
 Tax detail table fetched from item master as a string and stored in this field.Used for Taxes and Charges,从物料主数据中取得税项详细信息表并转换为字符串存入此字段内。用作税金和费用。
-Get Items from BOM,从物料清单获取物料
+Get Items from BOM,从物料清单选物料
 Copy From Item Group,从物料组复制
 Material Request to Purchase Order,从物料申请到采购订单
 Select from existing attachments,从现有的附件选择
@@ -1539,7 +1539,7 @@ New Message from Website Contact Page,从网站的联系页面新消息
 Unsubscribed from Newsletter,从群发邮件退订
 From Range has to be less than To Range,从范围必须小于要范围
 Start entering data from here : ,从这里开始输入数据：
-Get Items From Purchase Receipts,从采购入库获取物料
+Get Items From Purchase Receipts,从采购入库选物料
 Purchase Order to Payment,从采购订单到付款
 Distance from top edge,从顶边的距离
 Accepted Warehouse,仓库
@@ -1577,14 +1577,13 @@ Match Payments with Invoices,付款与发票清帐
 Payer Settings,付款人设置
 Payment Details,付款信息
 Payment Reference,付款凭据
-Bank Entries,付款凭证
-Payment Entries,付款凭证
-Payment Entry,付款凭证
-Payment Entries {0} are un-linked,付款凭证{0}已被取消关联
-Payment Entries {0} are un-linked,付款凭证{0}没有关联
-Payment Entry is already created,付款凭证已创建
-Payment Entry already exists,付款凭证已存在
-Payment Document Type,付款凭证类型
+Bank Entries,银行凭证
+Payment Entries,收付款凭证
+Payment Entry,收付款凭证
+Payment Entries {0} are un-linked,收付款凭证{0}已被取消关联
+Payment Entry is already created,收付款凭证已创建
+Payment Entry already exists,收付款凭证已存在
+Payment Document Type,收付款凭证类型
 Payment Due Date,付款到期日
 Due Date cannot be before Posting / Supplier Invoice Date,付款到期日不能早于记帐/供应商发票日
 Due Date is mandatory,付款到期日字段必填
@@ -1732,9 +1731,9 @@ Task Weight,任务权重
 Task weight cannot be negative,任务权重不能为负
 Task Type,任务类型
 Task Progress,任务进度
-Companies,企业
+Companies,公司
 Org History,企业发展史
-Company Email,企业邮箱
+Company Email,公司邮箱
 Leaves,休假
 Leave,休假
 On Leave,休假
@@ -2045,7 +2044,7 @@ Supplier Part No,供应商部件号
 Supplier Part Number,供应商零件编号
 Place Of Supply (State/UT),供应地点（州/ UT）
 Nature Of Supplies,供应的性质
-Supplied Items,供应的物料
+Supplied Items,委外调拨物料
 Supply Type,供应类型
 Supplies made to UIN holders,供应给UIN持有人的供应品
 Contributed,供稿
@@ -2233,7 +2232,7 @@ Allow document creation via Email,允许基于收到的邮件创建单据
 Allow Material Transfer From Purchase Receipt and Purchase Invoice,允许基于采购收货与采购发票进行内部调拨
 Allow Material Transfer From Delivery Note and Sales Invoice,允许基于销售出货与销售发票进行内部调拨
 Allow Multiple,允许多个
-Allow Multiple Material Consumption,允许多次消耗物料
+Allow Multiple Material Consumption,允许多次耗用物料
 Allow Import (via Data Import Tool),允许导入（数据导入工具）
 Allow items not in stock to be added to cart,允许将无库存物料添加至购物车
 Allow Stock Consumption,允许库存消耗
@@ -2260,7 +2259,7 @@ Max Leaves Allowed,允许最大休假
 Allow Desktop Icon,允许桌面图标
 Allow Modules,允许模块
 Allow only one session per user,允许每个用户只有一个会话
-Allow multiple Material Consumption against a Work Order,允许生产工单多次消耗物料
+Allow multiple Material Consumption against a Work Order,允许生产工单多次耗用物料
 Allow User,允许用户
 Allow Users,允许用户(多个)
 Allow user to edit Rate,允许用户修改单价
@@ -2383,7 +2382,7 @@ Public,公开
 Formula,公式
 Error in formula or condition: {0},公式或条件错误:{0}
 briefcase,公文包
-Utilities,公用事业
+Utilities,通用功能
 Non Profit,公益组织
 Non Profit Manager,公益组织经理
 Non Profit (beta),公益组织（测试版）
@@ -2411,7 +2410,7 @@ Invalid {0} for Inter Company Invoice.,关联公司发票无效{0}。
 Invalid Company for Inter Company Invoice.,关联公司发票：公司不正确。
 Inter Company Order Reference,关联公司订单参考号
 Inter Company Account,关联公司间交易科目
-Inter Warehouse Transfer Settings,关联公司间内部转仓设置
+Inter Warehouse Transfer Settings,关联公司间内部调拨设置
 Reference Document,关联单据
 Related,关联单据
 Reference Owner,关联单据制单人
@@ -2437,7 +2436,7 @@ Close the POS,关闭POS
 volume-off,关闭声音
 Close Condition,关闭条件
 Closed order cannot be cancelled. Unclose to cancel.,关闭的定单不能被取消。 Unclose取消。
-Closed Documents,关闭的单据
+Closed Documents,关闭单据类型
 folder-close,关闭目录
 Closing Account {0} must be of type Liability / Equity,关闭科目{0}的类型必须是负债/权益
 Close Balance Sheet and book Profit or Loss.,关闭资产负债表，结转损益。
@@ -2729,10 +2728,10 @@ The following serial numbers were created: <br>{0},创建了以下序列号： <
 Created On,创建于
 Create Fees,创建交费记录
 Created By,创建人
-Create Payment Entries,创建付款凭证
-Create Payment Entry,创建付款凭证
-Creating Payment Entries......,创建付款凭证......
-Make Payment Entry,创建付款分录
+Create Payment Entries,创建收付款凭证
+Create Payment Entry,创建收付款凭证
+Creating Payment Entries......,创建收付款凭证......
+Make Payment Entry,创建收付款凭证
 Document type is required to create a dashboard chart,创建仪表板图表需要单据类型
 Create Journal Entry,创建手工凭证
 Make Journal Entry,创建手工凭证
@@ -3219,7 +3218,7 @@ Raw Material Cost(Company Currency),原材料成本（本币）
 Raw Material Item Code,原材料物料编号
 Quantity of item obtained after manufacturing / repacking from given quantities of raw materials,加工/打包原材料后得到的成品物料数量
 Original Item,原物料
-Backflush Raw Materials Based On,自动物料消耗基于
+Backflush Raw Materials Based On,物料耗用(倒扣账)方式
 Primary Color,原色
 Go to ,去
 Go to Suppliers,去供应商
@@ -3843,7 +3842,7 @@ Cannot convert Cost Center to ledger as it has child nodes,因为有下级成本
 "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，库存变动科目必须是资产/负债类科目，
 'Update Stock' can not be checked because items are not delivered via {0},因为物料还未通过{0）出货，“更新库存'不能被勾选
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,因为该物料已经有使用别的单位的交易记录存在了，不再允许直接修改其默认单位{0}了。如果需要请创建一个新物料，以使用不同的默认单位。
-"Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，材料需求未创建，。
+"Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料申请未创建，。
 Group Name,团队名字
 Team Members,团队成员
 Team Members Heading,团队成员标题
@@ -3996,7 +3995,7 @@ Time in seconds to retain QR code image on server. Min:<strong>240</strong>,在�
 Generate Invoice At Beginning Of Period,在期初生成发票
 Cancel At End Of Period,在期末取消
 Unable to find Time Slot in the next {0} days for Operation {1},在未来{0}天，无可用时间（档期）完成工序{1}
-Plan material for sub-assemblies,在本工单消耗子装配件下层物料，无需额外工单生产子装配件
+Plan material for sub-assemblies,在本工单耗用子装配件下层物料，无需额外工单生产子装配件
 Hide field in Standard Print Format,在标准打印格式隐藏字段
 Show a description below the field,在此字段下显示说明
 Total allocated leaves are more days than maximum allocation of {0} leave type for employee {1} in the period,在此期间，总分配的离职时间超过员工{1}的最大分配{0}离职类型的天数
@@ -4128,7 +4127,7 @@ Setup Notifications based on various criteria.,基于各种标准的设置通知
 Discount (%) on Price List Rate with Margin,基于含毛利标价的折扣（％）
 This is based on transactions against this Customer. See timeline below for details,基于客户的过往交易。详情请参阅表单下方日志记录
 Salary Slip Based on Timesheet,基于工时表
-Backflush raw materials from work-in-progress warehouse,基于已发料数量扣除(消耗)原材料库存
+Backflush raw materials from work-in-progress warehouse,从在制品仓耗用(倒扣账)原材料
 Variable Based On Taxable Salary,基于应纳税工资的变量
 Bank Statement balance as per General Ledger,基于总帐的银行对发票余额
 Qty of raw materials will be decided based on the qty of the Finished Goods Item,基于成品数量计算原材料数量
@@ -4160,7 +4159,7 @@ How often should project and company be updated based on Sales Transactions.,基
 Return Against Delivery Note,基于销售出库退货
 Return Against Sales Invoice,基于销售发票退货
 This is based on the Time Sheets created against this project,基于项目工时表
-Fetch items based on Default Supplier.,基于默认供应商获取物料
+Fetch items based on Default Supplier.,基于默认供应商选物料
 Base Hour Rate(Company Currency),基准工费率（本币）
 Basic,底薪
 Base Distinguished Name (DN),基本专有名称（DN）
@@ -4906,7 +4905,7 @@ Convert Item Description to Clean HTML,将物料描述转换为HTML
 Add Users to Marketplace,将用户添加到网上交易市场
 Copy and paste this code into and empty Code.gs in your project at script.google.com,将该代码复制并粘贴到script.google.com中的项目中的Code.gs并将其清空
 Leave the field empty to make purchase orders for all suppliers,将该字段留空为所有供应商下达采购订单
-"This will be appended to the Item Code of the variant. For example, if your abbreviation is ""SM"", and the item code is ""T-SHIRT"", the item code of the variant will be ""T-SHIRT-SM""",将追加到多规格物料。例如，如果你的英文缩写为“SM”，而该物料编号是“T-SHIRT”，该多规格物料将是“T-SHIRT-SM”
+"This will be appended to the Item Code of the variant. For example, if your abbreviation is ""SM"", and the item code is ""T-SHIRT"", the item code of the variant will be ""T-SHIRT-SM""",将追加到多规格物料。例如，如果你的英文简称为“SM”，而该物料编号是“T-SHIRT”，该多规格物料将是“T-SHIRT-SM”
 Send Notifications To,将通知发给
 Block Holidays on important days.,将重要日期设为禁止休假日。
 Set Project and all Tasks to status {0}?,将项目和所有任务设置为状态{0}？
@@ -5202,8 +5201,8 @@ Already Registered,已注册
 Registered,已注册
 Registered but disabled,已注册但被禁用
 Enrolled courses,已注册课程
-Consumed,已消耗
-Consumed Qty,已消耗数量
+Consumed,已耗用
+Consumed Qty,已耗用数量
 {0} {1} added,已添加{0} {1}
 Added {0} ({1}),已添加{0}（{1}）
 Attached To DocType,已添加到单据类型
@@ -5213,7 +5212,7 @@ Is Active,生效
 Active,生效
 Claimed,已申报
 Applied,已申请
-Requested Items To Be Transferred,待转仓物料申请
+Requested Items To Be Transferred,待调拨物料申请
 Requested Items To Be Ordered,待采购物料申请
 Material Requested,已申请物料
 Logged in,已登录
@@ -5403,7 +5402,7 @@ Net Change in Accounts Payable,应付账款净额变化
 Payable Amount,应付金额
 Is Payable,应付？
 Receivable / Payable Account,应收/应付账款
-Payment Period Based On Invoice Date,应收付款帐龄(基于发票日)
+Payment Period Based On Invoice Date,应收/应付款帐龄(基于发票日)
 Accounts Receivable,应收账款
 Debtors,应收账款
 Receivables,应收账款
@@ -5571,7 +5570,7 @@ Alcohol Current Use,当前酒精摄入情况
 Current Amount,当前金额
 Local,当地
 "When any of the checked transactions are ""Submitted"", an email pop-up automatically opened to send an email to the associated ""Contact"" in that transaction, with the transaction as an attachment. The user may or may not send the email.",当所选的业务状态更改为“已提交”时，自动打开一个弹出窗口向有关的联系人编写邮件，业务将作为附件添加。用户可以选择发送或者不发送邮件。
-Course Abbreviation,当然缩写
+Course Abbreviation,课程简称
 Cannot deduct when category is for 'Valuation' or 'Vaulation and Total',当类是“估值”或“Vaulation和总&#39;不能扣除
 Current Odometer reading entered should be greater than initial Vehicle Odometer {0},录入的当前里程表读数应该比车辆初始里程表{0}读数大
 Recording URL,录制网址
@@ -5798,7 +5797,7 @@ Total Outstanding: {0},总未付：{0}
 Total Unpaid: {0},总未付：{0}
 Total Sanctioned Amount,总核准金额
 Gross Purchase Amount is mandatory,总消费金额字段必填
-Total Consumed Material Cost  (via Stock Entry),总物料消耗成本（物料移动）
+Total Consumed Material Cost  (via Stock Entry),总物料成本（物料移动）
 Total Claimed Amount,总申报金额
 Total Target,总目标
 Total Taxes and Charges,总税/费
@@ -5992,7 +5991,7 @@ Succeeded,成功
 Success,成功
 Successful,成功
 Success URL,成功URL
-Successfully created payment entries,成功创建付款凭证
+Successfully created payment entries,成功创建收付款凭证
 Successfully deleted all transactions related to this company!,成功删除与该公司相关的所有交易！
 Success Action,成功后的操作
 Successfully Done,成功完成
@@ -6013,7 +6012,7 @@ Finished Goods,成品
 Qty of Finished Goods Item,成品数量
 Finished product quantity {0} and For Quantity {1} cannot be different,成品数量 {0} 应与待生产数量 {1} 相同
 BOM No. for a Finished Good Item,成品物料的物料清单编号
-"Normal resting blood pressure in an adult is approximately 120 mmHg systolic, and 80 mmHg diastolic, abbreviated ""120/80 mmHg""",成年人的正常静息血压约为收缩期120mmHg，舒张压80mmHg，缩写为“120 / 80mmHg”
+"Normal resting blood pressure in an adult is approximately 120 mmHg systolic, and 80 mmHg diastolic, abbreviated ""120/80 mmHg""",成年人的正常静息血压约为收缩期120mmHg，舒张压80mmHg，简称为“120 / 80mmHg”
 Adults' pulse rate is anywhere between 50 and 80 beats per minute.,成年人的脉率在每分钟50到80次之间。
 Cost,成本
 Cost as on,成本
@@ -6121,8 +6120,8 @@ All Assessment Groups,所有评估组
 All Images attached to Website Slideshow should be public,所有连接到网站幻灯片的图片应该是公开的
 All Departments,所有部门
 All Sales Partner Contact,所有销售合作伙伴
-The selected payment entry should be linked with a creditor bank transaction,所选付款凭证应与债权人银行交易相关联
-The selected payment entry should be linked with a debtor bank transaction,所选付款凭证应关联客户的银行交易
+The selected payment entry should be linked with a creditor bank transaction,所选收付款凭证应与债权人银行交易相关联
+The selected payment entry should be linked with a debtor bank transaction,所选收付款凭证应关联客户的银行交易
 The selected item cannot have Batch,所选物料不能启用批号管理
 There isn't any item variant for the selected item,所选物料无相关多规格物料
 The selected BOMs are not for the same item,所选物料清单不能用于同一个物料
@@ -7341,7 +7340,7 @@ Change Label (via Custom Translation),更改标签（自定义转换）
 Change Template Code,更改模板代码
 Change Item Code,更改物料编号
 Change the starting / current sequence number of an existing series.,更改现有系统流水号的起始/当前流水号。
-Change Abbreviation,更改缩写
+Change Abbreviation,更改简称
 Change Release Date,更改解除冻结日期
 Change In Item,更改项目
 Update,更新
@@ -7744,7 +7743,7 @@ Opportunities by lead source,商机（按线索来源）
 Org Code,机构代码
 Institute Name,机构名称
 Organization Name,机构名称
-Institute Abbreviation,机构缩写
+Institute Abbreviation,机构简称
 Engine Oil,机油
 Grocery,杂货
 Misc,杂项
@@ -7771,7 +7770,7 @@ Permissions Settings,权限设置
 Quick Help for Setting Permissions,权限设置的快速帮助
 Permission Error,权限错误
 Restrictions,权限限制清单
-Material Consumption is not set in Manufacturing Settings.,材料消耗未在生产设置中设置。
+Material Consumption is not set in Manufacturing Settings.,生产设置中未定义物料耗用方式。
 Condition,条件
 Condition Detail,条件
 Conditions,条件
@@ -8138,7 +8137,7 @@ Half Yearly,每半年
 Half Yearly,每半年
 Half-Yearly,每半年
 Half-yearly,每半年
-Qty Consumed Per Unit,单位消耗量
+Qty Consumed Per Unit,单位耗用量
 Weight Per Unit,单重
 Fee Breakup for each student,每名学生费用明细
 Every Week,每周
@@ -8339,7 +8338,7 @@ Notes:,注意事项：
 Note: There is not enough leave balance for Leave Type {0},注意：休假期类型{0}的剩余天数不够
 Note: Due / Reference Date exceeds allowed customer credit days by {0} day(s),注意：到期日/计入日已超过客户信用日期{0}天。
 Note: Changing the Page Name will break previous URL to this page.,注意：更改页面名称将会破坏此页面的上一个URL。
-Note: Payment Entry will not be created since 'Cash or Bank Account' was not specified,注意：未指定“现金或银行科目”，无法创建付款凭证
+Note: Payment Entry will not be created since 'Cash or Bank Account' was not specified,注意：未指定“现金或银行科目”，无法创建收付款凭证
 Note: Item {0} entered multiple times,注意：物料{0}已多次输入
 Note: System will not check over-delivery and over-booking for Item {0} as quantity or amount is 0,注意：系统将不会为物料{0}检查超额发货或超额预订，因为其数量或金额为0
 Note: Email will not be sent to disabled users,注意：邮件不会发送给已禁用用户
@@ -8704,7 +8703,7 @@ Item operation,物料工序
 Cannot be a fixed asset item as Stock Ledger is created.,物料已有物料移动记录后不能再将其设置为固定资产。
 Item Serial No,物料序列号
 Item Locations,物料库存位置
-Item must be added using 'Get Items from Purchase Receipts' button,物料必须要由“从采购入库获取物料”添加
+Item must be added using 'Get Items from Purchase Receipts' button,物料必须要由“从采购入库选物料”添加
 Item valuation rate is recalculated considering landed cost voucher amount,物料成本价将基于到岸成本凭证金额重新计算
 Batch Item Expiry Status,物料批号到期状态
 Batch-Wise Balance History,物料批号结余数量历史记录
@@ -8758,7 +8757,7 @@ Duplicate entry against the item code {0} and manufacturer {1},物料编号{0}�
 Item Code cannot be changed for Serial No.,物料编号不能因序列号改变
 Item Naming By,物料编号字段
 Item Code is mandatory because Item is not automatically numbered,物料编号是必须项，因为物料没有自动编号
-Material Consumption,物料消耗
+Material Consumption,物料耗用
 Item Variant Attribute,物料规格属性
 Item Quality Inspection Parameter,物料质量检验参数
 Items Filter,物料过滤
@@ -8773,7 +8772,7 @@ Material Requests,物料申请
 Material Requests {0} created,物料申请{0}已创建
 Material Request {0} is cancelled or stopped,物料申请{0}已取消或已停止
 Material Request {0} submitted.,物料申请{0}已提交。
-The total Issue / Transfer quantity {0} in Material Request {1}  \							cannot be greater than requested quantity {2} for Item {3},物料申请{1}中的物料{3}其总发料/转仓数量{0}不能超过需求数量{2}
+The total Issue / Transfer quantity {0} in Material Request {1}  \							cannot be greater than requested quantity {2} for Item {3},物料申请{1}中的物料{3}其总发料/调拨数量{0}不能超过需求数量{2}
 Material Request Plan Item,物料申请中的计划物料
 Material Request Detail,物料申请信息
 Material Request No,物料申请号
@@ -8885,7 +8884,7 @@ Lifecycle,生命周期
 Make ,生成
 Generate e-Way Bill JSON,生成e-Way Bill JSON
 Make {0} Variants,生成{0}个多规格物料
-Make Payment Entries,生成付款凭证
+Make Payment Entries,生成收付款凭证
 Make Chart,生成图表
 Generate Keys,生成密钥
 Build Report,生成报表
@@ -9807,12 +9806,12 @@ Edit Custom HTML,编辑自定义HTML
 Editing Row,编辑行
 Edit Description,编辑说明
 Edit Filter,编辑过滤条件
-Abbr,缩写
-Abbreviation,缩写
-Abbr can not be blank or space,缩写不能为空或空格
-Abbreviation cannot have more than 5 characters,缩写不能超过5个字符
-Abbreviation is mandatory,缩写字段必填
-Abbreviation already used for another company,缩写已用于另一家公司
+Abbr,简称
+Abbreviation,简称
+Abbr can not be blank or space,简称不能为空
+Abbreviation cannot have more than 5 characters,简称不能超过5个字符
+Abbreviation is mandatory,简称字段必填
+Abbreviation already used for another company,简称已用于另一家公司
 zoom-out,缩小
 resize-full,缩放至整页
 Thumbnail,缩略图
@@ -10123,8 +10122,8 @@ Medication,药物治疗
 Get from,选
 Get Invocies,获取Invocies
 Get Alerts for Today,获取今天的预警通知
-Get Payment Entries,选付款凭证
-Payment Entry has been modified after you pulled it. Please pull it again.,选择付款凭证后有修改，请重新选取。
+Get Payment Entries,选收付款凭证
+Payment Entry has been modified after you pulled it. Please pull it again.,选择收付款凭证后有修改，请重新选取。
 Get Suppliers,选供应商
 Get Entries,选凭证
 Get Invoices,选发票
@@ -10251,7 +10250,7 @@ Row #{0}: Not allowed to change Supplier as Purchase Order already exists,行＃
 Row #{0}: Timings conflicts with row {1},行＃{0}：与排时序冲突{1}
 Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,行＃{0}：手工凭证{1}没有科目{2}或已被另一凭证核销
 Row # {0}: Rate cannot be greater than the rate used in {1} {2},行＃{0}：单价不能大于{1} {2}中使用的单价
-Row #{0}: Rate must be same as {1}: {2} ({3} / {4}) ,行＃{0}：单价必须与{1}：{2}（{3} / {4}）相同
+Row #{0}: Rate must be same as {1}: {2} ({3} / {4}),行＃{0}：单价必须与{1}：{2}（{3} / {4}）相同
 Row #{0}: Reference Document Type must be one of Expense Claim or Journal Entry,行＃{0}：关联单据类型必须是费用报销或手工凭证之一
 "Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry",行＃{0}：关联单据类型必须是采购订单、采购发票或手工凭证
 Row #{0}: Status must be {1} for Invoice Discounting {2},行＃{0}：发票贴现的状态必须为{1} {2}
@@ -10450,7 +10449,7 @@ Unit of Measure (UOM),计量单位
 Batch UOM,计量单位
 Orders,订单
 Order/Quot %,订单/报价％
-"Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice.",订单{1}上已关联付款凭证{0}，是否将其作为本发票的预付款？
+"Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice.",订单{1}上已关联收付款凭证{0}，是否将其作为本发票的预付款？
 Order Value,订单价值
 Order Information,订单信息
 Fulfillment,订单履行
@@ -10747,7 +10746,7 @@ Please identify/create Account (Group) for type - {0},请为类型{0}标识/创�
 Valid from and valid upto fields are mandatory for the cumulative,请为累积类型维护相关的生效和失效日期
 Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges,请为销售税和费明细第{0}行输入免税原因
 Please setup default Email Account from Setup &gt; Email &gt; Email Account,请从设置&gt;电子邮件&gt;电子邮箱帐号设置默认电子邮箱
-Please pull items from Delivery Note,请从销售出库获取物料
+Please pull items from Delivery Note,请从销售出库获选物料
 Please login as another user to register on Marketplace,请以另一个用户身份登录以在Marketplace上注册
 Please supply the specified items at the best possible rates,请以最优惠的价格供应所需物料
 Please set recurring after saving,请保存后设置自动重复参数
@@ -11429,7 +11428,7 @@ Fleet Management,车队管理
 Fleet Manager,车队经理
 Rail,轨
 Referring Practitioner,转介医生
-Transferred,已转仓
+Transferred,已调拨
 The fields From Shareholder and To Shareholder cannot be blank,转出股东和转入股东字段不能为空
 The field From Shareholder cannot be blank,转出股东的字段不能为空
 Go to {0},转到{0}
@@ -11450,14 +11449,14 @@ Convert to non-Group,转换为非组
 Conversion Rate,转换率
 Conversion Factor,转换系数
 retweet,转推
-Transfer,转仓
-Transfered,已转仓
+Transfer,调拨
+Transfered,已调拨
 Material Transferred for Subcontract,已委外调拨物料
-Qty to Transfer,转仓数量
-Transfer Qty,转仓数量
-Transferred Quantity,转仓数量
-Transfer Material Against,转仓基于
-Transfer Material Against Job Card,物料转仓至工票
+Qty to Transfer,调拨数量
+Transfer Qty,调拨数量
+Transferred Quantity,调拨数量
+Transfer Material Against,生产调拨方式
+Transfer Material Against Job Card,按工票生产调拨
 Transfer Type,转移类型
 Transfer Asset,转移资产
 Waitlisted,轮候
@@ -11779,7 +11778,7 @@ Select Status,选择状态
 Select an existing format to edit or start a new format.,选择现有或创建一个新格式。
 Select Users,选择用户
 Select Document Types to set which User Permissions are used to limit access.,选择用户权限针对的单据类型。
-Choose a corresponding payment,选择相应的付款凭证
+Choose a corresponding payment,选择相应的收付款凭证
 Select Loyalty Program,选择积分方案
 Select Type...,选择类型...
 Select atleast 2 actions,选择至少2个操作
@@ -12170,7 +12169,7 @@ Bank Reconciliation,银行对帐
 Bank Reconciliation Detail,银行对帐信息
 Bank Reconciliation Statement,银行对帐单
 Bank Statement,银行对帐单
-Bank Statement Transaction Payment Item,银行对发票交易付款凭证
+Bank Statement Transaction Payment Item,银行对发票交易收付款凭证
 Bank Statement Transaction Entry,银行对发票交易凭证
 Bank Statement Transaction Invoice Item,银行对发票交易发票项目
 Bank Statement Transaction Settings Item,银行对发票交易设置项
@@ -12313,7 +12312,7 @@ Sales Order {0} is not valid,销售订单{0}无效
 Sales Order {0} is not submitted,销售订单{0}未提交
 "Sales Order {0} has reservation for item {1}, you can		only deliver reserved {1} against {0}. Serial No {2} cannot		be delivered",销售订单{0}预留了物料{1}，出货时只能使用为该销售订单预留的库存。序列号{2}无法在该销售订单出货
 Material Request of maximum {0} can be made for Item {1} against Sales Order {2},销售订单{2}中物料{1}的最大物流申请量为{0}
-Sales orders are not available for production,销售订单不可用于生产
+Sales orders are not available for production,无待生产的销售订单
 Bypass credit check at Sales Order ,销售订单不检查信用额度
 Bypass credit limit check at Sales Order,销售订单不检查信用额度
 Bypass Credit Limit Check at Sales Order,销售订单不检查信用额度
@@ -12978,7 +12977,7 @@ Qty to Bill,未开票数量
 Received Qty Amount,收货金额
 Group by Purchase Order,按采购订单分组
 Set Reserve Warehouse,设置预留仓
-Fetch Items from Warehouse,从仓库获取物料
+Fetch Items from Warehouse,从仓库选物料
 Inter Company Reference,关联公司参考订单号
 Preview Chart,预览
 Y Axis,Y轴字段
@@ -13059,11 +13058,11 @@ To date needs to be before from date,结束日应晚于开始日
 To configure Auto Repeat, enable ""Allow Auto Repeat"" from {0}.,要配置自动重复，请为单据类型{0}启用""允许自动重复""
 Click On Customize to add your first widget,点击定制按钮开始定制
 Account is not set for the dashboard chart {0},尚未为统计图表{0}设置科目
-Account is mandatory to get payment entries,请输入科目以获取付款凭证
+Account is mandatory to get payment entries,请输入科目以获取收付款凭证
 Account {0} does not belong to company {1},公司{1}科目表中未定义科目{0}
 Account {0} does not exists in the dashboard chart {1},统计图表{1}中未包含科目{0}
 Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry,<b>{0}</b>是在途资本科目，不能通过手工凭证更新
-Account: {0} is not permitted under Payment Entry,付款凭证中不能使用科目{0} 
+Account: {0} is not permitted under Payment Entry,收付款凭证中不能使用科目{0} 
 Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}.,请为资产科目{1}输入会计维度<b>{0}</b>
 Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}.,请为损益科目{1}输入会计维度<b>{0}</b>
 Accounting Dimension Detail,会计维度信息
@@ -13880,9 +13879,9 @@ Show Percentage Stats,显示统计百分比
 Time (In Mins),时间(分)
 Downtime (In Hours),停机时间(小时)
 Download Required Materials,下载需要的物料
-Transfer Materials For Warehouse {0},转仓至仓库 {0}
+Transfer Materials For Warehouse {0},调拨至仓库 {0}
 Source Warehouses (Optional),转出仓(可选)
-"System will pickup the materials from the selected warehouses. If not specified, system will create material request for purchase.",系统将从指定的转出仓获取物料，如不指定转出仓，系统就创建类型为采购的物料申请
+"System will pickup the materials from the selected warehouses. If not specified, system will create material request for purchase.",系统将从指定的转出仓选物料，如不指定转出仓，系统就创建类型为采购的物料申请
 Row #{0}: Selling rate for item {1} is lower than its {2}. Selling rate should be atleast {3},第 {0} 行: 物料 {1} 的售价低于其 {2}， 售价至少应该是 {3}
 Desk Card,桌面数字卡
 Desk Chart,桌面统计图表
@@ -14128,7 +14127,7 @@ Successfully updated {0} records.,成功导入了{0}笔资料
 "Import File Errors and Warnings",导入文件错误与警告信息
 The following values do not exist for {}: {},下列值不存在：{}: {}
 Report Error,出错提示
-Consumed Items,物料消耗
+Consumed Items,已耗用物料
 Removed items with no change in quantity or value.,已移除数量或金额没有任何变化的物料行
 Selected Serial Numbers,已选序列号
 Fetch Serial Numbers based on FIFO,基于先进先出获取序号
@@ -14249,7 +14248,7 @@ Automatically Add Filtered Item To Cart,自动添加过滤出的物料到购物�
 Allow User to Edit Rate,允许用户修改单价
 Allow User to Edit Discount,允许用户修改折扣
 Plan time logs outside Workstation working hours,允许工作站非工作时间登记工时
-Allow multiple material consumptions against a Work Order,允许工单多次消耗物料,
+Allow multiple material consumptions against a Work Order,允许工单多次耗用物料,
 Transactions against the Company already exist! Chart of Accounts can only be imported for a Company with no transactions.,该公司已有业务交易，科目表导入仅限尚无业务交易的公司代码
 Awaiting Response,正在等待回复,
 Response Details,回复详情,
@@ -14483,7 +14482,7 @@ Bottom Right,底部右侧
 Mid Center,正中
 {0} {1}: Account {2} is a Group Account and group accounts cannot be used in transactions,{0} {1}:  {2} 是组类型科目，不能用于业务交易中
 Considered In Paid Amount,含在付款金额中
-"If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry",如勾选，付款凭证中付款金额就含税
+"If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry",如勾选，收付款凭证中付款金额就含税
 Minimum Net Rate,最低净单价
 Maximum Net Rate,最高净单价
 Bank Account Name,银行户头
@@ -14543,3 +14542,15 @@ HH:mm,时:分
 HH:mm:ss,时:分:秒
 Reference Exchange Rate,参考汇率
 Taxes and Charges Template,税/费模板
+Return Issued,被退货
+Incorrect Serial No Qty and Valuation,序列号数量与成本价错误报表
+Production Plan Sub-assembly Item,子装配件
+Serial Nos,序列号
+Get Finished Goods for Manufacture,获取待生产成品物料
+Sub Assembly Item Code,子装配件物料号
+Level (BOM),物料清单层级
+Backflush Raw Materials From Work-in-Progress Warehouse,从在制品仓耗用原材料,
+Supplier Lead Time (days),供应商交期（天）,
+Distribute Manually,手工分配
+Repair and Maintenance Account,维修科目
+Fixed Asset Defaults,固定资产默认值

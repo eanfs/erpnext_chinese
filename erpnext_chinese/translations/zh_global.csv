@@ -489,7 +489,7 @@ Editing Row,编辑行
 Submit this document to confirm,点提交按钮进行确认
 Select {0},选择{0}
 Make {0},新建{0}
-Get Items,获取物料
+Get Items,选物料
 Purchase Receipts,采购收货
 changed value of {0},变更了{0}
 changed values for {0},变更了{0}
@@ -1000,3 +1000,4 @@ Sat,周六
 Thu,周四
 Sun,周日
 No filters selected ,未选择过渡条件
+Rules,规则
