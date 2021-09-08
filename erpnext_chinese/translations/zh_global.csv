@@ -364,7 +364,7 @@ Not Equals,不等于
 Like,包含
 Not Like,不包含
 In,包括
-in,不包括
+in,包括
 Not In,不包括,
 not in,不包括,
 Is,是

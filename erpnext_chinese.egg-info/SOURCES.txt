@@ -29,6 +29,7 @@ erpnext_chinese/fixtures/property_setter.json
 erpnext_chinese/localize/__init__.py
 erpnext_chinese/localize/coa_cn.csv
 erpnext_chinese/localize/default_accounts.csv
+erpnext_chinese/localize/field_property copy.csv
 erpnext_chinese/localize/field_property.csv
 erpnext_chinese/localize/localize.py
 erpnext_chinese/localize/queries.py
@@ -57,6 +58,7 @@ erpnext_chinese/public/js/form/link_selector.js
 erpnext_chinese/public/js/form/controls/date_range.js
 erpnext_chinese/public/js/form/controls/dynamic_link.js
 erpnext_chinese/public/js/form/controls/link.js
+erpnext_chinese/public/js/form/controls/select.js
 erpnext_chinese/public/js/form/controls/table.js
 erpnext_chinese/public/js/hooks/doctype/user.js
 erpnext_chinese/public/js/hooks/page/permission_manager.js
@@ -79,4 +81,3 @@ erpnext_chinese/templates/pages/__init__.py
 erpnext_chinese/templates/pages/__pycache__/__init__.py
 erpnext_chinese/translations/zh.csv
 erpnext_chinese/translations/zh_global.csv
-erpnext_chinese/translations/zh_global_bak.csv

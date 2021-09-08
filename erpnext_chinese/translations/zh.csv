@@ -2579,7 +2579,7 @@ Delivery Document Type,出货单类型
 Delivery Date,出货日期
 Delivery Time,出货时间
 Lead Time Date,出货时间日期
-Outgoing,付款
+Outgoing,Outgoing
 Cost of Delivered Items,出货物料成本
 Shipping Rule Country,出货规则国家
 Delivery Settings,出货设置
@@ -3354,7 +3354,7 @@ Invoiced Amount,发票金额
 Total Invoiced Amount,发票金额
 Invoiced Amount (Exclusive Tax),发票金额（不含税）
 Sent To,发给
-Material to Supplier,发给供应商的物料
+Material to Supplier,委外原材料
 "Newsletters to contacts, leads.",发给联系人和线索的群发邮件
 Deduct Full Tax on Selected Payroll Date,发薪日扣税
 Issued,已发料
@@ -7796,7 +7796,7 @@ Barcode,条码
 Barcode {0} is not a valid {1} code,条码{0}不是有效的{1}代码
 Barcode {0} already used in Item {1},条码{0}已被物料{1}使用
 Barcode Type,条码类型
-Incoming,收款
+Incoming,Incoming
 Source,来源
 Source Name,来源名称
 Source Type,来源类型
@@ -11604,7 +11604,7 @@ Progress,进展
 % Progress,进度%
 Progress Details,进度信息
 Frequency To Collect Progress,进度采集频率
-In Process,进行中
+In Process,In Process
 In Progress,进行中
 Make Repayment Entry,进行还款分录
 Remote,远程
@@ -14287,8 +14287,8 @@ Base Amount,基准金额
 To be Delivered to Customer,待出货给客户
 Billing Address Details,发票地址详情
 Company Billing Address,公司发票地址
-Company Shipping Address,公司出货地址
-Shipping Address Details,出货地址详情
+Company Shipping Address,公司收货地址
+Shipping Address Details,收货地址详情
 Supplier Address Details,供应商地址详情
 Supplier Contact,供应商联系人
 Putaway Rule,上架规则
@@ -14461,7 +14461,7 @@ Update Settings,更新设置
 Role Allowed to Override Stop Action,可忽略预算设置的停止控制的角色
 Bill for Rejected Quantity in Purchase Invoice,采购发票含拒收数量
 "If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt.",如勾选，从采购收货创建采购发票时包含拒收数量
-Add Corrective Operation Cost in Finished Good Valuation,成品入库成本价中增加修正后的工序成本
+Add Corrective Operation Cost in Finished Good Valuation,入库成品成本价含返工工序成本
 Make Serial No / Batch from Work Order,从工单生成序列号/批号
 System will automatically create the serial numbers / batch for the Finished Good on submission of work order,在工单提交时系统自动生成序列号/批号
 Clear Cache,清除缓存
@@ -14535,6 +14535,7 @@ Serial No and Batch for Finished Good,成品序列号与批号
 Corrective Operation Cost,返工费用
 From Corrective Job Card,取自返工工票
 Corrective Job Card,返工工票
+Is Corrective Job Card,是返工工票
 ERPNext Chinese,ERPNext本地化
 Min Pack Qty,最小包装量
 Item {0} Qty {1} changed to {2} due to min pack qty {3},基于物料{0}最小包装量{3}定义，系统自动将数量由{1}变更为{2}
@@ -14554,3 +14555,22 @@ Supplier Lead Time (days),供应商交期（天）,
 Distribute Manually,手工分配
 Repair and Maintenance Account,维修科目
 Fixed Asset Defaults,固定资产默认值
+Enable Common Party Accounting,启用既是供应商又是客户合并记账功能
+Enable Discount Accounting,启用折扣科目单独记账功能
+"If enabled, additional ledger entries will be made for discounts in a separate Discount Account",如果勾选，生成的会计凭证中包含折扣科目
+Over Transfer Allowance,超量调拨百分比
+"The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",允许超工单需求量原材料调拨的百分比。如，需求数量100个，容差10％，则最多可调拨110个,
+Review Stock Settings,审核库存模块设置
+Setup a Warehouse,设置仓库
+Manage Stock Movements,管理物料移动
+Update Stock Opening Balance,更新初始库存
+Check Stock Projected Qty,查看预期可用库存
+let's create a opening stock entry,创建期初库存
+Create a Material Transfer Entry,创建物料调拨
+let's create your first warehouse,创建仓库
+Take a walk through Stock Settings,检查库存设置
+Is Corrective Operation,返工工序
+Sub Operations,子工序
+Total Operation Time,总工序时间
+Time in mins.,分
+Operation Section,工序信息

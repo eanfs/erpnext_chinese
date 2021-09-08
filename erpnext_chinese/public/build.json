@@ -6,6 +6,7 @@
 		"public/js/ui/search_utils.js",
 		"public/js/view/calendar.js",
 		"public/js/form/controls/link.js",
+		"public/js/form/controls/select.js",
 		"public/js/form/controls/date_range.js",
 		"public/js/form/controls/dynamic_link.js",
 		"public/js/form/controls/table.js",

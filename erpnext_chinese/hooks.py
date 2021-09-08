@@ -97,7 +97,7 @@ doctype_js = {
 }
 
 setup_wizard_requires = "assets/erpnext_chinese/js/setup_wizard.js"
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+#doctype_list_js = {"Quality Inspection" : "public/js/quality_inspection_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 

@@ -8,7 +8,7 @@ def get_user_translations(lang):
     if not frappe.db:
         frappe.connect()
     out = frappe.cache().hget('lang_user_translations', lang)
-    if out is None:
+    if not out:
         user_translation = old_get_user_translations(lang)
         if lang == 'zh' and frappe.translate.get_user_lang() == "zh":
             app = 'erpnext_chinese'
