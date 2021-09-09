@@ -5012,9 +5012,10 @@ Types of activities for Time Logs,工时记录作业类型
 Duration (Days),工期(天）
 For Job Card,工票
 Job Card,工票
-Job Card Time Log,工票日志
+Job Card Time Log,工票工时记录
 "Start date and end date is overlapping with the job card <a href=""#Form/Job Card/{0}"">{1}</a>","工票的开始和结束日期<a href=""#Form/Job Card/{0}"">{1}</a>重叠"
-Job Card Item,工票项
+Job Card Item,工票物料
+Job Card Operation,工票工序
 Job Card For Operations,工票（工序管理）
 Engineer,工程师
 Workstation,工站
@@ -8875,7 +8876,7 @@ Production Analytics,生产统计分析
 Production Plan,生产计划
 Production Plan Material Request,生产计划物料申请
 Production Plan Sales Order,生产计划销售订单
-Production Plan Item,生产计划项
+Production Plan Item,生产计划物料
 Production Order has been {0},生产订单已经{0}
 Manufacturing Settings,生产设置
 Reserved Qty for Production,生产预留数量
@@ -14574,3 +14575,27 @@ Sub Operations,子工序
 Total Operation Time,总工序时间
 Time in mins.,分
 Operation Section,工序信息
+User Document Type,用户单据类型
+User Type Module,用户类型模块
+User Select Document Type,用户选择单据类型
+User Group Member,用户组成员
+User Group,用户组
+Workspace Chart,工作区图表
+Workspace Shortcut,工作区捷径
+Workspace Link,工作区链接
+DocType Layout,单据类型屏幕布局
+Custom DocPerm,自定义单据权限
+Query Parameters,质量检验参数
+Quality Inspection Parameter Group,质量检验参数组
+Shipment Parcel Template,货运包裹模板
+Email Digest Recipient,电子邮件摘要收件人
+Table Fieldname,表字段名
+Parent DocType,父单据类型
+Transaction Deletion Record Item,业务交易删除记录明细
+Supplier Item,供应商物料
+Supplier Group Item,供应商组物料
+Sub Operation ,子工序
+Sales Partner Item,销售业务伙伴物料
+Query Parameters,查询参数
+Production Plan Item Reference,生产计划物料参考
+Production Plan Sub Assembly Item,生产计划子装配件
