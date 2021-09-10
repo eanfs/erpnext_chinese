@@ -1625,7 +1625,7 @@ Payment Terms Template,付款条款模板
 Payment Terms Template Detail,付款条款模板信息
 Payment Reconciliation,付款核销
 Payment Confirmation,付款确认
-Account Paid From,付款科目
+Account Paid From,贷方科目
 Payment Type,付款类型
 Type of Payment,付款类型
 Payment Plan,付款计划
@@ -4167,8 +4167,8 @@ Base,底薪
 Basic Component,基本组件
 Base URL,基本网址
 Basic Amount,基准金额
-Base Amount (Company Currency),底薪（本币）
-Basic Amount (Company Currency),底薪（本币）
+Base Amount (Company Currency),发票金额（本币）
+Basic Amount (Company Currency),发票金额（本币）
 Base DocType,基础单据类型
 Utility Expenses,基础设施费用
 Cess,塞斯
@@ -6703,7 +6703,7 @@ Payment Request for {0},收款申请{0}
 To create a Payment Request reference document is required,收款申请中关联单据信息必填
 Payment Request already exists {0},收款申请已经存在{0}
 Payment Request Type,收款申请类型
-Account Paid To,收款科目
+Account Paid To,借方科目
 Gain/Loss,收益/损失
 Set Accepted Warehouse,收货仓库
 Receipt document must be submitted,收货单据(单据)必须先提交
@@ -12833,8 +12833,8 @@ Default Item Group,默认物料组
 Default Material Request Type,默认物料申请类型
 Default Cash Account,默认现金科目
 Default Shift,默认班次
-Default BOM,默认的BOM
-Default Payment Request Message,默认的收款申请消息
+Default BOM,默认物料清单
+Default Payment Request Message,默认收款申请消息
 Default Account,默认科目
 Default Tax Template,默认税费模板
 Default Taxes and Charges,默认税费
@@ -13968,7 +13968,7 @@ Introduction to Website,网站介绍
 Explore Manufacturing Settings,生产模块设置
 Introduction to Stock Entry,物料移动介绍
 Create Leave Type,新增休假类型
-HR Settings,人力资源模块设置
+HR Settings,人力资源设置
 Create a Purchase Receipt,新增采购入库
 Create a Work Order,新增工单
 Create a BOM (Bill of Material),新增物料清单
@@ -13981,7 +13981,7 @@ Create a Material Request,新增物料申请
 Explore Stock Settings,设置库存模块
 Create a Stock Entry,新增一笔物料移动
 "Create Your First Purchase Invoice ",新增第一张采购发票
-Manufacturing Settings,生产模块设置
+Manufacturing Settings,生产设置
 Configure Account Settings,设置会计模块
 "Create Your First Sales Invoice ",新增第一张销售发票
 Review Chart Of Accounts,检查科目表
@@ -14587,6 +14587,7 @@ DocType Layout,单据类型屏幕布局
 Custom DocPerm,自定义单据权限
 Query Parameters,质量检验参数
 Quality Inspection Parameter Group,质量检验参数组
+Parameter Group,参数组
 Shipment Parcel Template,货运包裹模板
 Email Digest Recipient,电子邮件摘要收件人
 Table Fieldname,表字段名
@@ -14599,3 +14600,28 @@ Sales Partner Item,销售业务伙伴物料
 Query Parameters,查询参数
 Production Plan Item Reference,生产计划物料参考
 Production Plan Sub Assembly Item,生产计划子装配件
+Dispatch Address Name,发货地址名称
+Dispatch Address,发货地址
+Is Process Loss,是制程损耗
+Process Loss Qty,制程损耗数量
+Returned Qty in Stock UOM,退货数量(库存单位)
+Qty to Be Consumed,待耗用数量
+Available Qty For Consumption,可耗用数量
+Qty of Finished Goods Item should be greater than 0.,成品数量须大于0
+Pick List Item,拣货单物料,
+Discount Account,折扣科目
+Default Discount Account,默认折扣科目
+Additional Discount Account,额外折扣科目
+Supplier Primary Address,首选地址
+Supplier Primary Contact,首选联系人
+From Opportunity,商机
+Incoming Rate (Costing),成本价
+Advance Tax Account,预付税科目
+Add Or Deduct,增加或抵扣
+Allocated Amount (Company Currency),已分配金额(本币)
+Integrations Settings,系统集成设置
+Consolidate Items,合并物料
+description,描述
+Completed Time,完成时间
+For Operation,工序
+Is Billable,可计费(开发票),
