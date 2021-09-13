@@ -981,6 +981,44 @@ ERPNext使用税模费板定义计税规则， 税模板可用于销售订单与
 `> 会计 > 税 > 销售税费模板`
 
 更多税费模板内容请参见文档 [这儿](https://docs.erpnext.com/docs/user/manual/en/selling/sales-taxes-and-charges-template)"
+"# Review Stock Settings
+
+In ERPNext, the Stock module’s features are configurable as per your business needs. Stock Settings is the place where you can set your preferences for:
+- Default values for Item and Pricing
+- Default valuation method for inventory valuation
+- Set preference for serialization and batching of item
+- Set tolerance for over-receipt and delivery of items","# 检查库存设置
+
+库存模块功能可基于业务需求进行设置，典型的可设置项如下
+- 物料与价格控制默认值
+- 默认库存(成本价)计价方式
+- 物料批号与序列号规则
+- 超量入、出库容差
+"
+"# Setup a Warehouse
+The warehouse can be your location/godown/store where you maintain the item's inventory, and receive/deliver them to various parties.
+
+In ERPNext, you can maintain a Warehouse in the tree structure, so that location and sub-location of an item can be tracked. Also, you can link a Warehouse to a specific Accounting ledger, where the real-time stock value of that warehouse’s item will be reflected.","# 设置仓库
+仓库是存放及收、发物料的地方
+
+仓库是一种树形结构，即可以定义仓库的下层节点，可以为仓库定义相关的库存科目，该仓库的物料移动就会自动记账到对应的存货科目"
+"# Manage Stock Movements
+Stock entry allows you to register the movement of stock for various purposes like transfer, received, issues, repacked, etc. To address issues related to theft and pilferages,  you can always ensure that the movement of goods happens against a document reference Stock Entry in ERPNext.
+
+Let’s get a quick walk-through on the various scenarios covered in Stock Entry by watching [*this video*](https://www.youtube.com/watch?v=Njt107hlY3I).","# 管理物料移动
+物料移动用来记录各种类型的物料异动，如调拨、入库、出库、重新包装等，为更好地控制库存被偷盗或其它原因的灭失，可以设置所有出库均需关联原始业务单据。
+更多细节，请观看 [*此视频教程*](https://www.youtube.com/watch?v=Njt107hlY3I)."
+"# Update Stock Opening Balance
+It’s an entry to update the stock balance of an item, in a warehouse, on a date and time you are going live on ERPNext.
+
+Once opening stocks are updated, you can create transactions like manufacturing and stock deliveries, where this opening stock will be consumed.","# 更新初始库存
+库存调账用于将上线时间点库存盘点结果导入新系统
+
+初始库存导入(更新)后，即可进行各种消耗库存的业务操作，如生产调拨、销售出库等"
+"# Check Stock Reports
+Based on the various stock transactions, you can get a host of one-click Stock Reports in ERPNext like Stock Ledger, Stock Balance, Projected Quantity, and Ageing analysis.","
+# 查看库存报表
+在系统中产生了各种库存业务(物料移动)记录后，即可查看各种库存报表，如物料凭证(库存移动明细)，库存余额(收发存汇总表),又称实时库存，库龄，预期可用库存等"
 Build,后台组件
 Make a Sales Tax Template,新建一个税费模板
 Assign a user,分派一个用户
@@ -1001,3 +1039,7 @@ Thu,周四
 Sun,周日
 No filters selected ,未选择过渡条件
 Rules,规则
+Create a Material Transfer Entry,创建一笔物料移动
+"Let’s create a stock opening entry",创建库存调账-期初库存
+"Let’s create your first  warehouse ",创建第一个仓库
+"Take a walk through Stock Settings",查看库存设置

@@ -1876,7 +1876,7 @@ The folio numbers are not matching,作品集编号不匹配
 Disable Report,禁用报表
 Disable,禁用
 Disabled,禁用
-Working Hours,作息时间
+Working Hours,工作时间
 Crop,作物
 Crop Name,作物名称
 Crop Cycle,作物周期
@@ -2806,7 +2806,7 @@ Create New,新建
 Make a new {0},新建 {0}
 New {0} pricing rules are created,创建新{0}动态规则
 Create New Payment/Journal Entry,创建新的付款/手工凭证
-Create New Employee Id,创建新的员工ID
+Create New Employee Id,创建新的员工号
 Start new Format,创建新的打印格式
 Make New Contact,创建新联系人
 Add A New Rule,创建新规则
@@ -3448,7 +3448,7 @@ Variables,变量
 Variable Name,变量名
 Gujarat,古吉拉特邦
 Another transaction is blocking this one. Please try again in a few seconds.,另一个交易正在进行中。请稍后再试。
-Another Sales Person {0} exists with the same Employee id,另外销售人员{0}存在具有相同员工ID
+Another Sales Person {0} exists with the same Employee id,另外销售人员{0}存在具有相同员工号
 Save As,另存为
 Only standard DocTypes are allowed to be customized from Customize Form.,只允许从“定制表单”定制标准DocType。
 Only Administrator is allowed to use Recorder,只允许管理员使用记录器
@@ -3661,7 +3661,7 @@ For Employee,员工
 From Employee,员工
 Training Event Employee,员工
 Training Result Employee,员工
-Employee ID,员工ID
+Employee ID,员工号
 Employee {0} is on Leave on {1},员工{0} {1}在休假中
 Employee {0} on Half day on {1},员工{0}上半天{1}
 Attendance for employee {0} is already marked for this day,员工{0}在这一天已有考勤记录
@@ -4434,7 +4434,7 @@ Last Name,姓
 Person Name,姓名
 First Name,姓名
 Name cannot contain special characters like {0},姓名不能包含特殊字符，如{0}
-Name and Employee ID,姓名和员工ID
+Name and Employee ID,姓名和员工号
 Name or Email is mandatory,姓名或电子邮件信息必填
 Entertainment & Leisure,娱乐休闲
 Entertainment Expenses,娱乐费用
@@ -6851,7 +6851,7 @@ New Leaves Allocated (In Days),新分配的假期(天数)
 New Invoice,新发票
 New Name,新名称
 New Employee,新员工
-New Employee ID,新员工ID
+New Employee ID,新员工号
 New Address,新地址
 New Location,新地点
 Add Item,新增
@@ -14624,4 +14624,5 @@ Consolidate Items,合并物料
 description,描述
 Completed Time,完成时间
 For Operation,工序
-Is Billable,可计费(开发票),
+Is Billable,可开票,
+Completed On,完成日期
