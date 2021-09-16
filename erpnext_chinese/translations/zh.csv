@@ -944,7 +944,7 @@ The 'From Package No.' field must neither be empty nor it's value less than 1.,�
 Default for 'Check' type of field must be either '0' or '1',“勾选”字段类型的默认值必须是'0'或'1'
 """Team Members"" or ""Management""",“团队成员”或“管理”
 'Actual Start Date' can not be greater than 'Actual End Date',“实际开始日期”不能大于“实际结束日期'
-"""Customer Provided Item"" cannot be Purchase Item also",“受托加工材料”也不能设置为允许采购
+"""Customer Provided Item"" cannot be Purchase Item also",“受托加工材料”不能设置为允许采购
 """Customer Provided Item"" cannot have Valuation Rate",“受托加工材料”不允许有成本价
 'From Date' must be after 'To Date',“开始日期”必须早于'终止日期'
 'From Date' is required,“开始日期”是必需的
