@@ -14572,6 +14572,7 @@ let's create your first warehouse,创建仓库
 Take a walk through Stock Settings,检查库存设置
 Is Corrective Operation,返工工序
 Sub Operations,子工序
+Sub Operation,子工序
 Total Operation Time,总工序时间
 Time in mins.,分
 Operation Section,工序信息
@@ -14584,6 +14585,7 @@ Workspace Chart,工作区图表
 Workspace Shortcut,工作区捷径
 Workspace Link,工作区链接
 DocType Layout,单据类型屏幕布局
+DocType Layout Field,单据类型屏幕布局字段
 Custom DocPerm,自定义单据权限
 Query Parameters,质量检验参数
 Quality Inspection Parameter Group,质量检验参数组
@@ -14595,6 +14597,7 @@ Parent DocType,父单据类型
 Transaction Deletion Record Item,业务交易删除记录明细
 Supplier Item,供应商物料
 Supplier Group Item,供应商组物料
+Customer Group Item,客户组物料
 Sub Operation ,子工序
 Sales Partner Item,销售业务伙伴物料
 Query Parameters,查询参数
@@ -14626,3 +14629,25 @@ Completed Time,完成时间
 For Operation,工序
 Is Billable,可开票,
 Completed On,完成日期
+Customer Defaults,客户默认值
+CRM Settings,客户关系管理设置
+Item Price Settings,物料价格设置
+Transaction Settings,业务交易设置
+Calculate Product Bundle Price based on Child Items' Rates,基于套件包含的物料价格计算套件价格
+Publish in Website,发布到网站
+Job Card Scrap Item,工票报废物料
+Website Item,网站物料
+Allowed Dimension,允许维度
+Party Link,业务伙伴关联
+Primary Role,首选角色
+Secondary Role,次要角色
+Primary Party,首选业务伙伴代码
+Secondary Party,次要业务伙伴代码
+Make Material Request for Warehouse,物料申请仓
+"To make material requests, 'Make Material Request for Warehouse' field is mandatory",
+Plan to Request Qty,计划数量
+Qty As Per BOM,物料清单折算数量
+From Delivery Date,交货日自
+To Delivery Date,交货日止
+Set Operating Cost Based On BOM Quantity,基于物料清单数量设置工序成本
+Operation Time ,工序时间,

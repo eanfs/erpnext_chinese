@@ -49,6 +49,7 @@ erpnext_chinese/monkey_patches/translate.py
 erpnext_chinese/monkey_patches/utils.py
 erpnext_chinese/public/build.json
 erpnext_chinese/public/js/erpnext_chinese.js
+erpnext_chinese/public/js/quality_inspection_list.js
 erpnext_chinese/public/js/setup_wizard.js
 erpnext_chinese/public/js/translation.js
 erpnext_chinese/public/js/controllers/stock_controller.js
