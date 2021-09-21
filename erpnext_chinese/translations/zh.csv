@@ -3305,6 +3305,7 @@ Issued Items Against Work Order,发到工单的物料
 Raw Materials Supplied,发委外原材料给供应商？
 A user who posts blogs.,发布博客的用户。
 Publish on website,发布在网站上
+Published in Website,发布在网站上
 Publish Date,发布日期
 Published On,发布日期
 Publish Item to hub.erpnext.com,发布物料到网站hub.erpnext.com
@@ -8762,11 +8763,11 @@ Material Consumption,物料耗用
 Item Variant Attribute,物料规格属性
 Item Quality Inspection Parameter,物料质量检验参数
 Items Filter,物料过滤
-Item-wise Purchase History,物料采购历史
+Item-wise Purchase History,物料采购明细
 Item-wise Purchase Register,物料采购台帐
 Item Reorder,物料重新排序
 Item Weight Details,物料重量
-Item-wise Sales History,物料销售历史
+Item-wise Sales History,物料销售明细
 Item-wise Sales Register,物料销售台帐
 Material Request,物料申请
 Material Requests,物料申请
@@ -10137,7 +10138,7 @@ Get Students,选学生
 Fetch exploded BOM (including sub-assemblies),选物料清单底层物料（括子装配件）
 Get Advances Paid,选已付预付款
 Get Advances Received,选已收预付款
-Get Current Stock,选当前库存
+Get Current Stock,刷新当前库存
 Get Outstanding Invoice,选未关闭订单或发票
 Fetch Data,获取数据
 Get Updates,获取更新
@@ -12972,7 +12973,7 @@ Machine operator errors,操作失误
 Machine malfunction,机器故障
 Electricity down,停电
 In Mins,分
-Purchase Order Analysis,采购订单分析
+Purchase Order Analysis,采购订单执行追踪表
 Billed Qty,已开票数量
 Qty to Bill,未开票数量
 Received Qty Amount,收货金额
@@ -14035,7 +14036,7 @@ In,包括,
 Not In,不包括,
 Like,含关键字
 Not Like,不含关键字
-Sales Order Analysis,销售订单分析
+Sales Order Analysis,销售订单执行追踪表
 Dismiss,忽略
 Skip,跳过
 Select Billing Address,发票地址

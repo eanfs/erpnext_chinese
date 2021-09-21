@@ -207,11 +207,11 @@ var MyListView = class MyListView extends frappe.views.ListView {
 // 	})
 // }
 
-frappe.untranslated = new Set()
-let mytranslation = function(txt, replace, context = null) {
-	let translated_text = frappe._(txt, replace, context = null);
-	if (txt === translated_text && ! frappe.untranslated.has(txt)) frappe.untranslated.add(txt)
-	return translated_text
-}
+// frappe.untranslated = new Set()
+// let mytranslation = function(txt, replace, context = null) {
+// 	let translated_text = frappe._(txt, replace, context = null);
+// 	if (txt === translated_text && ! frappe.untranslated.has(txt)) frappe.untranslated.add(txt)
+// 	return translated_text
+// }
 
-window.__ = mytranslation
+// window.__ = mytranslation

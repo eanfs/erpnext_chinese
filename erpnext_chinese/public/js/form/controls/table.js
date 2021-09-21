@@ -10,8 +10,6 @@ const MyControlTable = frappe.ui.form.ControlTable.extend({
 			const doctype = grid.doctype;
 			const row_docname = $(e.target).closest('.grid-row').data('name');
 			const in_grid_form = $(e.target).closest('.form-in-grid').length;
-			console.log('erpnext chinese grid copy')
-
 			let pasted_data = frappe.utils.get_clipboard_data(e);
 
 			if (!pasted_data || in_grid_form) return;
@@ -56,16 +54,14 @@ const MyControlTable = frappe.ui.form.ControlTable.extend({
 
 						const row_name = grid_rows[row_idx - 1].doc.name;
 						row.forEach((value, data_index) => {
-							if (fieldnames[data_index]) {
+							const fieldname =fieldnames[data_index];
+							if (fieldname) {
                                 //fisher 保存文本编辑器字段的回车换行
                                 if (value) {
-                                    const fieldtype = frappe.meta.get_field(doctype,fieldnames[data_index]).fieldtype;
-						            if (fieldtype && fieldtype ==='Text Editor') {
-                                        console.log('text editor field line break replaced');
-                                        value = value.replace(/[\n\r]/g,'<br>');
-                                    }    
+                                    const fieldtype = frappe.meta.get_field(doctype,fieldname).fieldtype;
+						            value = (fieldtype && fieldtype ==='Text Editor')? value.replace(/[\n\r]/g,'<br>') : value;
                                  };
-								frappe.model.set_value(doctype, row_name, fieldnames[data_index], value);
+								frappe.model.set_value(doctype, row_name, fieldname, value);
 							}
 						});
 						row_idx++;
