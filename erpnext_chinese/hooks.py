@@ -89,7 +89,8 @@ app_include_js = "/assets/js/erpnext_chinese.min.js"
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 page_js = {
-	"permission-manager": "public/js/hooks/page/permission_manager.js"
+	"permission-manager": "public/js/hooks/page/permission_manager.js",
+    "dashboard-view": "public/js/hooks/page/dashboard.js"
 }
 # include js in doctype views
 doctype_js = {

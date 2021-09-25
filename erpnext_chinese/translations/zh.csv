@@ -711,7 +711,7 @@ Assignment for {0} {1},{0} {1}的分派
 To {0} | {1} {2},{0} | {1} {2}
 {0} is not a valid Email Address,{0} 不是有效的邮箱地址
 {0} from {1} to {2},{0} 从 {1} 变更为 {2}
-{0} Dashboard,{0} 仪表板
+{0} Dashboard,{0} 数据面板
 {0} m,{0} 分
 {0}m,{0} 分
 {0} d,{0} 天
@@ -765,7 +765,7 @@ No records present in {0},{0}中没有记录
 {0} payment entries can not be filtered by {1},{0}收付款凭证不能由{1}过滤
 {0} criticized your work on {1} with {2} points,{0}以{2}分批评你在{1}上的工作
 {0} criticized your work on {1} with {2} point,{0}以{2}点批评了您在{1}上的工作
-{0} Dashboard,{0}仪表板
+{0} Dashboard,{0}数据面板
 {0} on Leave on {1},{0}休假日期{1}
 {0} to stop receiving emails of this type,{0}停止接收此类邮件
 Assignment closed by {0},{0}关闭了待办任务
@@ -893,7 +893,7 @@ Hotel Rooms of type {0} are unavailable on {1},{0}类型的酒店客房不适用
 "Schedules for {0} overlaps, do you want to proceed after skiping overlaped slots ?",{0}重叠的工时表，是否要在滑动重叠的插槽后继续？
 Reference No & Reference Date is required for {0},{0}需要参考编号与参考日期
 Illegal Document Status for {0},{0}非法单据状态
-{0}% Delivered,{0}％已出货
+{0}% Delivered,{0}％已出库
 {0}% Complete,{0}％已完成
 {0}% Billed,{0}％已开票
 {0} ({1}) cannot be greater than planned quantity ({2}) in Work Order {3},{0}（{1}）不能大于生产工单{3}中的计划数量（{2}）
@@ -1081,7 +1081,7 @@ Download template,下载模板文件
 Download Link,下载链接
 Insert Below,下面插入
 Skip Material Transfer,不从工单触发工单调拨
-Disable CWIP Accounting,不使用在途资本科目(采购收货）
+Disable CWIP Accounting,不使用在途资本科目(采购入库）
 Not Allowed,不允许
 Not permitted for {0},不允许{0}
 Not allowed for {0} = {1},不允许{0} = {1}
@@ -1469,7 +1469,7 @@ For Reference Only.,仅供参考。
 Maximum {0} rows allowed,仅允许最多{0}行
 Allow user to login only before this hour (0-24),仅允许用户在此时前登录（0-24时）
 Allow user to login only after this hour (0-24),仅允许用户在此时后登录（0-24时）
-Only Administrator is allowed to create Dashboard Chart Sources,仅允许管理员创建仪表板图表源
+Only Administrator is allowed to create Dashboard Chart Sources,仅允许管理员创建数据面板图表源
 Only users involved in the document are listed,仅列出单据中涉及的用户
 Only Leave Applications with status 'Approved' and 'Rejected' can be submitted,仅可以提交状态为“已批准”和“已拒绝”的休假申请
 Will only be shown if section headings are enabled,仅在启用节标题时显示
@@ -1555,7 +1555,7 @@ Stock balance in Batch {0} will become negative {1} for Item {2} at Warehouse {3
 Warehouse cannot be changed for Serial No.,仓库不能为序列号变更
 Stock quantity to start procedure is not available in the warehouse. Do you want to record a Stock Transfer,仓库中无可用库存数量。你想登记一笔物料移动吗？
 Set Warehouse,仓码
-Warehouse can only be changed via Stock Entry / Delivery Note / Purchase Receipt,仓库信息只能通过物料移动/销售出货/采购收货来修改
+Warehouse can only be changed via Stock Entry / Delivery Note / Purchase Receipt,仓库信息只能通过物料移动/销售出库/采购入库来修改
 Warehouse is mandatory,仓库信息必填
 Available Batch Qty at Warehouse,仓库内可用批号数量
 Warehouse and Reference,仓库及参考
@@ -1661,7 +1661,7 @@ Something went wrong during the token generation. Please request again an author
 Token Endpoint,令牌端点
 Export Data in CSV / Excel format.,以CSV / Excel格式导出数据。
 Above,以上
-This is based on stock movement. See {0} for details,以上仪表板信息基于物料移动。详见{0}信息
+This is based on stock movement. See {0} for details,以上数据面板信息基于物料移动。详见{0}信息
 Edit via Upload,以上传文件的方式批量修改
 Records for following doctypes will be filtered,以下单据类型的记录将被过滤
 Following fields have missing values:,以下字段值缺失：
@@ -1679,14 +1679,14 @@ Previous Work Experience,以前工作经验
 Beginning with,以此开头
 In points. Default is 9.,以点为单位。默认值是9。
 Meter,仪表
-dashboard,数据中心	
-Dashboards,数据中心
-Dashboard,数据中心
+dashboard,数据面板	
+Dashboards,数据面板
+Dashboard,数据面板
 Dashboard Name,统计图表名称
 Dashboard Chart,统计图表
 Dashboard Chart Source,统计图表数据源
 Dashboard Chart Link,统计图表链接
-Dashboard Manager,数据中心管理员
+Dashboard Manager,数据面板管理员
 Value Based On,金额字段
 Price,价格
 Rates,价格
@@ -2229,8 +2229,8 @@ Allow Production on Holidays,允许在假期内生产
 Plan time logs outside Workstation Working Hours.,允许在工站非工作时间安排工序。
 Allow Print for Draft,允许在草稿状态下打印
 Allow document creation via Email,允许基于收到的邮件创建单据
-Allow Material Transfer From Purchase Receipt and Purchase Invoice,允许基于采购收货与采购发票进行内部调拨
-Allow Material Transfer From Delivery Note and Sales Invoice,允许基于销售出货与销售发票进行内部调拨
+Allow Material Transfer From Purchase Receipt and Purchase Invoice,允许基于采购入库与采购发票进行内部调拨
+Allow Material Transfer From Delivery Note and Sales Invoice,允许基于销售出库与销售发票进行内部调拨
 Allow Multiple,允许多个
 Allow Multiple Material Consumption,允许多次耗用物料
 Allow Import (via Data Import Tool),允许导入（数据导入工具）
@@ -2281,7 +2281,7 @@ Allow Comments,允许评论
 Allow Read On All Link Options,允许读取所有链接选项
 Allow Negative Balance,允许负余额
 Allow Negative Stock,允许负库存
-Percentage you are allowed to receive or deliver more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to receive 110 units.,允许超出订单数量收货或出货的百分比。例如：订单数量100。允许超收/发10％，那么最多可收/发数量是110。
+Percentage you are allowed to receive or deliver more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to receive 110 units.,允许超出订单数量出入库百分比。例如：订单数量100。允许超收/发10％，那么最多可收/发数量是110。
 Percentage you are allowed to bill more against the amount ordered. For example: If the order value is $100 for an item and tolerance is set as 10% then you are allowed to bill for $110.,允许超过订单金额的%开出发票，比如订单100元，容差10%，最大开票金额就是110元
 Allow Transfer for Manufacture,启用生产调拨
 Allow Consecutive Login Attempts ,允许连续登录尝试
@@ -2732,7 +2732,7 @@ Create Payment Entries,创建收付款凭证
 Create Payment Entry,创建收付款凭证
 Creating Payment Entries......,创建收付款凭证......
 Make Payment Entry,创建收付款凭证
-Document type is required to create a dashboard chart,创建仪表板图表需要单据类型
+Document type is required to create a dashboard chart,创建数据面板图表需要单据类型
 Create Journal Entry,创建手工凭证
 Make Journal Entry,创建手工凭证
 Create Supplier Quotation,创建供应商报价
@@ -4004,7 +4004,7 @@ View report in your browser,在浏览器中查看报表
 Login and view in Browser,在浏览器中登录和查看
 View it in your browser,在浏览器查看
 View this in your browser,在浏览器查看
-Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No,在物料主数据中物料{0}被定义为无序列号，启用序列号管理的物料才可勾选“绑定生产入库序列号出货”，而在物料主数据中没勾选“启用序列号管理”
+Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No,在物料主数据中物料{0}被定义为无序列号，启用序列号管理的物料才可勾选“绑定生产入库序列号出库”，而在物料主数据中没勾选“启用序列号管理”
 Rename Attribute Value in Item Attribute.,在物料属性中重命名属性值。
 Apply Rule On Item Group,在物料组上应用规则
 Duplicate item group found in the item group table,在物料组中有重复物料组
@@ -4636,7 +4636,7 @@ Implementation Partner,实施服务商
 Actual,实际
 Shift Actual Start,实际上班时间
 Shift Actual End,实际下班时间
-Actual Delivery Date,实际出货日期
+Actual Delivery Date,实际出库日期
 Actual Operation Time,实际工序时间
 Actual qty in stock,实际库存数量
 Actual Start Date,实际开始日期
@@ -5627,11 +5627,11 @@ Pending Sales Orders,待处理销售订单
 Pending Leaves,待审批的休假
 Pending Review,待审核
 To Bill,待开票
-Received Items To Be Billed,待开票采购收货明细
+Received Items To Be Billed,待开票采购入库明细
 Purchase Orders to Bill,待开票采购订单
 Purchase Order Items To Be Billed,待开票采购订单明细
 Amount to Bill,待开票金额
-Delivered Items To Be Billed,待开票销售出货明细
+Delivered Items To Be Billed,待开票销售出库明细
 Sales Orders to Bill,待开票销售订单
 Ordered Items To Be Billed,待开票销售订单明细
 Pending Approval,待批准
@@ -7246,7 +7246,7 @@ Show as cc,显示为CC
 Show as Grid,显示为表格
 Show Warehouse-wise Stock,显示仓库级库存
 Show Payment Details,显示付款详情
-Show Dashboard,显示仪表板
+Show Dashboard,显示数据面板
 Show Price,显示价格
 Show Sidebar,显示侧边栏
 Show Public Attachments,显示公共附件
@@ -7966,7 +7966,7 @@ Please set filter based on Item or Warehouse,根据物料或仓库请设置过�
 As per section 17(5),根据第17（5）条
 Calculate Prorated Depreciation Schedule Based on Fiscal Year,根据财年计算计划折旧
 Get Invoices based on Filters,根据过滤条件获取发票
-"As per the Buying Settings if Purchase Reciept Required == 'YES', then for creating Purchase Invoice, user need to create Purchase Receipt first for item {0}",根据采购设置，如果需要采购收货==“是”，则为了创建采购发票，用户需要首先为物料{0}创建采购订单
+"As per the Buying Settings if Purchase Reciept Required == 'YES', then for creating Purchase Invoice, user need to create Purchase Receipt first for item {0}",根据采购设置，如果需要采购入库==“是”，则为了创建采购发票，用户需要首先为物料{0}创建采购订单
 Home Folder,根目录
 Root Account must be a group,根科目必须是“组”
 Root Type,根类型
@@ -8195,7 +8195,7 @@ Gross Margin,毛利
 Gross Profit,毛利
 Gross and Net Profit Report,毛利润和净利润报告
 Gross Margin %,毛利率％
-Gross Profit %,毛利％
+Gross Profit %,毛利率％
 Furry,毛茸茸
 Gross Weight,毛重
 Gross Weight UOM,毛重单位
@@ -8460,7 +8460,7 @@ Add Employees,添加员工
 apps/frappe/frappe/desk/doctype/event/event.js，Add Employees,添加员工
 Attach Image,添加图片
 Attach Image,添加图片
-Add Chart to Dashboard,添加图表至仪表板
+Add Chart to Dashboard,添加图表至数据面板
 Add notes,添加备注
 Add Multiple Tasks,添加多个任务
 Add more items or open full form,添加多条记录或转到完整表单
@@ -10725,7 +10725,7 @@ Please set Tax ID for the customer '%s',请为客户&#39;％s&#39;设置税号
 Please set Fiscal Code for the customer '%s',请为客户&#39;％s&#39;设置财务代码
 Please set default account in Expense Claim Type {0},请为报销类型设置默认科目{0}
 Reserved Warehouse is mandatory for Item {0} in Raw Materials supplied,请为提供给供应商的原物料{0}填写预留仓库信息
-Please create purchase receipt or purchase invoice for the item {0},请为物料{0}创建采购收货或采购发票
+Please create purchase receipt or purchase invoice for the item {0},请为物料{0}创建采购入库或采购发票
 Please select BOM in BOM field for Item {0},请为物料{0}在主数据中设置BOM（字段）
 Purchase Order number required for Item {0},请为物料{0}指定采购订单号
 Please select Start Date and End Date for Item {0},请为物料{0}选择开始日期和结束日期
@@ -10758,7 +10758,7 @@ Please save the patient first,请先保存患者
 Please save the report first,请先保存报表
 You need to create these first:,请先创建
 Please cancel Purchase Invoice {0} first,请先取消采购发票{0}
-Please cancel Purchase Receipt {0} first,请先取消采购收货{0}
+Please cancel Purchase Receipt {0} first,请先取消采购入库{0}
 Please add valid Plaid api keys in site_config.json first,请先在site_config.json中添加有效的Plaid api密钥
 Please select Sample Retention Warehouse in Stock Settings first,请先在库存设置中选择样品仓
 First add items in the Item Locations table,请先在物料库存位置表里添加物料
@@ -11993,16 +11993,16 @@ Purchase Invoice Trends,采购发票趋势
 Purchase Register,采购台帐
 GST Purchase Register,采购台账（GST)
 Purchase User,采购员
-Purchase Receipts,采购收货
-Receipt,采购收货
+Purchase Receipts,采购入库
+Receipt,采购入库
 Purchase Receipt,采购入库
 Purchase Receipt {0} is not submitted,采购入库{0}未提交
 Purchase Receipt Message,采购入库信息
-Purchase Receipt No,采购收货号码
-Purchase Receipt Item,采购收货明细表
-Purchase Receipt Trends,采购收货趋势
-Return Against Purchase Receipt,采购收货退回
-Purchase Receipt Amount,采购收货金额
+Purchase Receipt No,采购入库号码
+Purchase Receipt Item,采购入库明细表
+Purchase Receipt Trends,采购入库趋势
+Return Against Purchase Receipt,采购入库退回
+Purchase Receipt Amount,采购入库金额
 Buying Amount,采购数量
 Purchase Date,采购日期
 Settings for Buying Module,采购模块的设置
@@ -12035,7 +12035,7 @@ Landed Cost Item,到岸成本物料
 Landed Cost Taxes and Charges,到岸成本税费
 Landed Cost Purchase Receipt,到岸成本采购入库
 Landed Cost Voucher Amount,到岸成本金额
-Procurement Tracker,采购追踪表
+Procurement Tracker,物料供应追踪表
 Purchase Return,采购退货
 Purchase Amount,采购金额
 Purchase Defaults,采购默认值
@@ -12242,7 +12242,7 @@ Selling Price List,销售价格表
 Sales Partner Type,销售伙伴类型
 Commission on Sales,销售佣金
 Sales Details,销售信息
-Delivery against Sales Order,销售出货
+Delivery against Sales Order,销售出库
 Delivery Note,销售出库
 Delivery Notes,销售出库
 Delivery Note {0} must not be submitted,销售出库{0}不能提交
@@ -12253,7 +12253,7 @@ Delivery Note No,销售出库号
 Delivery Note Message,销售出库消息
 Delivery Note Series,销售出库系统流水号
 Delivery Note Item,销售出库项
-Delivery Note Trends,销售出货趋势
+Delivery Note Trends,销售出库趋势
 Sales Browser,销售列表
 Against Sales Invoice,销售发票
 Sales Invoice,销售发票
@@ -12872,12 +12872,12 @@ Default Cost of Goods Sold Account,默认销货成本科目
 (Ca+Mg)/K,（钙+镁）/ K
 ) for {0},）为{0}
 Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.,，选择此模式可以在工资手工凭证自动带出默认银行/现金科目。
-{} Dashboard,{} 数据中心
+{} Dashboard,{} 数据面板
 New Chart,统计图表
 New Shortcut,新建 快速访问
 New Number Card,数字卡
 Fixed Asset Register,固定资产台账
-Assets Dashboard,固定资产统计图表
+Assets Dashboard,固定资产数据面板
 Category-wise Asset Value,资产类别金额
 Location-wise Asset Value,资产位置金额
 No Data...,无数据
@@ -12915,7 +12915,7 @@ Allow Guests to Upload Files,允许访客上传文件
 "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form.",允许访问不登录系统的情况下上传文件，通常用于收集申请表之类的资料
 Logout All Sessions on Password Reset,密码重置时自动登出所有当前连接
 Automatically Process Deferred Accounting Entry,自动生成递延手工凭证
-Purchase Order Required for Purchase Invoice & Receipt Creation,采购收货与采购发票必须关联采购订单
+Purchase Order Required for Purchase Invoice & Receipt Creation,采购入库与采购发票必须关联采购订单
 Purchase Receipt Required for Purchase Invoice Creation,采购发票必须关联采购入库
 Disable Capacity Planning,不启用产能规划
 Default Scrap Warehouse,默认报废仓
@@ -12947,7 +12947,7 @@ Quality Inspection Summary,质量检验统计
 Downtime Analysis,停机分析
 Job Card Summary,工票统计
 BOM Operations Time,工艺时间
-Choose Dashboard,选择统计图表
+Choose Dashboard,选择数据面板
 Workstation / Machine,工站/机台
 Machine,工站/机台
 Operator,操作员
@@ -13292,7 +13292,7 @@ Inbound Payment,收款凭证
 HR,人力资源
 CRM,客户关系管理
 Users and Permissions,用户与权限
-dashboard,数据中心
+dashboard,数据面板
 Marketplace,网上交易市场
 "If this item has variants, then it cannot be selected in sales orders etc.",如果勾选有多种规格，该物料就是多规格模板物料，用于生成多规格物料，本身不能用于实际业务中
 All Time,全部时间
@@ -13313,7 +13313,7 @@ Desk Page,桌面页
 Employee Other Income,员工其它收入
 Bank Account Type,银行账户类型
 Bank Account Subtype,银行账户子类型
-Dashboard Settings,数据中心设置
+Dashboard Settings,数据面板设置
 Bank Clearance,银行清账
 Appointment Booking Settings,预约设置
 Appointment Letter,任命书
@@ -13873,7 +13873,7 @@ Supplier > Supplier Type,供应商 > 供应商组
 Customer > Customer Group > Territory,客户 > 客户组 > 区域
 Item Code > Item Group > Brand,物料 > 物料组 > 品牌
 Total Cost (Company Currency),总成本(本币)
-"Set Default Options for all charts on this Dashboard (Ex: ""colors"": [""#d1d8dd"", ""#ff5858""])","设置此数据中心图表的默认选项，例如：颜色：[""#d1d8dd"", ""#ff5858""]"
+"Set Default Options for all charts on this Dashboard (Ex: ""colors"": [""#d1d8dd"", ""#ff5858""])","设置此数据面板图表的默认选项，例如：颜色：[""#d1d8dd"", ""#ff5858""]"
 Card,卡片
 Walk In,主动上门
 Cold Calling,陌生电话
@@ -14232,7 +14232,7 @@ Send System Notification,发送系统通知
 Add your message here,在此添加通知内容
 Maintain Same Rate Throughout the Purchase Cycle,在整个采购循环(流程)使用相同价格
 Allow Item To Be Added Multiple Times in a Transaction,允许在交易中物料号重复,
-"The percentage you are allowed to receive or deliver more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed to receive 110 units.",允许超订单量收货或出货的百分比。如，订单数量100个，容差10％，则最多可收货或发货110个,
+"The percentage you are allowed to receive or deliver more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed to receive 110 units.",允许超订单量出入库百分比。如，订单数量100个，容差10％，则最多可收货或发货110个,
 Disable Serial No And Batch Selector,禁用序列号与批号选择
 Auto Insert Price List Rate If Missing,标价主数据不存在时，基于第一笔交易手工价格自动生成,
 Control Historical Stock Transactions,历史库存交易控制
@@ -14401,7 +14401,7 @@ Delivery to,交货目的地
 Pickup Contact Person,提货联络人
 Parcels,包裹
 Shipment Parcel,运输包裹
-Shipment Delivery Note,出货单号
+Shipment Delivery Note,出库单号
 Parcel Template,包裹模板
 Shipment details,运输详情
 Shipment Information,运输信息
@@ -14427,7 +14427,7 @@ Auto Insert Item Price If Missing,自动创建物料价格主数据（仅针对�
 Show Barcode Field in Stock Transactions,在库存交易记录中显示条形码字段
 Convert Item Description to Clean HTML in Transactions,将交易中的物料描述转换为纯HTML
 Role Allowed to Over Deliver/Receive,允许超额交货/收货的角色
-Users with this role are allowed to over deliver/receive against orders above the allowance percentage,此角色的用户可超订单数量容差出货/收货
+Users with this role are allowed to over deliver/receive against orders above the allowance percentage,此角色的用户可超订单数量容差出入库
 Serialised and Batch Setting,序列号和批号设置
 Have Default Naming Series for Batch ID?,默认由系统流水号自动生成批号？
 Website Filters,网站过滤器
@@ -14462,7 +14462,7 @@ Period Closing Settings,期末结账设置
 Update Settings,更新设置
 Role Allowed to Override Stop Action,可忽略预算设置的停止控制的角色
 Bill for Rejected Quantity in Purchase Invoice,采购发票含拒收数量
-"If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt.",如勾选，从采购收货创建采购发票时包含拒收数量
+"If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt.",如勾选，从采购入库创建采购发票时包含拒收数量
 Add Corrective Operation Cost in Finished Good Valuation,入库成品成本价含返工工序成本
 Make Serial No / Batch from Work Order,从工单生成序列号/批号
 System will automatically create the serial numbers / batch for the Finished Good on submission of work order,在工单提交时系统自动生成序列号/批号

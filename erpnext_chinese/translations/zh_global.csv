@@ -114,16 +114,16 @@ Row #,行号
 Rows Removed,已删除行
 Rows Added,新增行
 Comment,评论
-Total Qty Sold,总销售数量
+Total Qty Sold,总销售量
 Total Sales Amount,总销售额
-Total Qty Purchased,总销售数量
+Total Qty Purchased,总采购量
 Total Purchase Amount,总销售额
 Outstanding Amount,未付金额
 Available Stock,可用库存
 Available Stock Qty,可用库存数量
 Available Stock Value,可用库存金额
 No Item found,无数据
-Leaderboard,管理者看板
+Leaderboard,领导数据面板
 All Time, 所有时间
 Select From Date,选择日期
 Rank,序号
@@ -211,7 +211,7 @@ No Remarks,无备注
 To Deliver,待出货
 To Deliver and Bill,待出货与开票
 To Bill,待开票
-Purchase Invoices,采购账单
+Purchase Invoices,采购发票
 Purchase Orders,采购订单
 Expenses,费用
 Number Card,数字卡
@@ -275,7 +275,7 @@ Completed Operation,完工工序
 Monthly Total Work Order,每月总工单
 Monthly Completed Work Order,每月完工工单
 Ongoing Job Card,未完成工票
-Monthly Quality Inspection,每月质量检验
+Monthly Quality Inspections,每月质量检验
 Produced Quantity,产出数量
 undefined,无数据
 Absent,缺勤
@@ -283,15 +283,15 @@ Present,出勤
 Leave,请假
 Not Specified,未指定
 Website Analytics,网站分析
-Annual Purchase,年采购量
+Annual Purchase,年采购额
 Purchase Orders to Receive,待收货采购订单
 Purchase Orders to Bill,待开票采购订单
 Active Suppliers,有效供应商
 Total Assets,总资产
 New Assets (This Year),本年新资产
 Asset Value Analytics,固定资产金额分析
-Total Outgoing Bills,总销售账单
-Total Incoming Bills,总采购账单
+Total Outgoing Bills,总销售金额
+Total Incoming Bills,总采购金额
 Total Incoming Payment,总收款
 Total Outgoing Payment,总付款
 Incoming Leads,线索
@@ -301,8 +301,8 @@ Material Request Analysis,物料需求分析
 Top Suppliers,顶级供应商
 Category-wise Asset Value,资产价值类别分布
 Location-wise Asset Value,资产价值位置分布
-Incoming Bills (Purchase Invoice),采购账单
-Outgoing Bills (Sales Invoice),销售账单
+Incoming Bills (Purchase Invoice),采购发票
+Outgoing Bills (Sales Invoice),销售发票
 Lost,未成交
 Asset Value,资产价值
 Budget Variance,预算差异
@@ -467,7 +467,7 @@ Enabled,已启用
 Refreshing,正在刷新
 values separated by commas,用逗号分隔的值
 use % as wildcard,使用％作为通配符
-Dashboard,仪表板
+Dashboard,数据面板
 Subcontracting,委外
 You do not have enough review points,没有足够的评审点数
 Reviews,评审
@@ -594,18 +594,18 @@ Select File Format,选择文件格式
 Export Report:,导出报表:
 Export Report: {0},导出报表 {0}
 Set Chart,设置图表
-Add Chart to Dashboard,添加图表至仪表板
+Add Chart to Dashboard,添加图表至数据面板
 Create Card,创建数字卡
-Add to Dashboard,添加到仪表板
-Select Dashboard,选择仪表板
+Add to Dashboard,添加到数据面板
+Select Dashboard,选择数据面板
 Card Label,数字卡标签
 Field,字段
 Press Enter to save,按Enter键保存
 Is Global,全局有效？
 Hide Tags,隐藏标签
-Dashboard View,仪表板视图
-Customize Dashboard,设置仪表板
-Reset Dashboard Customizations,重置仪表板设置
+Dashboard View,数据面板视图
+Customize Dashboard,设置数据面板
+Reset Dashboard Customizations,重置数据面板设置
 No {0} found,无满足条件的 {0}
 No {0} Found,无满足条件的 {0}
 More,更多
@@ -615,7 +615,7 @@ Total Outstanding,总未付
 Total Outstanding Amt,总未付金额
 Total Outstanding: {0},总未付：{0}
 Total Unpaid: {0},总未付：{0}
-Annual Billing: {0},本年总账单金额：{0}
+Annual Billing: {0},本年总发票金额：{0}
 {0} from {1} to {2}, {0} 由 {1} 变更为 {2}
 {0} from {1} to {2} in row #{3},第{3}行的 {0} 由 {1} 变更为 {2}
 Select Field,选择字段
@@ -916,8 +916,8 @@ There's much more, you can check it all out in this step","# 会计设置
 重要的设置项如下
 
 1. 科目冻结
-2. 信用额度及超额开账单
-3. 账单与自动计税
+2. 信用额度及超额开发票
+3. 发票与自动计税
 4. 资产负债表设置
 
 本步骤可查看更多可配置信息"
@@ -943,9 +943,9 @@ A Sales Invoice is a bill that you send to your Customers against which the Cust
 Here's the flow of how a sales invoice is generally created
 
 
-![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)","# 销售账单
+![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)","# 销售发票
 
-销售账单是你发给客户请求其支持款项的单据。销售账单是会计相关业务，提交销售账单后系统自动生成会计凭证登记应收账款和收入
+销售发票是你发给客户请求其支持款项的单据。销售发票是会计相关业务，提交销售发票后系统自动生成会计凭证登记应收账款和收入
 
 以下是典型的销售流程"
 "# What's a Purchase Invoice?
@@ -957,11 +957,11 @@ The following is what a typical purchase cycle looks like, however you can creat
 
 ![Purchase Flow](https://docs.erpnext.com/docs/assets/img/accounts/pi-flow.png)
 
-","# 什么是采购账单
-采购账单是供应商发给你，申请向其付款的凭证
-采购账单与销售账单方向相反
+","# 什么是采购发票
+采购发票是供应商发给你，申请向其付款的凭证
+采购发票与销售发票方向相反
 
-以下是典型的采购流程，也可以不经采购及收货直接创建采购账单"
+以下是典型的采购流程，也可以不经采购及收货直接创建采购发票"
 "# Setting up Taxes
 
 Any sophisticated accounting system, including ERPNext will have automatic tax calculations for your transactions. These calculations are based on user defined rules in compliance to local rules and regulations.
@@ -976,7 +976,7 @@ You can read more about these templates in our documentation [here](https://docs
 ","# 设置税
 复杂的会计系统，包括ERPNext都可以在业务交易中自动计税，自动计税基于用户按当地税法定义的计税规则
 
-ERPNext使用税模费板定义计税规则， 税模板可用于销售订单与销售账单。销售账单上的其它费用如运费、保险费等也可通过税费模板设置
+ERPNext使用税模费板定义计税规则， 税模板可用于销售订单与销售发票。销售发票上的其它费用如运费、保险费等也可通过税费模板设置
 
 `> 会计 > 税 > 销售税费模板`
 
@@ -1044,3 +1044,12 @@ Create a Material Transfer Entry,创建一笔物料移动
 "Let’s create your first  warehouse ",创建第一个仓库
 "Take a walk through Stock Settings",查看库存设置
 "Report initiated, click to view status",报表已在后台运行，点击查看报表状态
+Annual Sales,年销售额
+Sales Orders to Deliver,待出货销售订单
+Sales Orders to Bill,待开票销售订单
+Sales Orders to Deliver,待出库销售订单
+Active Customers,活跃客户
+Top Customers,大客户
+Item-wise Annual Sales,物料年销售额
+Sr. No,序号
+Report Error,出错提示

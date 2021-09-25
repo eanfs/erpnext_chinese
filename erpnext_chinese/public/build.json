@@ -2,6 +2,8 @@
 	"js/erpnext_chinese.min.js": [
 		"public/js/erpnext_chinese.js",
 		"public/js/widgets/onboarding_widget.js",
+		"public/js/widgets/number_card_widget.js",
+		"public/js/widgets/chart_widget.js",
 		"public/js/ui/page.js",
 		"public/js/ui/search_utils.js",
 		"public/js/view/calendar.js",
