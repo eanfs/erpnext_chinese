@@ -265,7 +265,7 @@ Department Wise Employee Count,员工部门分布
 Designation Wise Openings,职位空缺
 Department Wise Openings,部门职位空缺
 Attendance Count,出勤人数
-Job Card Analysis,工票分析
+Job Card Analysis,加工单分析
 Work Order Qty Analysis,工单数量分析
 Pending Work Order,待完成工单
 Last Month Downtime Analysis,上个月停机分析
@@ -274,7 +274,7 @@ Work Order Analysis,工单分析
 Completed Operation,完工工序
 Monthly Total Work Order,每月总工单
 Monthly Completed Work Order,每月完工工单
-Ongoing Job Card,未完成工票
+Ongoing Job Card,未完成加工单
 Monthly Quality Inspections,每月质量检验
 Produced Quantity,产出数量
 undefined,无数据
@@ -324,7 +324,7 @@ Sales Orders,销售订单
 Employee,员工
 Transfer Material to Supplier,委外调拨
 Your Shortcuts,快速访问
-Reports & Masters,报表与主数据
+Reports & Masters,报表与基础资料
 Home,主页
 Loading...,载入中...
 "Search or type a command (Ctrl + G)",搜索或输入命令(Ctrl + G)
@@ -1053,3 +1053,4 @@ Top Customers,大客户
 Item-wise Annual Sales,物料年销售额
 Sr. No,序号
 Report Error,出错提示
+Loans,贷款
