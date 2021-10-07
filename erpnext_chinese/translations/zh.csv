@@ -8863,7 +8863,7 @@ Work Order,生产工单
 "Did not found transfered item {0} in Work Order {1}, the item not added in Stock Entry",生产工单{1}中未找到已移转物料{0}，未在物料移动凭证中添加该物料
 Work Order has been {0},生产工单已{0}
 Orders released for production.,生产工单已释放可开始生产。
-Work Order Stock Report,生产工单库存报表
+Work Order Stock Report,生产工单原材料库存齐套报表
 Work Order not created,生产工单未创建
 Quantity to Produce can not be less than Zero,生产数量不能小于零
 Manufacturing Date,生产日期
@@ -14655,3 +14655,19 @@ Operation Time ,工序时间,
 Scrap Item Code,报废物料编号
 Scrap Item Name,报废物料名称
 FG Qty from Transferred Raw Materials,调拨原料折算的成品数量
+Document Naming Rule,单据编号规则,
+Document Naming Rule Condition,单据编号规则条件,
+Following item {0} is not marked as {1} item. You can enable them as {1} item from its Item master,下列物料{0}未勾选{1}。请在物料基础资料中勾选,
+Following items {0} are not marked as {1} item. You can enable them as {1} item from its Item master,未在物料基础资料中为以下物料{0}勾选{1},
+Total Billing Hours,总开票工时
+Qty to Build,待生产数量
+"# Req'd Items",物料个数
+"# In Stock",有库存物料个数
+Buildable Qty,可生产数量
+"Build All?",物料齐套?
+Monthly Completed Work Orders,每月已完成生产工单,
+Process Loss Report,制程损耗报表
+Loss Qty,损耗数量
+Loss Value,损耗金额
+FG Value,成品金额
+Raw Material Value,原材料金额

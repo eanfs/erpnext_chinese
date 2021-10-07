@@ -155,11 +155,11 @@ standard_queries = {
 # ---------------
 # Hook on document methods and events
 
-doc_events = {
-	#"Purchase Order":{
-	#	"before_validate": "erpnext_chinese.api.doc_event.po_validate"
-	#}
-}
+# doc_events = {
+# 	"Purchase Order":{
+# 		"before_validate": "erpnext_chinese.api.doc_event.po_validate"
+# 	}
+# }
 
 # Scheduled Tasks
 # ---------------
