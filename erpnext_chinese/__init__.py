@@ -23,14 +23,19 @@ def load_monkey_patches():
     ):
         return
 
-    for module_name in os.listdir(frappe.get_app_path("erpnext_chinese", "monkey_patches")):
-        if not module_name.endswith(".py") or module_name == "__init__.py":
-            continue
+    for app in frappe.get_installed_apps():
+        if app in ['frappe', 'erpnext']: continue
 
-        importlib.import_module("erpnext_chinese.monkey_patches." + module_name[:-3])
+        folder = frappe.get_app_path(app, "monkey_patches")
+        if not os.path.exists(folder): continue
+
+        for module_name in os.listdir(folder):
+            if not module_name.endswith(".py") or module_name == "__init__.py":
+                continue
+
+            importlib.import_module(f"{app}.monkey_patches.{module_name[:-3]}")
 
     patches_loaded = True
-
 
 
 connect = frappe.connect

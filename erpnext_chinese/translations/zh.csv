@@ -752,7 +752,7 @@ Insufficient Permission for {0},{0} 权限不足
 {0} does not exist in row {1},{0}不存在于第{1}行中
 {0} does not belong to Company {1},{0}不属于公司{1}
 {0} is not a stock Item,{0}不是一个库存物料
-{0} is not a raw printing format.,{0}不是原始打印格式。
+{0} is not a raw printing format.,{0}不是原生打印命令格式。
 {0} not a valid State,{0}不是有效状态
 {0} is not a valid Workflow State. Please update your Workflow and try again.,{0}不是有效的工作流状态。请更新您的工作流，然后重试。
 {0} is not a valid Batch Number for Item {1},{0}不是物料{1}的有效批号
@@ -3619,7 +3619,7 @@ Enable Shopify,启用Shopify
 Enable Entry Grace Period,启用上班迟到宽限期
 Enable Amazon,启用亚马逊
 Enable Automatic Linking in Documents,启用单据中的自动链接
-Enable Raw Printing,启用原始打印
+Enable Raw Printing,启用原生打印命令
 Enable Two Factor Auth,启用双重验证
 Enable Sync,启用同步
 Enable Outgoing,启用外发邮件
@@ -4918,7 +4918,7 @@ Hour,小时
 Hours,小时
 In Hours,小时
 Subtotal,小计
-"PDF printing via ""Raw Print"" is not yet supported. Please remove the printer mapping in Printer Settings and try again.",尚不支持通过“原始打印”进行PDF打印。请在“打印机设置”中删除打印机映射，然后重试。
+"PDF printing via ""Raw Print"" is not yet supported. Please remove the printer mapping in Printer Settings and try again.",尚不支持通过“原生打印命令”进行PDF打印。请在“打印机设置”中删除打印机映射，然后重试。
 Not Saved,尚未保存
 All the mandatory Task for employee creation hasn't been done yet.,尚未全部完成创建新员工时必要任务。
 Yet to appear,尚未出现
@@ -11615,7 +11615,7 @@ Remote Primary Key,远程主键
 Remote Fieldname,远程字段名称
 Remote Objectname,远程对象名称
 Connection lost. Some features might not work.,连接丢失。某些功能可能无法使用。
-"Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a href=""https://qz.io/download/"" target=""_blank"">Click here to Download and install QZ Tray</a>.<br> <a href=""https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing"" target=""_blank"">Click here to learn more about Raw Printing</a>.","连接到QZ托盘应用程序时出错... <br><br>您需要安装并运行QZ Tray应用程序才能使用原始打印功能。 <br><br> <a href=""https://qz.io/download/"" target=""_blank"">点击此处下载并安装QZ托盘</a> 。 <br> <a href=""https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing"" target=""_blank"">单击此处以了解有关原始打印的更多信息</a>"
+"Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a href=""https://qz.io/download/"" target=""_blank"">Click here to Download and install QZ Tray</a>.<br> <a href=""https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing"" target=""_blank"">Click here to learn more about Raw Printing</a>.","连接到QZ托盘应用程序时出错... <br><br>您需要安装并运行QZ Tray应用程序才能使用原生打印命令功能。 <br><br> <a href=""https://qz.io/download/"" target=""_blank"">点击此处下载并安装QZ托盘</a> 。 <br> <a href=""https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing"" target=""_blank"">单击此处以了解有关原生打印命令的更多信息</a>"
 Connected to QZ Tray!,连接到QZ托盘！
 Connected to QuickBooks,连接到QuickBooks
 Connecting to QuickBooks,连接到QuickBooks
@@ -14671,3 +14671,5 @@ Loss Qty,损耗数量
 Loss Value,损耗金额
 FG Value,成品金额
 Raw Material Value,原材料金额
+Network Printer Settings,网络打印机设置
+Select Network Printer Settings,选择网络打印机

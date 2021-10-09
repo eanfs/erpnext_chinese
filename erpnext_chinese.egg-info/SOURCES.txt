@@ -39,6 +39,7 @@ erpnext_chinese/monkey_patches/__init__.py
 erpnext_chinese/monkey_patches/accounts_controller.py
 erpnext_chinese/monkey_patches/base_document.py
 erpnext_chinese/monkey_patches/company.py
+erpnext_chinese/monkey_patches/core_data_import.py
 erpnext_chinese/monkey_patches/data.py
 erpnext_chinese/monkey_patches/db_transaction_writes.py
 erpnext_chinese/monkey_patches/file.py
@@ -62,6 +63,7 @@ erpnext_chinese/public/js/form/controls/link.js
 erpnext_chinese/public/js/form/controls/select.js
 erpnext_chinese/public/js/form/controls/table.js
 erpnext_chinese/public/js/hooks/doctype/user.js
+erpnext_chinese/public/js/hooks/page/dashboard.js
 erpnext_chinese/public/js/hooks/page/permission_manager.js
 erpnext_chinese/public/js/hooks/page/print_format_builder.js
 erpnext_chinese/public/js/lib/charts/charts.js
@@ -76,6 +78,8 @@ erpnext_chinese/public/js/ui/group_by/group_by.html
 erpnext_chinese/public/js/ui/group_by/group_by.js
 erpnext_chinese/public/js/view/calendar.js
 erpnext_chinese/public/js/view/list_view.js
+erpnext_chinese/public/js/widgets/chart_widget.js
+erpnext_chinese/public/js/widgets/number_card_widget.js
 erpnext_chinese/public/js/widgets/onboarding_widget.js
 erpnext_chinese/templates/__init__.py
 erpnext_chinese/templates/pages/__init__.py

@@ -4,12 +4,7 @@ $(document).on('app_ready', function() {
 		console.log("let's rumble");
 		// get persistent session settings
 		frappe.call({
-			'method': "frappe.client.get_list",
-			'args': {
-				'doctype': "User Default",
-				'filters': {'user': frappe.session.user},
-				'fields': ["setting_key", "setting_value"]
-			},
+			'method': "erpnext_chinese.utils.get_user_default",
 			'callback': function(response) {
 				if (response.message) {
 					response.message.forEach(function (setting) {
