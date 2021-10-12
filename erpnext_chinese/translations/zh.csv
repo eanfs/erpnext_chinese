@@ -1171,7 +1171,7 @@ Cannot change docstatus from 0 to 2,不能将单据状态由0改为2
 Cannot change docstatus from 1 to 0,不能将单据状态由1改为0
 Cannot have multiple printers mapped to a single print format.,不能将多个打印机映射到单个打印格式。
 "Can't change valuation method, as there are transactions against some items which does not have it's own valuation method",不能改变估值方法，因为已有业务单据使用了没有估值方法的物料
-Cannot change state of Cancelled Document. Transition row {0},不能改变已取消单据的状态。状迁移行{0}
+Cannot change state of Cancelled Document. Transition row {0},不能改变已取消单据的状态。状态转换第{0}行
 Standard Print Format cannot be updated,不能更新标准打印格式
 Cannot produce more Item {0} than Sales Order quantity {1},不能生产超过销售订单数量{1}的物料{0}
 Cannot move row,不能移动行
@@ -4977,7 +4977,7 @@ Workflow state represents the current state of a document.,工作流状态表明
 Workflow,工作流
 Workflow State {0} is not allowed,工作流状态{0}不被允许
 Workflow State not set,工作流状态未设置
-Workflow Transition,工作流迁移
+Workflow Transition,工作流状态转换
 Shift Request,工作班次申请
 Tools,工具
 Material Transfer for Manufacture,生产调拨
@@ -6544,7 +6544,7 @@ Submit {0} documents?,提交{0}文件？
 Report an Issue,提交一个问题
 Before Submit,提交前
 Before Validate,校验前
-Cannot cancel before submitting. See Transition {0},提交前不能取消，详情参考状态迁移{0}
+Cannot cancel before submitting. See Transition {0},提交前不能取消，详情参考状态转换{0}
 For Warehouse is required before Submit,提交前必须选择仓库
 Quality Inspection required for Item {0} to submit,提交前请完成物料{0}的质量检验
 Submitted row for {0},提交单据{0}
@@ -8845,10 +8845,10 @@ Student Group or Course Schedule is mandatory,班级或课程表是强制性的
 Student Group Instructor,班级讲师
 Student Group: ,班级：
 Theory,理论学习
-Tally Debtors Account,理货债务人账户
-Tally Creditors Account,理货债权人账户
-Tally Company,理货公司
-Tally Migration,理货迁移
+Tally Debtors Account,Tally债务人账户
+Tally Creditors Account,Tally债权人账户
+Tally Company,Tally公司
+Tally Migration,Tally迁移
 Gantt,甘特图
 Gantt Chart,甘特图
 For Production,生产
@@ -10351,9 +10351,9 @@ To Rename,要重命名
 Overwrite Salary Structure Amount,覆盖薪资结构金额
 Rule,规则
 Rule Name,规则名称
-Rules defining transition of state in the workflow.,规则定义的工作流状态的迁移。
+Rules defining transition of state in the workflow.,工作流状态转换规则。
 Rule Description,规则描述
-"Rules for how states are transitions, like next state and which role is allowed to change state etc.",规则的状态是如何过渡，就像下一个状态以及作用是允许改变状态等。
+"Rules for how states are transitions, like next state and which role is allowed to change state etc.",定义在满足什么条件的情况下哪个角色的用户可以通过点击业务单据上的工作流菜单按钮将状态转换到下一个状态。
 Apply Rule On Other,规则适用于其它
 Rules for applying pricing and discount.,规则适用的定价和折扣。
 Prescribed Procedures,规定程序
@@ -11494,10 +11494,10 @@ Maximum attempts for this quiz reached!,达到此测验的最大尝试次数！
 Achieved ({}),达到（{}）
 Service Level Agreement Fulfilled,达成服务水平协议
 Daman and Diu,达曼和迪乌
-Transitions,迁移
+Transitions,状态转换
 Migration ID Field,迁移ID字段
 Sync on Migrate,迁移时同步
-Transition Rules,迁移规则
+Transition Rules,状态转换规则
 Rented To Date,迄今已售出
 Allergies,过敏
 "Allergies, Medical and Surgical History",过敏，医疗和手术史
@@ -14672,4 +14672,8 @@ Loss Value,损耗金额
 FG Value,成品金额
 Raw Material Value,原材料金额
 Network Printer Settings,网络打印机设置
-Select Network Printer Settings,选择网络打印机
+Select Network Printer,选择网络打印机
+"Context variable: doc and frappe.session.user, function get_roles can be used","可使用doc(当前单据)，frappe.session.user(当前用户)变量,获取用户角色函数get_roles"
+Condition for Default,设为默认格式的条件
+Smaller number higher priority,数字越小，优先级越高
+"All possible Workflow States and roles of the workflow. Docstatus Options: 0 is ""Saved"", 1 is ""Submitted"" and 2 is ""Cancelled""",工作流所有状态与角色，单据状态0 表示"已保存"，1表示"已提交"，2表示"已取消"

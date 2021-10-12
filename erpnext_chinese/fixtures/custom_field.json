@@ -51,5 +51,29 @@
   "translatable": 0,
   "unique": 0,
   "width": null
- }
+ },
+ {
+    "doctype": "Custom Field",
+    "dt": "Print Format",
+    "fieldname": "condition_for_default",
+    "fieldtype": "Code",
+    "options": "PythonExpression",
+    "insert_after": "disabled",
+    "label": "Condition for Default",
+    "description": "Context variable: doc and frappe.session.user, function get_roles can be used",
+    "modified": "2021-08-07 22:12:02.049023",
+    "name": "print-format_condition_for_default"
+   },
+   {
+    "doctype": "Custom Field",
+    "dt": "Print Format",
+    "fieldname": "priority",
+    "fieldtype": "Int",
+    "insert_after": "condition_for_default",
+    "default": 100,
+    "label": "Priority",
+    "description":"Smaller number higher priority",
+    "modified": "2021-08-07 22:12:02.049023",
+    "name": "print-format_priority"
+   }
 ]

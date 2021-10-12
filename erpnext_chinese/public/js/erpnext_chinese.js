@@ -1,7 +1,7 @@
 $(document).on('app_ready', function() {
 	if (document.referrer.endsWith("/login")) {
 		// app ready after login, let's rumble
-		console.log("let's rumble");
+		//console.log("let's rumble");
 		// get persistent session settings
 		frappe.call({
 			'method': "erpnext_chinese.utils.get_user_default",
@@ -210,3 +210,6 @@ var MyListView = class MyListView extends frappe.views.ListView {
 // }
 
 // window.__ = mytranslation
+
+//fisher 解决系统管理账号也显示无权限查看打印格式的问题，因为权限逻辑中判断print format元数据是否存在
+frappe.model.with_doctype('Print Format')
