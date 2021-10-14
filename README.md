@@ -100,21 +100,21 @@ bench install-app erpnext_chinese
 升级
 2.1、bench update 命令
 
-bench update --apps erpnext_chinese
+bench update --apps erpnext_chinese --pull --reset
 
-2.2、git 命令,这种方法更快，只处理这一个自定义APP
+2.2 重新编译JS等资源文件
 
-cd ./apps/erpnext_chinese
-
-sudo git pull
-
-cd ../..
-
-bench build --app erpnext_chinese
+bench build --app erpnext_chinese --force
 
 
 卸载
-3.1 bench uninstall-app erpnext_chinese
+3.1 从站点卸载 
+
+bench uninstall-app erpnext_chinese
+
+3.2 从整个bench环境卸载,移除整个应用目录
+
+bench remove-app erpnext_chinese
 
 欢迎提交问题和反馈建议。
 
