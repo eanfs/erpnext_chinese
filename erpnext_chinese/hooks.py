@@ -192,5 +192,6 @@ standard_queries = {
 # ------------------------------
 #
 override_whitelisted_methods = {
- 	"erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts.get_charts_for_country": "erpnext_chinese.localize.localize.get_charts_for_country"
+ 	"erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts.get_charts_for_country": "erpnext_chinese.localize.localize.get_charts_for_country",
+    "erpnext.stock.get_item_details.get_item_details":"erpnext_chinese.utils.new_get_item_details"
 }

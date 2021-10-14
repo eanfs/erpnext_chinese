@@ -1,5 +1,7 @@
 import frappe
 import json
+from erpnext.stock.get_item_details import get_item_details
+from six import string_types
 
 
 @frappe.whitelist()
@@ -25,3 +27,12 @@ def get_print_format(doc):
     for (print_format, condition) in print_format_list:
         if condition and frappe.safe_eval(condition, None, dict(doc=doc, get_roles = frappe.get_roles)):
             return print_format
+
+@frappe.whitelist()
+def new_get_item_details(args, doc=None, for_validate=False, overwrite_warehouse=True):
+    """fisher 修复旧物料切换到默认交易(采购、销售)单位与基本单位不同的新物料，单位转换率不自动刷新的问题"""
+    if isinstance(args, string_types):
+        args = json.loads(args)
+    
+    del args['conversion_factor']
+    return get_item_details(args, doc=doc, for_validate=for_validate, overwrite_warehouse=overwrite_warehouse)
