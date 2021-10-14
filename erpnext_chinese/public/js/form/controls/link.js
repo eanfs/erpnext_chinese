@@ -128,8 +128,9 @@ const MyControlLink = frappe.ui.form.ControlLink.extend({
 					if (args.filters) {
 						let filter_string = me.get_filter_description(args.filters);
 						if (filter_string) {
+							const title = filter_string.replace(/<b>/g,'').replace(/[</b>]/g,'');
 							r.results.push({
-								html: `<span class="text-muted">${filter_string}</span>`,
+								html: `<span class="text-muted" style="line-height: 1.5" title="${title}">${filter_string}</span>`,
 								value: '',
 								action: () => {}
 							});

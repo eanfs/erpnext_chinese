@@ -9287,7 +9287,7 @@ Disable Marketplace,禁用网上交易市场
 Disable Auto Refresh,禁用自动刷新
 Disable Sidebar Stats,禁用补充工具栏统计信息
 Disable Count,禁用计数
-Disable Prepared Report,禁用预生成报表
+Disable Prepared Report,不允许设置为后台运行报表
 ban-circle,禁至圆圈
 Benefit,福利
 Benefits Applied,福利
@@ -12617,8 +12617,8 @@ Projected Quantity,预期可用数量
 Projected qty,预期数量
 Expected Time (in hours),预计时间（小时）
 Expected Amount,预期金额
-Prepared Report,预生成报表
-Prepared Report User,预生成报表用户
+Prepared Report,后台运行报表
+Prepared Report User,后台运行报表用户
 Reserved,预留
 Reserve Warehouse,预留仓库
 Reserved for Sale,销售预留数量
@@ -14438,9 +14438,9 @@ Default Warehouse for Sales Return,默认销售退货仓
 No New notifications,暂无新通知
 Looks like you haven’t received any notifications.,还没有收到任何通知哦~
 Strip EXIF tags from uploaded images,从上传的图片中删除EXIF标签
-Enable Auto-deletion of Prepared Reports,启用自动删除预生成报表,
-Prepared Report Expiry Period (Days),预生成报表有效期限（天）,
-System will auto-delete Prepared Reports permanently after these many days since creation,创建后系统会在设置天数后自动删除预生成报表
+Enable Auto-deletion of Prepared Reports,允许自动删除后台运行报表,
+Prepared Report Expiry Period (Days),后台运行报表保留天数,
+System will auto-delete Prepared Reports permanently after these many days since creation,系统在设置天数后自动删除后台运行报表
 "If you still want to proceed, please enable {0}.",请勾选{0}后继续
 Search Bar,搜索框
 Sidebar,侧边栏
@@ -14677,3 +14677,6 @@ Select Network Printer,选择网络打印机
 Condition for Default,设为默认格式的条件
 Smaller number higher priority,数字越小，优先级越高
 "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is ""Saved"", 1 is ""Submitted"" and 2 is ""Cancelled""",工作流所有状态与角色，单据状态0 表示"已保存"，1表示"已提交"，2表示"已取消"
+Party Specific Item,客户/供应商物料过滤
+Restrict Items Based On,过滤字段
+Based On Value,字段值
