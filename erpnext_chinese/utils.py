@@ -34,5 +34,5 @@ def new_get_item_details(args, doc=None, for_validate=False, overwrite_warehouse
     if isinstance(args, string_types):
         args = json.loads(args)
     
-    del args['conversion_factor']
+    args.pop('conversion_factor', None)
     return get_item_details(args, doc=doc, for_validate=for_validate, overwrite_warehouse=overwrite_warehouse)
