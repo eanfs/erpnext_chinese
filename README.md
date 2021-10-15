@@ -106,6 +106,11 @@ bench update --apps erpnext_chinese --pull --reset
 
 bench build --app erpnext_chinese --force
 
+2.3 通过本应用中的插件机制向打印格式单据类型中新增两个字段(同步，新安装时不需要这一步，也可运行标准的bench migrate 命令，会对所有app作升级后同步数据库表处理)
+bench console
+In [6]: from frappe.utils.fixtures import sync_fixtures
+
+In [7]: sync_fixtures('erpnext_chinese')
 
 卸载
 3.1 从站点卸载 
