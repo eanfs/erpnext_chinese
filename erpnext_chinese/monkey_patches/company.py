@@ -9,9 +9,8 @@ def create_default_accounts(self):
         self.create_default_warehouses()
         frappe.local.flags.ignore_root_company_validation = True
         frappe.local.flags.ignore_chart_of_accounts = True      #bypass system to set default accounts
-        import_coa(self.name)
-        
+        import_coa(self.name)        
     else:
-        old_create_default_accounts()
+        old_create_default_accounts(self)
 
 Company.create_default_accounts = create_default_accounts

@@ -438,7 +438,7 @@ const MyControlMultiSelect = frappe.ui.form.ControlMultiSelect.extend({
 	}
 })
 
-frappe.ui.form.ControlMultiSelect = MyControlMultiSelect
+//frappe.ui.form.ControlMultiSelect = MyControlMultiSelect
 
 const MyFieldSelect = frappe.ui.FieldSelect.extend({
 	//fisher 支持中英文检索

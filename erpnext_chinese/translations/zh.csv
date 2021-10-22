@@ -512,7 +512,7 @@ SGST Account,SGST账户
 SGST Amount,SGST金额
 SG Creation Tool Course,SG创建工具课程
 SMTP Server,SMTP服务器
-"SQL Conditions. Example: status=""Open""",SQL条件。例如：状态=“打开”
+"SQL Conditions. Example: status=""Open""",SQL条件。例如：status='Open'，字符串引号请使用英文半角的单引号
 SSL/TLS Mode,SSL / TLS模式
 STO-ITEM-.YYYY.-,STO-ITEM-.YYYY.-
 SUB-,SUB-
@@ -3780,7 +3780,7 @@ Brand Name,品牌名称
 Brand Image,品牌形象
 Tag Line,品牌理念
 Brand Defaults,品牌默认值
-Item Details,品目详细信息
+Item Details,物料详细信息
 Action if Quality inspection is not submitted,品质检验报告未提交时采取的控制措施
 Haryana,哈里亚纳邦
 Response,响应
@@ -7508,7 +7508,7 @@ Cost Center with existing transactions can not be converted to group,有交易�
 Account with existing transaction can not be deleted,有交易的科目不能被删除
 Account with existing transaction can not be converted to group.,有交易的科目不能被转换为组。
 Has any past Grant Record,有以前的获批记录吗？
-Set,有值
+Set,有值,Field value is set
 Not Set,空值
 Please check the error log for details about the import errors,有关导入错误的详细信息，请查看错误日志
 "For help see <a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">Client Script API and Examples</a>","有关帮助，请参阅<a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">客户端脚本API和示例</a>"
@@ -8179,7 +8179,7 @@ Total Monthly Sales,每月销售总额
 Monthly Sales Target,每月销售目标
 Monthly Sales Target (,每月销售目标（
 Repay Fixed Amount per Period,每期固定金额
-Max 500 records at a time,每次最大500条记录
+Max 500 records at a time,每次最多500条记录
 Every Valid Check-in and Check-out,每次有效签入与签出
 Notify Users On Every Login,每次登录时通知用户
 Each Transaction,每笔交易
@@ -9068,7 +9068,7 @@ Email Queue Recipient,电子邮件队列收件人
 Email Queue records.,电子邮件队列记录。
 Your organization name and address for the email footer.,电子邮件页脚上您的组织名称和地址。
 Email Address,电子邮箱
-Email Domain,电子邮箱
+Email Domain,收/发邮件服务器信息
 Student Email Address,电子邮箱
 Email Account,电子邮箱帐号
 Email Account Name,电子邮箱帐号名
@@ -14680,3 +14680,20 @@ Smaller number higher priority,数字越小，优先级越高
 Party Specific Item,客户/供应商物料过滤
 Restrict Items Based On,过滤字段
 Based On Value,字段值
+Allowed Items,物料过滤
+Domain (optional),服务器域名(可选)
+Use different login,使用另一个账号
+Incoming (POP/IMAP) Settings,收邮件设置
+Document Linking,单据关联
+Outgoing (SMTP) Settings,发邮件设置
+Auto Reply,自动回复
+Service (optional),服务 (可选)
+Use HTML,使用HTML
+Always use this email address as sender address,使用此邮箱作为发件人邮箱
+Always use this name as sender name,使用此用户名作为发件人
+Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?,启用自动回复将会对所有同步过来的邮件生效，确认继续？
+Allow Continuous Material Consumption,允许连续物料消耗
+Allow material consumptions without immediately manufacturing finished goods against a Work Order,允许工单成品入库前消耗原材料
+Allow Excess Material Transfer,允许超量物料调拨
+Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量调拨原材料
+Show Remarks,显示备注信息

@@ -8,6 +8,7 @@ erpnext_chinese/hooks.py
 erpnext_chinese/install.py
 erpnext_chinese/modules.txt
 erpnext_chinese/patches.txt
+erpnext_chinese/utils.py
 erpnext_chinese.egg-info/PKG-INFO
 erpnext_chinese.egg-info/SOURCES.txt
 erpnext_chinese.egg-info/dependency_links.txt
@@ -46,6 +47,7 @@ erpnext_chinese/monkey_patches/file.py
 erpnext_chinese/monkey_patches/global_search.py
 erpnext_chinese/monkey_patches/reportview.py
 erpnext_chinese/monkey_patches/setup_wizard.py
+erpnext_chinese/monkey_patches/stock_ageing.py
 erpnext_chinese/monkey_patches/translate.py
 erpnext_chinese/monkey_patches/utils.py
 erpnext_chinese/public/build.json
@@ -65,6 +67,7 @@ erpnext_chinese/public/js/form/controls/table.js
 erpnext_chinese/public/js/hooks/doctype/user.js
 erpnext_chinese/public/js/hooks/page/dashboard.js
 erpnext_chinese/public/js/hooks/page/permission_manager.js
+erpnext_chinese/public/js/hooks/page/print.js
 erpnext_chinese/public/js/hooks/page/print_format_builder.js
 erpnext_chinese/public/js/lib/charts/charts.js
 erpnext_chinese/public/js/lib/datatable/datatable.js
