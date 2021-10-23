@@ -1525,13 +1525,13 @@ Get from Patient Encounter,从患者看诊中获取
 Check this to pull emails from your mailbox,从您的邮箱收取邮件
 From Date must be before To Date,从日期必须在到目前为止
 renamed from {0} to {1},从更名{0}到{1}
-Get Items from Open Material Requests,从未完成物料申请选物料
+Get Items from Open Material Requests,从未完成物料需求选物料
 Select at least one value from each of the attributes.,从每个属性中至少选择一个值。
 No replies from,从没有回复
 Tax detail table fetched from item master as a string and stored in this field.Used for Taxes and Charges,从物料基础资料中取得税项详细信息表并转换为字符串存入此字段内。用作税金和费用。
 Get Items from BOM,从物料清单选物料
 Copy From Item Group,从物料组复制
-Material Request to Purchase Order,从物料申请到采购订单
+Material Request to Purchase Order,从物料需求到采购订单
 Select from existing attachments,从现有的附件选择
 Get Details From Declaration,从申报获取明细
 Lead to Quotation,从线索到报价
@@ -1972,7 +1972,7 @@ For example if you cancel and amend INV004 it will become a new document INV004-
 e.g Adjustments for:,例如调整：
 Example:,例如：
 e.g.:,例如：
-"Example: ABCD.#####. If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",例如：ABCD.##### 如果系统流水号已设置且交易中未输入批号，则将根据此系统流水号创建自动批号。如果您希望手工输入此物料的批号，请将此栏位留空。注意：此设置将优先于库存设置中的系统流水号前缀。
+"Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",例如：ABCD.##### 如果系统流水号已设置且交易中未输入批号，则将根据此系统流水号创建自动批号。如果您希望手工输入此物料的批号，请将此栏位留空。注意：此设置将优先于库存设置中的系统流水号前缀。
 "Example: ABCD.#####
 If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",例如：ABCD.##### 如果设置了系统流水号而未在交易中输入序列号，系统会基于流水号自动生成序列号。如果序列号都是手工输入，请将此栏位留空。
 eg: frappe.myshopify.com,例如：frappe.myshopify.com
@@ -2747,7 +2747,7 @@ Before Insert,创建前
 Create Lab Test,创建化验
 Create New Record,创建单据
 There were errors while creating the document. Please try again.,创建单据时出错。请再试一次。
-Request for Raw Materials,原材料物料申请
+Request for Raw Materials,原材料物料需求
 Create Invoice,创建发票
 Create Invoices,创建发票
 Make Invoice,创建发票
@@ -2819,12 +2819,12 @@ Submit on creation,创建时直接提交
 Creation Time,创建时间
 Create Sample Retention Stock Entry,创建样本保留库存凭证
 Create documents for sample collection,创建样本收集文件
-Material Request used to make this Stock Entry,创建此物料移动的物料申请
+Material Request used to make this Stock Entry,创建此物料移动的物料需求
 Make Stock Entry,创建物料移动
 Making Stock Entries,创建物料移动
 A logical Warehouse against which stock entries are made.,创建物料移动所依赖的逻辑仓库。
-Create Material Request,创建物料申请
-Make Material Request,创建物料申请
+Create Material Request,创建物料需求
+Make Material Request,创建物料需求
 Create Student Groups,创建班级
 Creating student groups,创建班级
 Create User,创建用户
@@ -3004,7 +3004,7 @@ Including items for sub assemblies,包括下层组件物料
 Include Payment,包括付款
 Include holidays within leaves as leaves,包括休假期间的节假日
 All communications including and above this shall be moved into the new Issue,包括及以上的所有通信均应移至新问题中
-Include Subcontracted Items,包括委外物料
+Include Subcontracted Items,包含委外物料
 Include All Assessment Group,包括所有评估组
 Include Reconciled Entries,包括核销分录
 Include indentation,包括缩进
@@ -3843,7 +3843,7 @@ Cannot convert Cost Center to ledger as it has child nodes,因为有下级成本
 "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",因为此库存调账是开帐凭证，库存变动科目必须是资产/负债类科目，
 'Update Stock' can not be checked because items are not delivered via {0},因为物料还未通过{0）出货，“更新库存'不能被勾选
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,因为该物料已经有使用别的单位的交易记录存在了，不再允许直接修改其默认单位{0}了。如果需要请创建一个新物料，以使用不同的默认单位。
-"Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料申请未创建，。
+"Material Request not created, as quantity for Raw Materials already available.",因原材料可用数量足够，物料需求未创建，。
 Group Name,团队名字
 Team Members,团队成员
 Team Members Heading,团队成员标题
@@ -4144,7 +4144,7 @@ On Item Quantity,基于物料数量
 From BOM,基于物料清单
 Territory Target Variance Based On Item Group,基于物料组的区域目标差异
 Sales Person Target Variance Based On Item Group,基于物料组的销售人员目标差异
-Manufacture against Material Request,基于物料申请生产
+Manufacture against Material Request,基于物料需求生产
 Based on Permissions For User,基于用户权限
 This is based on transactions against this Patient. See timeline below for details,基于病人的相关业务。详情请参阅表单下方日志记录
 Pay Against Benefit Claim,基于福利申请付款
@@ -4322,7 +4322,7 @@ Good/Steady,好/稳定
 Check if material transfer entry is not required,如不需从工单触发生产调拨，请勾选
 Mention if non-standard payable account,如使用非标准应付科目，请在这里指定
  Tax Exemption Declaration will be considered for income tax calculation.,如勾选，个税计算时将扣除申报的免税金额
-"If enabled, then system will create the material even if the raw materials are available",如勾选，则即使有可用原材料，系统也会生成物料申请(需求)
+"If enabled, then system will create the material even if the raw materials are available",如勾选，则即使有可用原材料，系统也会生成物料需求(需求)
 "If enabled, system will create the work order for the exploded items against which BOM is available.",如勾选，系统将为定义了物料清单的下层物料生成生产工单。
 "If you have created a standard template in Sales Taxes and Charges Template, select one and click on the button below.",如已创建销售税/费标准模板，选一个，然后点下面的按钮。
 "Reselect, if the chosen address is edited after save",如所选地址保存后被修改请重新选择
@@ -5198,7 +5198,7 @@ Reconciled,已核销
 Reconciled Transactions,已核销交易
 Allocated amount,已核销金额
 Allocated amount can not greater than unadjusted amount,已核销金额不能超过未调整金额
-Following Material Requests have been raised automatically based on Item's re-order level,已根据物料的重订货点设置自动生成了以下物料申请
+Following Material Requests have been raised automatically based on Item's re-order level,已根据物料的重订货点设置自动生成了以下物料需求
 Already Registered,已注册
 Registered,已注册
 Registered but disabled,已注册但被禁用
@@ -5214,8 +5214,8 @@ Is Active,生效
 Active,生效
 Claimed,已申报
 Applied,已申请
-Requested Items To Be Transferred,待调拨物料申请
-Requested Items To Be Ordered,待采购物料申请
+Requested Items To Be Transferred,待调拨物料需求
+Requested Items To Be Ordered,待采购物料需求
 Material Requested,已申请物料
 Logged in,已登录
 Attendance Marked,已登记考勤
@@ -5229,7 +5229,7 @@ Already completed,已经完成
 Settled,已结清
 You are connected to internet.,已联网。
 Debit Note {0} has been created automatically,已自动创建扣款单{0}
-Auto Material Requests Generated,已自动生成物料申请
+Auto Material Requests Generated,已自动生成物料需求
 Odometer Value (Last),已行驶里程
 Number of Depreciations Booked,已记帐折旧次数
 Visited yet,已访问
@@ -5365,7 +5365,7 @@ Insufficient Stock,库存不足
 Stock and Account Value Comparison,库存与会计帐金额对账
 Stock Transactions,库存交易
 Stock Items,库存产品
-Raise Material Request when stock reaches re-order level,库存低于重订货点时生成物料申请
+Raise Material Request when stock reaches re-order level,库存低于重订货点时生成物料需求
 Stock Balance,库存余额(收发存汇总表)
 Quick Stock Balance,库存余额速查
 Stock Value,库存金额
@@ -5645,7 +5645,7 @@ Outstanding Cheques and Deposits to clear,待清帐支票及存款
 Item to be manufactured or repacked,待生产或者包装物料
 Quantity to Make,待生产数量
 Quantity to Produce,待生产数量
-Items To Be Requested,待创建物料申请物料
+Items To Be Requested,待创建物料需求物料
 To Discuss,待讨论
 Field to Track,待追踪字段
 Pending SO Items For Purchase Request,待采购销售订单明细
@@ -5969,7 +5969,7 @@ Are you sure you want to make debit note?,您确定要创建扣款单吗？
 Are you sure you want to make credit note?,您确定要创建退款单吗？
 Are you sure you want to delete the attachment?,您确定要删除附件？
 Are you sure you want to relink this communication to {0}?,您确定要重新链接该通信{0}？
-Do you want to submit the material request,您要提交物料申请吗？
+Do you want to submit the material request,您要提交物料需求吗？
 You have entered duplicate items. Please rectify and try again.,您输入了重复的物料。请纠正然后重试。
 You selected Draft or Cancelled documents,您选择了草稿或已取消的单据
 Transport Receipt No and Date are mandatory for your chosen Mode of Transport,您选择的运输方式必须提供运输收据号和日期
@@ -6434,7 +6434,7 @@ Specify Exchange Rate to convert one currency into another,指定外币汇率的
 Specify the value of the field,指定字段的值
 "Specify the operations, operating cost and give a unique Operation no to your operations.",指定工序，工序成本及设定唯一工序编号
 Designation Skill,指定技巧
-No pending Material Requests found to link for the given items.,指定物料没有对应的待处理物料申请。
+No pending Material Requests found to link for the given items.,指定物料没有对应的待处理物料需求。
 Specify conditions to calculate shipping amount,指定用来计算运费金额的条件
 Designation (optional),指定（可选）
 Indicator Color,指示灯颜色
@@ -6938,7 +6938,7 @@ No time sheets,无工时表
 No Items with Bill of Materials.,无已维护物料清单的物料。
 No items to be received are overdue,无已逾期待收货物料
 No Quote,无报价
-Material Requests for which Supplier Quotations are not created,无报价物料申请
+Material Requests for which Supplier Quotations are not created,无报价物料需求
 Unsecured Loans,无担保贷款
 Invalid,无效
 Invalid column,无效列
@@ -8769,19 +8769,19 @@ Item Reorder,物料重新排序
 Item Weight Details,物料重量
 Item-wise Sales History,物料销售明细
 Item-wise Sales Register,物料销售台帐
-Material Request,物料申请
-Material Requests,物料申请
-Material Requests {0} created,物料申请{0}已创建
-Material Request {0} is cancelled or stopped,物料申请{0}已取消或已停止
-Material Request {0} submitted.,物料申请{0}已提交。
-The total Issue / Transfer quantity {0} in Material Request {1}  \							cannot be greater than requested quantity {2} for Item {3},物料申请{1}中的物料{3}其总发料/调拨数量{0}不能超过需求数量{2}
-Material Request Plan Item,物料申请中的计划物料
-Material Request Detail,物料申请信息
-Material Request No,物料申请号
-Material Request Date,物料申请日期
-Material Request Item,物料申请明细
-Material Request Type,物料申请类型
-Material Request Planning,物料申请计划
+Material Request,物料需求
+Material Requests,物料需求
+Material Requests {0} created,物料需求{0}已创建
+Material Request {0} is cancelled or stopped,物料需求{0}已取消或已停止
+Material Request {0} submitted.,物料需求{0}已提交。
+The total Issue / Transfer quantity {0} in Material Request {1}  \							cannot be greater than requested quantity {2} for Item {3},物料需求{1}中的物料{3}其总发料/调拨数量{0}不能超过需求数量{2}
+Material Request Plan Item,物料需求中的计划物料
+Material Request Detail,物料需求信息
+Material Request No,物料需求号
+Material Request Date,物料需求日期
+Material Request Item,物料需求明细
+Material Request Type,物料需求类型
+Material Request Planning,物料需求计划
 Item Default,物料默认值
 Item Defaults,物料默认值
 Transporter Details,物流信息
@@ -8875,7 +8875,7 @@ Produced Quantity,生产的产品数量
 Manufacturing Manager,生产经理
 Production Analytics,生产统计分析
 Production Plan,生产计划
-Production Plan Material Request,生产计划物料申请
+Production Plan Material Request,生产计划物料需求
 Production Plan Sales Order,生产计划销售订单
 Production Plan Item,生产计划物料
 Production Order has been {0},生产订单已经{0}
@@ -8893,7 +8893,7 @@ Build Report,生成报表
 Generate Schedule,生成排期表
 Generate Text File,生成文本文件
 Generate New Report,生成新报表
-Generate Material Requests (MRP) and Work Orders.,生成物料申请（MRP）和生产工单。
+Generate Material Requests (MRP) and Work Orders.,生成物料需求（MRP）和生产工单。
 Group Based On,生成班级的字段
 Generated File,生成的文件
 Generate Secret,生成秘密
@@ -8905,7 +8905,7 @@ Birthday Reminder,生日提醒
 Biotechnology,生物技术
 Unsupported GST Category for e-Way Bill JSON generation,用于e-Way Bill JSON生成的不支持的GST类别
 Line spacing for amount in words,用于显示大写金额的行距
-Items for Raw Material Request,用于物料申请的物料号
+Items for Raw Material Request,用于物料需求的物料号
 Used for Production Plan,用于生产计划
 for generating the recurring,用于生成重复记录
 QR Code for Login Verification,用于登录验证的QR码
@@ -8982,7 +8982,7 @@ gained by {0} via automatic rule {1},由{0}通过自动规则{1}获得
 Cannot delete or cancel because {0} {1} is linked with {2} {3} {4},由于{0} {1}与{2} {3} {4}关联，无法删除或取消
 RFQs are not allowed for {0} due to a scorecard standing of {1},由于记分卡的当前评级为{1}，使用向{0}询价
 Purchase Orders are not allowed for {0} due to a scorecard standing of {1}.,由于记分卡当前评级为{1}，不允许下采购订单给{0}。
-"As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料预计数量超过所需数量，因此无需创建物料申请。如果您想要生成物料申请，请启用<b>忽略现有预计数量</b>复选框
+"As raw materials projected quantity is more than required quantity, there is no need to create material request.			Still if you want to make material request, kindly enable <b>Ignore Existing Projected Quantity</b> checkbox",由于原材料预计数量超过所需数量，因此无需创建物料需求。如果您想要生成物料需求，请启用<b>忽略现有预计数量</b>复选框
 Attendance not submitted for {0} as it is a Holiday.,由于是假期，{0}的考勤未提交。
 "As there are existing transactions against item {0}, you can not change the value of {1}",由于物料{0}已被用于现有业务单据中，不允许再更改字段{1}的值
 "Cannot process route, since Google Maps Settings is disabled.",由于禁用了Google地图设置，因此无法处理路线。
@@ -9891,6 +9891,7 @@ Web Form,网页表单
 Web Page Link Text,网页链接文本
 us-east-2,美东2
 USD,美元
+CNY,人民币
 us-east-1,美国 - 东 -  1
 us-west-1,美西1
 us-west-2,美西2
@@ -10040,9 +10041,9 @@ Email Digest: ,自动发邮件-统计信息：
 Auto Reply Message,自动回复留言
 Automatic Reconciliation,自动对帐
 Update BOM Cost Automatically,自动更新BOM成本
-Auto Material Request,自动物料申请
+Auto Material Request,自动物料需求
 Book Asset Depreciation Entry Automatically,自动生成固定资产折旧凭证
-Notify by Email on creation of automatic Material Request,自动生成物料申请时发送邮件通知
+Notify by Email on creation of automatic Material Request,自动生成物料需求时发送邮件通知
 Auto Name,自动编号
 Email Digest:,自动电子邮件(统计信息)：
 Manage Appointment Invoice Automatically,自动管理预约发票
@@ -10149,7 +10150,7 @@ Get Template,选模板
 Get Items,选物料
 Get Items From,选物料
 Get Item Locations,选物料仓库
-Get Material Request,选物料申请
+Get Material Request,选物料需求
 Get Items For Work Order,选生产工单物料
 Get Raw Materials For Production,选原材料
 Get Contacts,选联系人
@@ -10191,7 +10192,7 @@ Submitted Document cannot be converted back to draft. Transition row {0},行{0}�
 Charge of type 'Actual' in row {0} cannot be included in Item Rate,行{0}中的收取类型“实际”不能有“物料税率”
 Target warehouse in row {0} must be same as Work Order,行{0}中的收料仓必须与工单相同
 Quantity in row {0} ({1}) must be same as manufactured quantity {2},行{0}中的数量({1})必须等于完工数量{2}
-Item or Warehouse for row {0} does not match Material Request,行{0}中的物料或仓库与物料申请不符
+Item or Warehouse for row {0} does not match Material Request,行{0}中的物料或仓库与物料需求不符
 Conversion factor for default Unit of Measure must be 1 in row {0},行{0}中默认单位的转换系数必须是1
 Max width for type Currency is 100px in row {0},行{0}中，货币类型的最大宽度是100像素
 Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2},行{0}＃分配的金额{1}不能大于无人认领的金额{2}
@@ -10400,7 +10401,7 @@ Warning: Another {0} # {1} exists against stock entry {2},警告：库存凭证{
 Warning: Invalid Attachment {0},警告：无效的附件{0}
 Warning: Unable to find {0} in any table related to {1},警告：无法找到{0}与任何表{1}
 Warning: This Print Format is in old style and cannot be generated via the API.,警告：此打印格式是旧式的，不能透过API生成的。
-Warning: Material Requested Qty is less than Minimum Order Qty,警告：物料申请数量低于最小起订量
+Warning: Material Requested Qty is less than Minimum Order Qty,警告：物料需求数量低于最小起订量
 Warning: Leave application contains following block dates,警告：申请休假包含以下禁止休假日
 Warning: Invalid SSL certificate on attachment {0},警告：附件{0}中存在无效的SSL证书
 Warning: Invalid attachment {0},警告：附件{0}无效
@@ -10824,7 +10825,7 @@ Please set at least one row in the Taxes and Charges Table,请在“税费和收
 Please set default customer group and territory in Selling Settings,请在“销售设置”中设置默认客户组和区域
 Please set default customer in Restaurant Settings,请在“餐厅设置”中设置默认客户
 Please enter Sales Orders in the above table,请在上表中输入销售订单
-Please enter Material Requests in the above table,请在上面表格输入物料申请
+Please enter Material Requests in the above table,请在上面表格输入物料需求
 Please setup Employee Naming System in Human Resource &gt; HR Settings,请在人力资源&gt;人力资源设置中设置员工编号系统流水号
 Please set default template for Leave Approval Notification in HR Settings.,请在人力资源设置中为离职审批通知设置默认模板。
 Please set default template for Leave Status Notification in HR Settings.,请在人力资源设置中设置离职状态通知的默认模板。
@@ -11374,10 +11375,10 @@ Sync has been temporarily disabled because maximum retries have been exceeded,�
 Limit Crossed,超出最大数量
 Extra Small,超小
 Action if Annual Budget Exceeded on Actual,超年度预算时的控制措施
-Action if Annual Budget Exceeded on MR,超年度预算时针对物料申请的控制措施
+Action if Annual Budget Exceeded on MR,超年度预算时针对物料需求的控制措施
 Action if Annual Budget Exceeded on PO,超年度预算时针对采购订单的控制措施
 Action if Accumulated Monthly Budget Exceeded on Actual,超累计月度预算时的控制措施动
-Action if Accumulated Monthly Budget Exceeded on MR,超累计月度预算时针对物料申请的控制措施
+Action if Accumulated Monthly Budget Exceeded on MR,超累计月度预算时针对物料需求的控制措施
 Allow over delivery or receipt upto this percent,出入库超量控制%
 Over Delivery/Receipt Allowance (%),出入库超量控制(%)
 Overproduction Percentage For Sales Order,超销售订单需求量生产百分比
@@ -11684,7 +11685,7 @@ Applicable for Countries,适用于国家
 Apply To All Document Types,适用于所有单据类型
 Apply to all Documents Types,适用于所有单据类型
 Applicable if the company is a limited liability company,适用于有限责任公司公司
-Applicable on Material Request,适用于物料申请
+Applicable on Material Request,适用于物料需求
 Applicable for Users,适用于用户
 Applicable on Purchase Order,适用于采购订单
 Valid for Countries,适用以下国家
@@ -12210,8 +12211,8 @@ Links Section,链接
 Link MultiSelect,链接(多选)
 Linked Location,链接位置
 Link to your Bootstrap theme,链接到你的引导主题
-Link to Material Request,链接到物料申请
-Link to material requests,链接到物料申请
+Link to Material Request,链接到物料需求
+Link to material requests,链接到物料需求
 Link Name,关联单据编号(名称)
 Chaining Hash,链接哈希
 Link Field,链接字段
@@ -12831,7 +12832,7 @@ Default Service Level Agreement,默认服务水平协议
 Default Terms,默认条款
 Default Item Manufacturer,默认物料制造商
 Default Item Group,默认物料组
-Default Material Request Type,默认物料申请类型
+Default Material Request Type,默认物料需求类型
 Default Cash Account,默认现金科目
 Default Shift,默认班次
 Default BOM,默认物料清单
@@ -12990,8 +12991,8 @@ Actual Batch Quantity,实际批号数量
 Skip Delivery Note,无需出货
 Add {},新建 {}
 Items & Pricing,物料与价格
-Requested Items to Order,待采购物料申请
-Group by Material Request,按物料申请分组
+Requested Items to Order,待采购物料需求
+Group by Material Request,按物料需求分组
 Email / Notifications,邮件 / 通知
 "Please don't update it as it can mess up your form. Use the Customize Form View and Custom Fields to set properties!",请通过定制表单或自定义字段由系统自动生成这个表单里的数据，手动维护这个数据可能导致系统不能正常运行
 Additional Salary,额外薪水
@@ -13803,8 +13804,8 @@ Search for anything ...,搜索任何东西
 	</tbody>
 </table>
 "
-Material Request Warehouse,物料申请仓
-Select warehouse for material requests,请先选择物料申请仓
+Material Request Warehouse,物料需求仓
+Select warehouse for material requests,请先选择物料需求仓
 "To know more about projected quantity, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">click here</a>.","欲了解更多预期数量逻辑, <a href="https://erpnext.com/docs/user/manual/en/stock/projected-quantity" style="text-decoration: underline;" target="_blank">请点这儿</a>."
 Territory, 区域
 Read Time,阅读时间
@@ -13880,10 +13881,10 @@ Cold Calling,陌生电话
 Show Percentage Stats,显示统计百分比
 Time (In Mins),时间(分)
 Downtime (In Hours),停机时间(小时)
-Download Required Materials,下载需要的物料
+Download Required Materials,下载物料需求清单
 Transfer Materials For Warehouse {0},调拨至仓库 {0}
 Source Warehouses (Optional),转出仓(可选)
-"System will pickup the materials from the selected warehouses. If not specified, system will create material request for purchase.",系统将从指定的转出仓选物料，如不指定转出仓，系统就创建类型为采购的物料申请
+"System will pickup the materials from the selected warehouses. If not specified, system will create material request for purchase.",系统将从指定的转出仓选物料，如不指定转出仓，系统就创建类型为采购的物料需求
 Row #{0}: Selling rate for item {1} is lower than its {2}. Selling rate should be atleast {3},第 {0} 行: 物料 {1} 的售价低于其 {2}， 售价至少应该是 {3}
 Desk Card,桌面数字卡
 Desk Chart,桌面统计图表
@@ -13978,7 +13979,7 @@ Create a Operation,新增工序
 Create a Workstation / Machine,新增工作中心/机器
 Create a Warehouse,新增仓库
 Create Raw Materials,新增原材料
-Create a Material Request,新增物料申请
+Create a Material Request,新增物料需求
 Explore Stock Settings,设置库存模块
 Create a Stock Entry,新增一笔物料移动
 "Create Your First Purchase Invoice ",新增第一张采购发票
@@ -14107,7 +14108,7 @@ in,包括,
 Not In,不包括,
 not nn,不包括,
 Requested Items to Order and Receive,已申请待下单与收货的物料
-Group by Material Request,按物料申请分组
+Group by Material Request,按物料需求分组
 This Week,本周
 This Month,本月
 This Quarter,本季
@@ -14241,8 +14242,8 @@ No stock transactions can be created or modified before this date.,库存交易(
 Stock transactions that are older than the mentioned days cannot be modified.,早于此日期之前的库存交易(物料移动）不可修改
 "If mentioned, the system will allow only the users with this Role to create or modify any stock transaction earlier than the latest stock transaction for a specific item and warehouse. If set as blank, it allows all users to create/edit back-dated transactions.","如维护用户角色，则仅该角色的用户可以新建/修改记账日期早于最新日期的物料移动(物料与仓库），即事后补账，如角色字段留空，则有物料移动权限的用户均可事后补账"
 Freeze Stocks Older Than (Days),冻结库存修改(天),
-Raise Material Request When Stock Reaches Re-order Level,库存低于重订货点自动产生物料申请,
-Notify by Email on Creation of Automatic Material Request,自动新建物料申请时发送邮件通知,
+Raise Material Request When Stock Reaches Re-order Level,库存低于重订货点自动产生物料需求,
+Notify by Email on Creation of Automatic Material Request,自动新建物料需求时发送邮件通知,
 Is Purchase Order Required for Purchase Invoice & Receipt Creation?,必须有采购订单才能新建采购入库和采购发票？,
 Is Purchase Receipt Required for Purchase Invoice Creation?,必须有采购入库才能新建采购发票？,
 Hide Images,隐藏图片
@@ -14268,7 +14269,7 @@ Row {}: Expense Head changed to {},第{}行：费用科目已变更为 {}
 or it is not the default inventory account,或者不是默认库存科目
 "because expense is booked against this account in Purchase Receipt {}",因为在采购入库中费用记账至此科目
 Required Qty as per BOM,物料清单需求量
-Include Safety Stock in Required Qty Calculation,需求量中包含安全库存
+Include Safety Stock in Required Qty Calculation,包含安全库存
 Item {0}: {1} qty produced. ,物料{0}：已生产数量：{1}。,
 "If rate is zero them item will be treated as \"Free Item\"",如单价为0则会被标记为免费
 "Discounts to be applied in sequential ranges like buy 1 get 1, buy 2 get 2, buy 3 get 3 and so on",按适用数量范围计算折扣，如买1送1，买2送2，买3送3等
@@ -14500,7 +14501,7 @@ Get Sub Assembly Items,选子装配件
 Sub Assembly Items,子装配件
 Bom No,物料清单编号
 Manufacturing Type,生产类型
-Material Requirement Planning,物料申请计划
+Material Requirement Planning,物料需求计划
 In House,自制
 Indent,上层需求
 Excluded DocTypes,不包括单据类型
@@ -14644,7 +14645,7 @@ Primary Role,首选角色
 Secondary Role,次要角色
 Primary Party,首选业务伙伴代码
 Secondary Party,次要业务伙伴代码
-Make Material Request for Warehouse,物料申请仓
+Make Material Request for Warehouse,物料需求仓
 "To make material requests, 'Make Material Request for Warehouse' field is mandatory",
 Plan to Request Qty,计划数量
 Qty As Per BOM,物料清单折算数量
@@ -14697,3 +14698,4 @@ Allow material consumptions without immediately manufacturing finished goods aga
 Allow Excess Material Transfer,允许超量物料调拨
 Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量调拨原材料
 Show Remarks,显示备注信息
+"Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials",通过后台程序基于原材料最新成本价/标价/采购价自动更新BOM成本,

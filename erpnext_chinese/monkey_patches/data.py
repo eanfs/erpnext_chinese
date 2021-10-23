@@ -47,7 +47,7 @@ def money_in_words_zh(number, main_currency = None, fraction_currency=None):
 
     # 如果是中文，调用中文的金额转大写
     if (frappe.local.lang == 'zh'):
-        return cncurrency(n, prefix=True)
+        return _(main_currency) + cncurrency(n, prefix=True)
 
     # 0.00
     if main == '0' and fraction in ['00', '000']:
@@ -83,10 +83,7 @@ def cncurrency(value, capital=True, prefix=False, classical=None):
         classical = True if capital else False
 
     # 汉字金额前缀
-    if prefix is True:
-        prefix = '人民币'
-    else:
-        prefix = ''
+    prefix = ''
 
     # 汉字金额字符定义
     dunit = ('角', '分')
