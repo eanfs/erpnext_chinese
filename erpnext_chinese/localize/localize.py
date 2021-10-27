@@ -51,8 +51,8 @@ def set_default_accounts(company):
 	return values
 
 def set_global_defaults():
-	frappe.db.set_value('Global Defaults','',{'disable_rounded_total':0,
-											'disable_in_words':0}
+	frappe.db.set_value('Global Defaults','',{'disable_rounded_total':1,
+											'disable_in_words':1}
 						)
 
 def change_field_property():

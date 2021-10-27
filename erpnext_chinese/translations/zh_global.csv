@@ -1055,3 +1055,39 @@ Sr. No,序号
 Report Error,出错提示
 Loans,贷款
 Link To,链接至
+"# Track Material Request
+
+
+Also known as Purchase Request or an Indent, is a document identifying a requirement of a set of items (products or services) for various purposes like procurement, transfer, issue, or manufacturing. Once the Material Request is validated, a purchase manager can take the next actions for purchasing items like requesting RFQ from a supplier or directly placing an order with an identified Supplier.
+
+","# 管理物料需求
+
+物料需求又称采购需求，是因采购、调拨、生产等目的产生的对原材料的需求，物料需求被审批后，可以下推询价、报价或直接生成采购订单"
+"# Create first Purchase Order
+
+Purchase Order is at the heart of your buying transactions. In ERPNext, Purchase Order can can be created against a Purchase Material Request (indent) and Supplier Quotation as well.  Purchase Orders is also linked to Purchase Receipt and Purchase Invoices, allowing you to keep a birds-eye view on your purchase deals.
+
+","采购订单是采购业务的核心，采购订单可由物料需求、供应商报价或销售订单下推，从采购订单可下推(关联)采购入库、采购发票、付款"
+"# Buying Settings
+
+
+Buying module’s features are highly configurable as per your business needs. Buying Settings is the place where you can set your preferences for:
+
+- Supplier naming and default values
+- Billing and shipping preference in buying transactions
+
+
+","# 采购设置
+
+采购模块有很多可配置选项，比如
+
+- 供应商编号规则及默认值
+- 采购业务中的发票及出货"
+"Let’s walk-through few Buying Settings",进入采购设置界面
+"Let’s create your first Purchase Order",创建第一个采购订单
+"Let’s create your first Material Request",创建第一个物料需求
+Configure the default Price List when creating a new Purchase transaction. Item prices will be fetched from this Price List.,采购业务单据中默认的价格表。,
+Done,完成
+"# Create a Supplier
+In this step we will create a **Supplier**. If you have already created a **Supplier** you can skip this step.","# 新建供应商
+此步骤新建一个 **供应商**，如果已经新建过**供应商**了，则可跳过此步骤"

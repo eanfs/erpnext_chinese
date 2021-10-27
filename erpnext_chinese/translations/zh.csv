@@ -1401,7 +1401,7 @@ Transactions,交易
 Transaction ID,交易ID
 Match Transaction to Invoices,交易与发票匹配
 "Looks like something went wrong during the transaction. Since we haven't confirmed the payment, Paypal will automatically refund you this amount. If it doesn't, please send us an email and mention the Correlation ID: {0}.",交易中似乎发生错误。由于我方尚未确认付款，贝宝（paypal)会自动给您全额退款。如果没有退款，请给我们发邮件并注明相关ID：{0}。
-Transaction reference no {0} dated {1},交易参考编号{0}日{1}
+Transaction reference no {0} dated {1},交易参考编号 {0} 日期 {1}
 Transactions can only be deleted by the creator of the Company,交易只能由公司的创建者删除
 Mention transaction completion page URL,交易完成后跳转的网址
 Transactions Annual History,交易年历
@@ -2670,7 +2670,7 @@ In Minutes,分钟
 In minutes,分钟
 in minutes,分
 Minute,分钟
-Minutes,分钟
+Minutes,会议记录
 Page Break,分页
 Page Break,分页符
 Cut,切
@@ -3346,7 +3346,7 @@ Billing Address,发票地址
 Invoice Grand Total,发票总计
 Invoice Patient Registration,发票患者登记
 Invoice Date,发票日期
-Month(s) after the end of the invoice month,发票月份结束后的月份
+Month(s) after the end of the invoice month,发票月底 + 授信月数
 Invoice Type,发票类型
 Invoice Series Prefix,发票系统流水号前缀
 Invoice Ref,发票编号
@@ -4290,9 +4290,9 @@ Size,大小
 Day,天
 In Days,天数
 Days Before or After,天数(前或后)
-Day(s) after invoice date,天数(发票日期后)
+Day(s) after invoice date,发票日 + 授信天数
 Validity in Days,天数有效
-Day(s) after the end of the invoice month,天数（发票月底最后一天后）
+Day(s) after the end of the invoice month,发票月底 + 授信天数
 Weather,天气
 Weather Parameter,天气参数
 Natural Gas,天然气
@@ -6490,7 +6490,7 @@ Oil Change,换油
 Shortcuts,快速访问
 Combination of Grant Type (<code>{0}</code>) and Response Type (<code>{1}</code>) not allowed,授予类型（ <code>{0}</code> ）和响应类型（ <code>{1}</code> ）的组合不允许
 Credit Days,授信天数
-Credit Months,授信期(月)
+Credit Months,授信月数
 Authorize Google Contacts Access,授权Google通讯录访问权限
 Authorization URL,授权URL
 Authorize URL,授权URL
@@ -6771,7 +6771,7 @@ For Quantity,数量
 Qty,数量
 Quantity,数量
 Batch Quantity,数量
-Amount {0} {1} against {2} {3},数量 {0}{1} 对应 {2}{3}
+Amount {0} {1} against {2} {3},金额 {0}{1} 业务单据 {2} {3}
 For quantity {0} should not be grater than work order quantity {1},数量{0}不应超过工单数量{1}
 Quantity must not be more than {0},数量不能超过{0}
 Quantity and Warehouse,数量和仓库
@@ -8253,7 +8253,7 @@ Did not save,没有保存
 No Show,没有出现
 No Lab Test created,没有创建化验
 No Work Orders created,没有创建工单
-No material request created,没有创建重要请求
+No material request created,无需创建的物料需求
 Did not remove,没有删除
 No of emails remaining to be synced,没有剩余的电子邮件进行同步
 No salary slip found to submit for the above selected criteria OR salary slip already submitted,没有发现提交上述选定标准或已提交工资单的工资单
@@ -10152,7 +10152,7 @@ Get Items From,选物料
 Get Item Locations,选物料仓库
 Get Material Request,选物料需求
 Get Items For Work Order,选生产工单物料
-Get Raw Materials For Production,选原材料
+Get Raw Materials For Production,计算原材料需求
 Get Contacts,选联系人
 Get prescribed procedures,获取规定的程序
 Fetch Subscription Updates,获取订阅更新
@@ -11829,7 +11829,7 @@ Expire Notification On,通知截止日
 Notification Control,通知控制
 Notification Recipient,通知收件人
 Notice Period,通知期
-Notify users with a popup when they log in,通知用户有一个弹出登录时
+Notify users with a popup when they log in,用户登录后以弹框通知
 Error in Notification,通知错误
 Error in Notification: {},通知错误：{}
 Notification Tones,通知音
@@ -13806,7 +13806,7 @@ Search for anything ...,搜索任何东西
 "
 Material Request Warehouse,物料需求仓
 Select warehouse for material requests,请先选择物料需求仓
-"To know more about projected quantity, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">click here</a>.","欲了解更多预期数量逻辑, <a href="https://erpnext.com/docs/user/manual/en/stock/projected-quantity" style="text-decoration: underline;" target="_blank">请点这儿</a>."
+"To know more about projected quantity, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">click here</a>.","欲了解更多预期数量逻辑, <a href=""https://erpnext.com/docs/user/manual/en/stock/projected-quantity"" style=""text-decoration: underline;"" target=""_blank"">请点这儿</a>."
 Territory, 区域
 Read Time,阅读时间
 Disable Comments,禁止评论
@@ -14368,8 +14368,8 @@ Commit,提交
 Basic Info,基本信息
 "If blank, parent Warehouse Account or company default will be considered in transactions",如果为空，则取父仓库或公司基础资料里默认的科目,
 % Returned,已退货%
-"If not, you can Cancel / Submit this entry ",请选择以下方式中的一种之后 
-" performing either one below:",再提交或取消此单据
+"If not, you can Cancel / Submit this entry",请选择以下方式中的一种之后 
+"performing either one below:",再提交或取消此单据
 {0},""
 "The following values do not exist for {}: {}",以下单据{}值不存在: {}
 Add to Transit,添加至在途,
@@ -14497,7 +14497,7 @@ Scheduled Job Log,后台任务运行日志
 Cron,自定义频率(Cron)
 Transaction Deletion Record,业务交易删除记录
 Incorrect Balance Qty After Transaction,库存与会计总账差异
-Get Sub Assembly Items,选子装配件
+Get Sub Assembly Items,计算子装配件需求
 Sub Assembly Items,子装配件
 Bom No,物料清单编号
 Manufacturing Type,生产类型
@@ -14515,16 +14515,16 @@ Setting Key,默认链接字段
 Setting Value,默认值
 BOM Level,物料清单层数
 Supplier Item Group,供应商物料组
-Employee Grievance,员工报怨
-Grievance Details,抱怨详情
-Grievance Against Party,抱怨对象
-Grievance Against,报怨主体
-Grievance Type,报怨类型
+Employee Grievance,员工意见
+Grievance Details,意见详情
+Grievance Against Party,意见对象
+Grievance Against,意见对象
+Grievance Type,意见类型
 Associated Document Type,关联单据类型
 Associated Document,关联单据
 Investigation Details,调查详情
-Cause of Grievance,报怨原因
-Employee Responsible,报怨负责人
+Cause of Grievance,意见原因
+Employee Responsible,意见负责人
 Investigated,已调查
 Quality Inspection Settings,质量检验设置
 Action If Quality Inspection Is Rejected,质量检验被拒的措施
@@ -14576,7 +14576,8 @@ Is Corrective Operation,返工工序
 Sub Operations,子工序
 Sub Operation,子工序
 Total Operation Time,总工序时间
-Time in mins.,分
+Time in mins.,分钟
+Time in mins,分钟
 Operation Section,工序信息
 User Document Type,用户单据类型
 User Type Module,用户类型模块
@@ -14699,3 +14700,40 @@ Allow Excess Material Transfer,允许超量物料调拨
 Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量调拨原材料
 Show Remarks,显示备注信息
 "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials",通过后台程序基于原材料最新成本价/标价/采购价自动更新BOM成本,
+Ignore Empty Stock,不包括无库存物料
+Track Material Request,管理物料需求
+Create first Purchase Order,创建第一个采购订单
+"# Track Material Request
+
+
+Also known as Purchase Request or an Indent, is a document identifying a requirement of a set of items (products or services) for various purposes like procurement, transfer, issue, or manufacturing. Once the Material Request is validated, a purchase manager can take the next actions for purchasing items like requesting RFQ from a supplier or directly placing an order with an identified Supplier.
+
+","# 管理物料需求
+
+物料需求又称采购需求，是因采购、调拨、生产等目的产生的对原材料的需求，物料需求被审批后，可以下推询价、报价或直接生成采购订单"
+"# Create first Purchase Order
+
+Purchase Order is at the heart of your buying transactions. In ERPNext, Purchase Order can can be created against a Purchase Material Request (indent) and Supplier Quotation as well.  Purchase Orders is also linked to Purchase Receipt and Purchase Invoices, allowing you to keep a birds-eye view on your purchase deals.
+
+","采购订单是采购业务的核心，采购订单可由物料需求、供应商报价或销售订单下推，从采购订单可下推(关联)采购入库、采购发票、付款"
+"# Buying Settings
+
+
+Buying module's features are highly configurable as per your business needs. Buying Settings is the place where you can set your preferences for:
+
+- Supplier naming and default values
+- Billing and shipping preference in buying transactions
+
+
+","# 采购设置
+
+采购模块有很多可配置选项，比如
+
+- 供应商编号规则及默认值
+- 采购业务中的发票及出货"
+'If source warehouse selected then system will create the material request with type Material Transfer from Source to Target warehouse. If not selected then will create the material request with type Purchase for the target warehouse.',如果指定转出仓且有相应数量，系统会创建自转出仓至收料仓调拨类型的物料需求，否则将针对收料仓创建采购类型的物料需求
+Work Order / Subcontract PO,生产工单 / 委外采购订单
+Create Job Card based on Batch Size,基于生产批量创建加工单
+Production Plan Summary,生产计划汇总报表
+Work Order Tree,生产工单树
+"If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
