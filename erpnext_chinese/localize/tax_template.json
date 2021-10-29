@@ -16,7 +16,8 @@
                     "taxes": [
                         {
                             "account_head": {
-                                "account_name":"22210102 - 销项税额",
+                                "account_name":"销项税额",
+                                "account_number":"22210102",
                                 "tax_rate": 0
                             }
                         }
@@ -29,7 +30,8 @@
                     "taxes": [
                         {
                             "account_head": {
-                                "account_name":"22210102 - 销项税额",
+                                "account_name":"销项税额",
+                                "account_number":"22210102",
                                 "tax_rate": 13.00
                             }
                         }
@@ -44,7 +46,8 @@
                     "taxes": [
                         {
                             "account_head": {
-                                "account_name":"22210101 - 进项税额",
+                                "account_name":"进项税额",
+                                "account_number":"22210101",
                                 "tax_rate": 0
                             }
                         }
@@ -57,7 +60,8 @@
                     "taxes": [
                         {
                             "account_head": {
-                                "account_name":"22210101 - 进项税额",
+                                "account_name":"进项税额",
+                                "account_number":"22210101",
                                 "tax_rate": 1.00
                             }
                         }
@@ -70,7 +74,8 @@
                     "taxes": [
                         {
                             "account_head": {
-                                "account_name":"22210101 - 进项税额",
+                                "account_name":"进项税额",
+                                "account_number":"22210101",
                                 "tax_rate": 13.00
                             }
                         }

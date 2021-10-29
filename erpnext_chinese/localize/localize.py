@@ -11,8 +11,10 @@ from erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts import
 
 def import_coa(company):
 	unset_existing_data(company)
-	forest = get_chart_data_from_csv()
-	create_charts(company, custom_chart=forest)
+	data = get_chart_data_from_csv()
+	frappe.local.flags.ignore_root_company_validation = True
+	forest = build_forest(data)
+	create_charts(company, custom_chart=forest, from_coa_importer=True)
 	set_default_accounts(company)
 	set_global_defaults()
 	change_field_property()
@@ -21,7 +23,7 @@ def import_coa(company):
 	set_item_group_account(company)
 	set_warehouse_account(company)
 
-def get_chart_data_from_csv():
+def get_chart_data_from_csv(as_dict=False):
 	file_path = os.path.join(os.path.dirname(__file__), 'coa_cn.csv')
 	data = []
 	with open(file_path, 'r') as in_file:
@@ -30,12 +32,14 @@ def get_chart_data_from_csv():
 		del csv_reader[0] # delete top row and headers row
 
 		for row in csv_reader:
-			if not row[1]:
-				row[1] = row[0]
-				row[3] = row[2]
-			data.append(row)
-	forest = build_forest(data)			
-	return forest
+			if as_dict:
+				data.append({frappe.scrub(header): row[index] for index, header in enumerate(headers)})
+			else:
+				if not row[1]:
+					row[1] = row[0]
+					row[3] = row[2]
+				data.append(row)							
+	return data
 
 def set_default_accounts(company):
 	file_path = os.path.join(os.path.dirname(__file__), 'default_accounts.csv')
@@ -115,21 +119,25 @@ def set_warehouse_account(company):
 		frappe.db.set_value('Warehouse', warehouse_name, 'account', account_name)
 
 def set_item_group_account(company):
-	abbr = frappe.db.get_value('Company', company, 'abbr')
-	for wh_detail in [
-			[_("Raw Material"), '400101 - 基本生产成本'],
-			[_("Sub Assemblies"), '400101 - 基本生产成本'],
-			[_("Consumable"), '400101 - 基本生产成本'],
-			[_("Services"), '400102 - 辅助生产成本'],
-			[_("Products"), '5401 - 主营业务成本']
-		]:
-		warehouse_name = f'{wh_detail[0]} - {abbr}'		
-		account_name = 	f'{wh_detail[1]} - {abbr}'
-		item_group_obj = frappe.get_doc('Item Group', wh_detail[0])
-		item_group_obj.append('item_group_defaults',{
-			'company': company,
-			'expense_account': account_name
-		})
-		item_group_obj.save()
+	try:
+		abbr = frappe.db.get_value('Company', company, 'abbr')
+		if frappe.db.exists("Account", f'400101 - 基本生产成本 - {abbr}'):
+			for wh_detail in [
+					[_("Raw Material"), '400101 - 基本生产成本'],
+					[_("Sub Assemblies"), '400101 - 基本生产成本'],
+					[_("Consumable"), '400101 - 基本生产成本'],
+					[_("Services"), '400102 - 辅助生产成本'],
+					[_("Products"), '5401 - 主营业务成本']
+				]:
+				warehouse_name = f'{wh_detail[0]} - {abbr}'		
+				account_name = 	f'{wh_detail[1]} - {abbr}'
+				item_group_obj = frappe.get_doc('Item Group', wh_detail[0])
+				item_group_obj.append('item_group_defaults',{
+					'company': company,
+					'expense_account': account_name
+				})
+				item_group_obj.save()
+	except:
+		pass
 
 		
