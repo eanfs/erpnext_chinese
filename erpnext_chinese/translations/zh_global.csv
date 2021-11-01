@@ -1091,3 +1091,5 @@ Done,完成
 "# Create a Supplier
 In this step we will create a **Supplier**. If you have already created a **Supplier** you can skip this step.","# 新建供应商
 此步骤新建一个 **供应商**，如果已经新建过**供应商**了，则可跳过此步骤"
+Show Users,显示用户
+Allowed Items,可交易物料

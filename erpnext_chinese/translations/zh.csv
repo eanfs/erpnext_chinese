@@ -3552,7 +3552,7 @@ Contract End Date,合同结束日期
 Contract End Date must be greater than Date of Joining,合同结束日期必须大于加入的日期
 Merge,合并
 Combined invoice portion must equal 100%,合并发票部分必须等于100％
-"Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",合并是唯一可能的，如果以下属性中均有记载相同。是组，根类型，公司
+"Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",仅在两个科目字段(是组、一级科目类型、公司)内容相同时才可合并
 Group same items,合并相同物料
 Merge Account,合并科目
 Consolidated Financial Statement,合并财务报表
@@ -5249,7 +5249,7 @@ Selected Option,已选项
 Updated via 'Time Log'",通过“工时记录”更新的工时(分)
 Overdue,已逾期
 Google Contacts has been configured.,已配置Google通讯录。
-Ordered Qty,已采购数量
+Ordered Qty,采购订单数量
 Seen,已阅
 Hidden,已隐藏
 Booked,已预订
@@ -7969,8 +7969,8 @@ Get Invoices based on Filters,根据过滤条件获取发票
 "As per the Buying Settings if Purchase Reciept Required == 'YES', then for creating Purchase Invoice, user need to create Purchase Receipt first for item {0}",根据采购设置，如果需要采购入库==“是”，则为了创建采购发票，用户需要首先为物料{0}创建采购订单
 Home Folder,根目录
 Root Account must be a group,根科目必须是“组”
-Root Type,根类型
-Root Type is mandatory,根类型是必填字段
+Root Type,一级科目类型
+Root Type is mandatory,一级科目类型是必填字段
 Root cannot have a parent cost center,根结点(成本中心)不能有父成本中心
 Grant,格兰特
 Plaid transactions sync error,格子交易同步错误
@@ -11581,7 +11581,7 @@ This is a top-100 common password.,这是一个前100名的常用密码。
 This is a top-10 common password.,这是一个前10名的常用密码。
 This is an example website auto-generated from ERPNext,这是一个示例网站从ERPNext自动生成
 This is an automatically generated reply,这是一个自动生成的回复
-This is a background report. Please set the appropriate filters and then generate a new one.,这是一个需后台运算获取数据的报表，请设置恰当的过滤条件并据此生成新报表
+This is a background report. Please set the appropriate filters and then generate a new one.,此报表是后台运行报表，请设置恰当的过滤条件并点击右上角生成新报表按钮获取报表结果
 This is a very common password.,这是一个非常普遍的密码。
 This is PERMANENT action and you cannot undo. Continue?,这是不可撤销操作，继续吗？
 This is a root customer group and cannot be edited.,这是不能被编辑的树形结构的根结点
@@ -12488,8 +12488,8 @@ Inspection Required before Purchase,需来料检验
 Requirement,需求
 Needs Analysis,需求分析
 Reqd Qty,需求数量
-Requested Qty,已申请数量
-Requested Quantity,已申请数量
+Requested Qty,物料需求数量
+Requested Quantity,物料需求数量
 Required Qty,需求数量
 Required By,需求日期
 Required Date,需求日期
@@ -14679,10 +14679,10 @@ Select Network Printer,选择网络打印机
 Condition for Default,设为默认格式的条件
 Smaller number higher priority,数字越小，优先级越高
 "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is ""Saved"", 1 is ""Submitted"" and 2 is ""Cancelled""",工作流所有状态与角色，单据状态0 表示"已保存"，1表示"已提交"，2表示"已取消"
-Party Specific Item,客户/供应商物料过滤
+Party Specific Item,客户/供应商可交易物料
 Restrict Items Based On,过滤字段
 Based On Value,字段值
-Allowed Items,物料过滤
+Allowed Items,可交易物料
 Domain (optional),服务器域名(可选)
 Use different login,使用另一个账号
 Incoming (POP/IMAP) Settings,收邮件设置
@@ -14737,3 +14737,10 @@ Create Job Card based on Batch Size,基于生产批量创建加工单
 Production Plan Summary,生产计划汇总报表
 Work Order Tree,生产工单树
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
+Go to Notification Settings List,转到通知设置列表
+Sequence Id,序号,
+Cost Per Unit,单位成本
+Base Cost Per Unit,基础单位成本
+Apply Tax Withholding Amount,添加代扣税金额
+Partly Paid,部分付款
+Partly Paid and Discounted,已贴现部分付款
