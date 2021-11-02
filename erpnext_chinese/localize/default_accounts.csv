@@ -1,23 +1,23 @@
-default_bank_account,1002 - 银行存款
-default_cash_account,100101 - 库存现金
-default_payable_account,2202 - 应付账款
-default_receivable_account,1122 - 应收账款
-round_off_account,571111 - 圆整抹零
-write_off_account,571103 - 坏账损失
-exchange_gain_loss_account,560303 - 汇兑损失
-default_income_account,5001 - 主营业务收入
-default_expense_account,5401 - 主营业务成本
-default_payroll_payable_account,221101 - 职工工资
-default_expense_claim_payable_account,2241 - 其他应付款
-default_discount_account,560304 - 现金折扣
-default_inventory_account,1403 - 原材料
-stock_adjustment_account,400103 - 库存调整
-stock_received_but_not_billed,280101 - 暂估库存
-service_received_but_not_billed,280102 - 暂估服务
-expenses_included_in_valuation,400104 - 计入物料成本的费用
-accumulated_depreciation_account,1602 - 累计折旧
-depreciation_expense_account,560204 - 折旧摊销费
-disposal_account,1606 - 固定资产清理
-asset_received_but_not_billed,280103 - 暂估资产
-capital_work_in_progress_account,1604 - 在建工程
-expenses_included_in_asset_valuation,400105 - 计入资产的费用
+default_bank_account,银行存款
+default_cash_account,库存现金
+default_payable_account,应付账款
+default_receivable_account,应收账款
+round_off_account,圆整抹零
+write_off_account,坏账损失
+exchange_gain_loss_account,汇兑损失
+default_income_account,主营业务收入
+default_expense_account,主营业务成本
+default_payroll_payable_account,职工工资
+default_expense_claim_payable_account,其他应付款
+default_discount_account,现金折扣
+default_inventory_account,原材料
+stock_adjustment_account,库存调整
+stock_received_but_not_billed,暂估库存
+service_received_but_not_billed,暂估服务
+expenses_included_in_valuation,计入物料成本的费用
+accumulated_depreciation_account,累计折旧
+depreciation_expense_account,折旧摊销费
+disposal_account,固定资产清理
+asset_received_but_not_billed,暂估资产
+capital_work_in_progress_account,在建工程
+expenses_included_in_asset_valuation,计入资产的费用
