@@ -398,6 +398,7 @@ LDAP Email Field,LDAP电子邮件字段
 LDAP Settings,LDAP设置
 LInked Analysis,LInked分析
 LMS User,LMS用户
+Interviewer,面试官
 LP-,LP-
 LabTest Approver,LabTest审批者
 Lakshadweep Islands,Lakshadweep群岛
@@ -8163,6 +8164,8 @@ Daily Work Summary Group,每日工作总结组
 Daily Work Summary Group User,每日工作总结组用户
 Daily Work Summary Settings,每日工作总结设置
 Daily Timesheet Summary,每日工时表汇总
+Employee Hours Utilization,员工工时利用率
+Employee Hours Utilization Based On Timesheet,基于时间表的员工工时利用率
 Daily Reminders,每日提醒
 Every day events should finish on the same day.,每日活动应该在当天结束。
 Every Month,每月
