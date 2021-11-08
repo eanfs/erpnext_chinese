@@ -7,6 +7,7 @@ Manufacturing,生产
 Project,项目
 Buying,采购
 Accounts,会计
+Stock,库存
 Distribution,贸易与分销
 Services,服务
 Administration,系统管理
@@ -1053,7 +1054,7 @@ Top Customers,大客户
 Item-wise Annual Sales,物料年销售额
 Sr. No,序号
 Report Error,出错提示
-Loans,贷款
+Loans,借款
 Link To,链接至
 "# Track Material Request
 

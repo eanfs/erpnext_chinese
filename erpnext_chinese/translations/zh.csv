@@ -1640,7 +1640,7 @@ Payment Amount,付款金额
 Paid amount + Write Off Amount can not be greater than Grand Total,付款金额+销帐金额不能大于总金额
 Paid Amount cannot be greater than total negative outstanding amount {0},付款金额不能大于总未付金额{0}
 Paid Amount (Company Currency),付款金额（本币）
-Paid Loan,付费贷款
+Paid Loan,付费借款
 ToDo,代办事项
 Deduct Tax For Unsubmitted Tax Exemption Proof,代扣未提交免税证明的税款
 Deduct Tax For Unclaimed Employee Benefits,代扣未领取员工福利应纳税款
@@ -2195,7 +2195,7 @@ Health Concerns,健康问题
 Repaid/Closed,偿还/关闭
 Loan Repayment,偿还借款
 Loan repayment,偿还借款
-Close Loan,偿还贷款
+Close Loan,偿还借款
 Bin,储位
 Storage Temperature,储存温度
 "Repeats like ""aaa"" are easy to guess",像“AAA”重复很容易被猜到
@@ -2848,8 +2848,8 @@ Failed to create website,创建网站失败
 Check Vacancies On Job Offer Creation,创建聘书时检查职位空缺
 Create rules to restrict transactions based on values.,创建规则，根据属性值来限制交易。
 There were errors creating Course Schedule,创建课程表时出现错误
-Create Loan,创建贷款
-Make Disbursement Entry,创建贷款放款凭证
+Create Loan,创建借款
+Make Disbursement Entry,创建借款放款凭证
 New Event,创建跟进记录
 Create Repayment Entry,创建还款凭证
 Create Delivery Trip,创建配送单
@@ -3313,7 +3313,7 @@ Publish Items on Website,发布物料到网站上
 Posted By,发布者
 Post Description Key,发布说明密钥
 Post Route Key List,发布路径密钥列表
-Disburse Loan,发放贷款
+Disburse Loan,发放借款
 Issue Material,发料
 Material Issue,其他出库
 From Warehouse,发料仓
@@ -3744,7 +3744,7 @@ Employee Detail,员工详细信息
 Employee Details,员工详细信息
 Employee Billing Summary,员工发票汇总
 Employee A/C Number,员工账号
-Employee Loan,员工贷款
+Employee Loan,员工借款
 Employee Information,员工资料
 Employee Transfer Details,员工转移详情
 Employee Advance,员工预付款
@@ -3980,7 +3980,7 @@ Show PDC in Print,在打印中显示部分支付
 Hide field in Report Builder,在报表生成器隐藏字段
 Customers in Queue,在排队的客户
 Enter the name of the Beneficiary before submittting.,在提交之前输入受益人的姓名。
-Enter the name of the bank or lending institution before submittting.,在提交之前输入银行或贷款机构的名称。
+Enter the name of the bank or lending institution before submittting.,在提交之前输入银行或借款机构的名称。
 Enter the Bank Guarantee Number before submittting.,在提交之前输入银行担保编号。
 Type something in the search box to search,在搜索框中输入一些文字开始搜索
 Receive at Warehouse Entry,在收货区收料
@@ -4608,7 +4608,7 @@ Percent Complete,完成百分比
 % Complete Method,完成百分比法
 Total completed qty must be greater than zero,完成的总数量必须大于零
 Go to this URL after completing the form (only for Guest users),完成表单后转到此网址（仅限访客用户）
-Define various loan types,定义不同的贷款类型
+Define various loan types,定义不同的借款类型
 Defines actions on states and the next step and allowed roles.,定义切换到工作流状态的操作，下一个状态和被允许的角色。
 Defines workflow states and rules for a document.,定义单据工作流状态和规则。
 Define workflows for forms.,定义表单工作流。
@@ -5034,14 +5034,14 @@ Salary Slip Timesheet,工资单工时表
 Salary Slips Created,工资单已创建
 Salary Slip ID,工资单编号
 Payroll Setup,工资单设置
-Salary Slip Loan,工资单贷款
+Salary Slip Loan,工资单借款
 Salary Mode,工资发放方式
 Payroll Frequency,工资发放频率
 Salary Register,工资台账
 Payroll Number,工资号码
 "Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range.",工资已经结算了与{0}和{1}，不可在此期间再申请休假。
 Gross Pay,工资总额
-Gross Pay - Total Deduction - Loan Repayment,工资总额 - 扣除总额 - 贷款还款
+Gross Pay - Total Deduction - Loan Repayment,工资总额 - 扣除总额 - 借款还款
 Payroll Date,工资日期
 Payroll date can not be less than employee's joining date,工资日期不能低于员工的加入日期
 Payroll Period,工资期间
@@ -5833,7 +5833,7 @@ Total Contribution Amount: {0},总贡献金额：{0}
 GL Entry,总账分录
 Total Credit/ Debit Amount should be same as linked Journal Entry,总贷方/借方金额应与关联的手工凭证相同
 Total Credit,总贷方金额
-Total Loan Repayment,总贷款还款
+Total Loan Repayment,总借款还款
 Total Expense Claim (via Expense Claim),总费用报销（费用报销）
 Total Expense Claim (via Expense Claims),总费用报销（费用报销）
 Total Asset,总资产
@@ -6392,7 +6392,7 @@ Sorry! Sharing with Website User is prohibited.,抱歉，已禁止和网站用�
 "Sorry, Serial Nos cannot be merged",抱歉，序列号无法合并
 Sorry! I could not find what you were looking for.,抱歉，无法找你要的信息。
 Sorry! User should have complete access to their own record.,抱歉，用户必须对自己的记录拥有完全的访问权。
-Secured Loans,抵押贷款
+Secured Loans,抵押借款
 Split Batch,拆分批号
 Split Issue,拆分问题
 thumbs-down,拇指向下
@@ -6939,7 +6939,7 @@ No Items with Bill of Materials.,无已维护物料清单的物料。
 No items to be received are overdue,无已逾期待收货物料
 No Quote,无报价
 Material Requests for which Supplier Quotations are not created,无报价物料需求
-Unsecured Loans,无担保贷款
+Unsecured Loans,无担保借款
 Invalid,无效
 Invalid column,无效列
 Invalid Attribute,无效属性
@@ -7490,7 +7490,7 @@ Max Grade,最高分
 Max Score,最高分数
 Tax Category for overriding tax rates.,最高税率的税收类别。
 Max Exemption Amount cannot be greater than maximum exemption amount {0} of Tax Exemption Category {1},最高豁免金额不得超过免税类别{1}的最高豁免金额{0}
-Maximum Loan Amount,最高贷款额度
+Maximum Loan Amount,最高借款额度
 Month,月
 month,月
 mm-dd-yyyy,月-日-年
@@ -8174,7 +8174,7 @@ Monthly House Rent,每月房租
 Accumulated Monthly,每月累计
 Monthly Attendance Sheet,每月考勤表
 Monthly Repayment Amount,每月还款额
-Monthly Repayment Amount cannot be greater than Loan Amount,每月还款额不能超过贷款金额较大
+Monthly Repayment Amount cannot be greater than Loan Amount,每月还款额不能超过借款金额较大
 Total Monthly Sales,每月销售总额
 Monthly Sales Target,每月销售目标
 Monthly Sales Target (,每月销售目标（
@@ -9020,7 +9020,7 @@ Application Status,申请状态
 Requested For,申请人
 Application Form Route,申请表网址
 Grant Description,申请说明
-Loan Application,申请贷款
+Loan Application,申请借款
 Requested Amount,申请金额
 Applying: {0},申请：{0}
 Telecommunications,电信
@@ -9226,7 +9226,7 @@ Setup SMS gateway settings,短信网关的设置
 SMS Settings,短信设置
 Small Text,短文
 Small Text,短文本
-Short Term Loan Account,短期贷款科目
+Short Term Loan Account,短期借款科目
 Shortage Qty,短缺数量
 Short keyboard patterns are easy to guess,短键盘模式容易被猜中
 Sand,砂
@@ -11252,27 +11252,27 @@ Credit Account,贷方科目
 Credit To account must be a Balance Sheet account,贷方科目必须是资产负债表科目
 Credit in Company Currency,贷方金额(公司本币）
 Credit ({0}),贷方（{0}）
-Loan,贷款
-Loans,贷款
-Balance Loan Amount,贷款余额
-Loan Details,贷款信息
-Loan Info,贷款信息
-Loans and Advances (Assets),贷款及预付款（资产）
-Loan Name,贷款名称
-Disbursed,贷款已发放
-Loan Start Date,贷款开始日期
-Loan Start Date and Loan Period are mandatory to save the Invoice Discounting,贷款开始日期和贷款期限是保存发票贴现的必要条件
-Disbursement Date cannot be after Loan Repayment Start Date,贷款放款日期不能晚于贷款还款开始日期，
-Disbursed Amount cannot be greater than Loan Amount {0},贷款放款金额不能超过贷款金额{0}
-Loan Period (Days),贷款期间(天）
-Total Principal Amount,贷款本金总额
-Loan Account,贷款科目
-Loan Management,贷款管理
-Loan Type,贷款类型
-Loan End Date,贷款结束日期
-Loan Amount cannot exceed Maximum Loan Amount of {0},贷款额不能超过最高贷款额度{0}
-Loan Amount,贷款额度
-Against Loan: {0},贷款：{0}
+Loan,借款
+Loans,借款
+Balance Loan Amount,借款余额
+Loan Details,借款信息
+Loan Info,借款信息
+Loans and Advances (Assets),借款及预付款（资产）
+Loan Name,借款名称
+Disbursed,借款已发放
+Loan Start Date,借款开始日期
+Loan Start Date and Loan Period are mandatory to save the Invoice Discounting,借款开始日期和借款期限是保存发票贴现的必要条件
+Disbursement Date cannot be after Loan Repayment Start Date,借款放款日期不能晚于借款还款开始日期，
+Disbursed Amount cannot be greater than Loan Amount {0},借款放款金额不能超过借款金额{0}
+Loan Period (Days),借款期间(天）
+Total Principal Amount,借款本金总额
+Loan Account,借款科目
+Loan Management,借款管理
+Loan Type,借款类型
+Loan End Date,借款结束日期
+Loan Amount cannot exceed Maximum Loan Amount of {0},借款额不能超过最高借款额度{0}
+Loan Amount,借款额度
+Against Loan: {0},借款：{0}
 Credit To,贷记
 Credit To account must be a Payable account,贷记科目必须是一个“应付”科目
 Dealer,贸易商
@@ -11792,7 +11792,7 @@ Select Languages,选择语言
 Select Language...,选择语言...
 Select Fiscal Year,选择财年
 Select Fiscal Year...,选择财年...
-Select interest income account in loan {0},选择贷款{0}中的利息收入科目
+Select interest income account in loan {0},选择借款{0}中的利息收入科目
 Select Shipping Address,选择送货地址
 Select Department...,选择部门...
 Select Delivery Notes,选择销售出库
@@ -13011,10 +13011,10 @@ Good Work,干得漂亮
 Outgoing Salary,支付的工资
 Is Recurring,重复
 Repay From Salary,从工资扣款
-Is Term Loan,是定期贷款
-Is Secured Loan,是抵押贷款
+Is Term Loan,是定期借款
+Is Secured Loan,是抵押借款
 Loan Security Pledge,抵押物
-Loan Security Details,抵押贷款详情
+Loan Security Details,抵押借款详情
 Summarized View,汇总显示
 Total Employees,总员工数
 Gender Diversity Ratio,性别分布
@@ -13216,7 +13216,7 @@ frappe.ui.form.on('Sales Invoice',  {
 Allow Monthly Depreciation,允许按月折旧
 Only If Creator,仅限创建者
 Inbox User,邮件收件箱用户
-Loan Manager,贷款经理
+Loan Manager,借款经理
 Row {0}: Quality Inspection rejected but no rejected qty for item {1},第{0}行：质量检验结论为拒收，物料{1}没有维护拒收数量
 Default Company Bank Account,默认公司银行帐户
 Show Seconds,显示秒
@@ -13349,31 +13349,31 @@ last Odometer Value,上次里程表读数
 Current Odometer value,当前里程表读数
 Make,品牌,Vehicle
 Make,品牌,Vehicle Log
-Loan Processes,贷款流程
+Loan Processes,借款流程
 Disbursement and Repayment,放款与还款
-Process Loan Security Shortfall,处理贷款担保
-Process Loan Interest Accrual,处理贷款利息预提
-Loan Security Type,贷款担保类型
-Loan Security Price,贷款担保价格
-Loan Repayment and Closure,贷款偿还与结案
-Loan Security,贷款担保
-Loan Security Status,贷款担保状态
-Loan Security Shortfall,贷款担保缺口
-Loan Security Unpledge,贷款担保解除抵押
-Loan Disbursement,贷款放款
-Loan Interest Accrual,贷款利息预提
-Loan Details,贷款详情
+Process Loan Security Shortfall,处理借款担保
+Process Loan Interest Accrual,处理借款利息预提
+Loan Security Type,借款担保类型
+Loan Security Price,借款担保价格
+Loan Repayment and Closure,借款偿还与结案
+Loan Security,借款担保
+Loan Security Status,借款担保状态
+Loan Security Shortfall,借款担保缺口
+Loan Security Unpledge,借款担保解除抵押
+Loan Disbursement,借款放款
+Loan Interest Accrual,借款利息预提
+Loan Details,借款详情
 Securities,担保
 Update Time,更新时间
 Unit Of Measure,单位
 Haircut %,Haircut %
 Loan To Value Ratio,放贷风险比率
-Against Loan,贷款
+Against Loan,借款
 Disbursed Amount,放款金额
 Disbursement Details,放款详情
 Amount Paid,已付款金额
 Regular Payment,常规付款
-Load Closure,关闭贷款
+Load Closure,关闭借款
 Schedule Send,定时发送
 Applicant Email Address,申请者邮箱
 Update Property,更新字段值
@@ -13863,7 +13863,7 @@ Vendor Name,供应商名称
 Please select Company first,请先选择公司
 Please select Customer first,请先选择公司
 Please select Item Code first,请先选择物料编号
-Please select Loan Type for company {0},请先选择贷款类型
+Please select Loan Type for company {0},请先选择借款类型
 Please select Patient first,请先选择患者
 Please select a Customer,请先选择客户
 Please select a Delivery Note,请先选择销售出库
@@ -14509,7 +14509,7 @@ SELECT,下拉框读取
 Page Title,页标题
 Team Members Subtitle,团队成员子标题
 Write Off Details,注销详情
-Loan Write Off,贷款注销
+Loan Write Off,借款注销
 User Default,用户默认值
 Setting Key,默认链接字段
 Setting Value,默认值
