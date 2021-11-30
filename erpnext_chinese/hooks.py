@@ -127,7 +127,7 @@ setup_wizard_requires = "assets/erpnext_chinese/js/setup_wizard.js"
 # ------------
 
 # before_install = "erpnext_chinese.install.before_install"
-#after_install = "erpnext_chinese.install.after_install"
+after_install = "erpnext_chinese.install.after_install"
 
 # Desk Notifications
 # ------------------
